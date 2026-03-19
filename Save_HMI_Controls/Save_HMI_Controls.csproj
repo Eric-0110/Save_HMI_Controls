@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LYHControls" Version="1.1.7" />
+    <PackageReference Include="LYHControls" Version="1.1.9" />
   </ItemGroup>
 
   <ItemGroup>

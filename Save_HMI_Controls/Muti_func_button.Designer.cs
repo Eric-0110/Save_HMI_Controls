@@ -30,6 +30,23 @@
         {
             components = new System.ComponentModel.Container();
             smoothScrollPanel1 = new SmoothScrollPanel();
+            smoothScrollPanel7 = new SmoothScrollPanel();
+            multi_funcButton61 = new LYHControls.Multi_funcButton(components);
+            multi_funcButton60 = new LYHControls.Multi_funcButton(components);
+            label33 = new Label();
+            multi_funcButton55 = new LYHControls.Multi_funcButton(components);
+            multi_funcButton56 = new LYHControls.Multi_funcButton(components);
+            multi_funcButton57 = new LYHControls.Multi_funcButton(components);
+            multi_funcButton58 = new LYHControls.Multi_funcButton(components);
+            multi_funcButton59 = new LYHControls.Multi_funcButton(components);
+            label32 = new Label();
+            multi_funcButton54 = new LYHControls.Multi_funcButton(components);
+            multi_funcButton53 = new LYHControls.Multi_funcButton(components);
+            multi_funcButton52 = new LYHControls.Multi_funcButton(components);
+            label27 = new Label();
+            panel6 = new Panel();
+            label28 = new Label();
+            label31 = new Label();
             smoothScrollPanel6 = new SmoothScrollPanel();
             multi_funcButton51 = new LYHControls.Multi_funcButton(components);
             multi_funcButton50 = new LYHControls.Multi_funcButton(components);
@@ -119,24 +136,9 @@
             label14 = new Label();
             label2 = new Label();
             label11 = new Label();
-            smoothScrollPanel7 = new SmoothScrollPanel();
-            label27 = new Label();
-            panel6 = new Panel();
-            label28 = new Label();
-            label31 = new Label();
-            multi_funcButton52 = new LYHControls.Multi_funcButton(components);
-            multi_funcButton53 = new LYHControls.Multi_funcButton(components);
-            multi_funcButton54 = new LYHControls.Multi_funcButton(components);
-            multi_funcButton55 = new LYHControls.Multi_funcButton(components);
-            multi_funcButton56 = new LYHControls.Multi_funcButton(components);
-            multi_funcButton57 = new LYHControls.Multi_funcButton(components);
-            multi_funcButton58 = new LYHControls.Multi_funcButton(components);
-            multi_funcButton59 = new LYHControls.Multi_funcButton(components);
-            label32 = new Label();
-            label33 = new Label();
-            multi_funcButton60 = new LYHControls.Multi_funcButton(components);
-            multi_funcButton61 = new LYHControls.Multi_funcButton(components);
             smoothScrollPanel1.SuspendLayout();
+            smoothScrollPanel7.SuspendLayout();
+            panel6.SuspendLayout();
             smoothScrollPanel6.SuspendLayout();
             panel5.SuspendLayout();
             smoothScrollPanel5.SuspendLayout();
@@ -147,14 +149,12 @@
             panel2.SuspendLayout();
             smoothScrollPanel2.SuspendLayout();
             panel1.SuspendLayout();
-            smoothScrollPanel7.SuspendLayout();
-            panel6.SuspendLayout();
             SuspendLayout();
             // 
             // smoothScrollPanel1
             // 
             smoothScrollPanel1.AutoScroll = true;
-            smoothScrollPanel1.AutoScrollMinSize = new Size(0, 1041);
+            smoothScrollPanel1.AutoScrollMinSize = new Size(0, 2028);
             smoothScrollPanel1.BackColor = Color.White;
             smoothScrollPanel1.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel1.BorderRadius = 0;
@@ -174,6 +174,357 @@
             smoothScrollPanel1.ShowCustomScrollbar = true;
             smoothScrollPanel1.Size = new Size(1700, 990);
             smoothScrollPanel1.TabIndex = 2;
+            // 
+            // smoothScrollPanel7
+            // 
+            smoothScrollPanel7.AutoScroll = true;
+            smoothScrollPanel7.AutoScrollMinSize = new Size(0, 423);
+            smoothScrollPanel7.BackColor = Color.White;
+            smoothScrollPanel7.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel7.BorderRadius = 0;
+            smoothScrollPanel7.BorderWidth = 2;
+            smoothScrollPanel7.BottomPadding = 0;
+            smoothScrollPanel7.Controls.Add(multi_funcButton61);
+            smoothScrollPanel7.Controls.Add(multi_funcButton60);
+            smoothScrollPanel7.Controls.Add(label33);
+            smoothScrollPanel7.Controls.Add(multi_funcButton55);
+            smoothScrollPanel7.Controls.Add(multi_funcButton56);
+            smoothScrollPanel7.Controls.Add(multi_funcButton57);
+            smoothScrollPanel7.Controls.Add(multi_funcButton58);
+            smoothScrollPanel7.Controls.Add(multi_funcButton59);
+            smoothScrollPanel7.Controls.Add(label32);
+            smoothScrollPanel7.Controls.Add(multi_funcButton54);
+            smoothScrollPanel7.Controls.Add(multi_funcButton53);
+            smoothScrollPanel7.Controls.Add(multi_funcButton52);
+            smoothScrollPanel7.Controls.Add(label27);
+            smoothScrollPanel7.Controls.Add(panel6);
+            smoothScrollPanel7.Location = new Point(907, 1535);
+            smoothScrollPanel7.Name = "smoothScrollPanel7";
+            smoothScrollPanel7.Padding = new Padding(1);
+            smoothScrollPanel7.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
+            smoothScrollPanel7.ScrollBarWidth = 6;
+            smoothScrollPanel7.ShowCustomScrollbar = true;
+            smoothScrollPanel7.Size = new Size(760, 443);
+            smoothScrollPanel7.TabIndex = 6;
+            // 
+            // multi_funcButton61
+            // 
+            multi_funcButton61.ActiveBackgroundImage = null;
+            multi_funcButton61.ActiveTextColor = Color.Empty;
+            multi_funcButton61.AutoCheckOnClick = true;
+            multi_funcButton61.BackColor = Color.Transparent;
+            multi_funcButton61.Checked = false;
+            multi_funcButton61.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton61.CornerRadius = 6;
+            multi_funcButton61.FillType = LYHControls.Multi_funcButton.ButtonFillType.Solid;
+            multi_funcButton61.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton61.IconPos = LYHControls.Multi_funcButton.IconPosition.Right;
+            multi_funcButton61.IconSize = new Size(17, 17);
+            multi_funcButton61.IconSpacing = 8;
+            multi_funcButton61.IsWaiting = false;
+            multi_funcButton61.Location = new Point(327, 375);
+            multi_funcButton61.Name = "multi_funcButton61";
+            multi_funcButton61.NormalBackgroundImage = null;
+            multi_funcButton61.NormalIcon = Properties.Resources.Icon__42_;
+            multi_funcButton61.NormalTextColor = Color.Empty;
+            multi_funcButton61.PressedIcon = null;
+            multi_funcButton61.Size = new Size(176, 48);
+            multi_funcButton61.TabIndex = 39;
+            multi_funcButton61.Text = "下一步";
+            multi_funcButton61.ThemeColor = Color.FromArgb(22, 119, 255);
+            // 
+            // multi_funcButton60
+            // 
+            multi_funcButton60.ActiveBackgroundImage = null;
+            multi_funcButton60.ActiveTextColor = Color.Empty;
+            multi_funcButton60.AutoCheckOnClick = true;
+            multi_funcButton60.BackColor = Color.Transparent;
+            multi_funcButton60.Checked = false;
+            multi_funcButton60.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton60.CornerRadius = 6;
+            multi_funcButton60.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
+            multi_funcButton60.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton60.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
+            multi_funcButton60.IconSize = new Size(17, 17);
+            multi_funcButton60.IconSpacing = 8;
+            multi_funcButton60.IsWaiting = false;
+            multi_funcButton60.Location = new Point(40, 375);
+            multi_funcButton60.Name = "multi_funcButton60";
+            multi_funcButton60.NormalBackgroundImage = null;
+            multi_funcButton60.NormalIcon = Properties.Resources.Icon__41_;
+            multi_funcButton60.NormalTextColor = Color.Empty;
+            multi_funcButton60.PressedIcon = null;
+            multi_funcButton60.Size = new Size(176, 48);
+            multi_funcButton60.TabIndex = 38;
+            multi_funcButton60.Text = "上一步";
+            multi_funcButton60.ThemeColor = Color.FromArgb(22, 119, 255);
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label33.ForeColor = Color.FromArgb(30, 41, 57);
+            label33.Location = new Point(35, 331);
+            label33.Name = "label33";
+            label33.Size = new Size(141, 26);
+            label33.TabIndex = 37;
+            label33.Text = "导航/引导按钮";
+            // 
+            // multi_funcButton55
+            // 
+            multi_funcButton55.ActiveBackgroundImage = null;
+            multi_funcButton55.ActiveTextColor = Color.Empty;
+            multi_funcButton55.AutoCheckOnClick = true;
+            multi_funcButton55.BackColor = Color.Transparent;
+            multi_funcButton55.Checked = false;
+            multi_funcButton55.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton55.CornerRadius = 6;
+            multi_funcButton55.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
+            multi_funcButton55.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton55.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
+            multi_funcButton55.IconSize = new Size(18, 18);
+            multi_funcButton55.IconSpacing = 6;
+            multi_funcButton55.IsWaiting = false;
+            multi_funcButton55.Location = new Point(466, 261);
+            multi_funcButton55.Name = "multi_funcButton55";
+            multi_funcButton55.NormalBackgroundImage = null;
+            multi_funcButton55.NormalIcon = Properties.Resources.Icon__40_;
+            multi_funcButton55.NormalTextColor = Color.Empty;
+            multi_funcButton55.PressedIcon = null;
+            multi_funcButton55.Size = new Size(50, 50);
+            multi_funcButton55.TabIndex = 36;
+            multi_funcButton55.ThemeColor = Color.FromArgb(255, 77, 79);
+            // 
+            // multi_funcButton56
+            // 
+            multi_funcButton56.ActiveBackgroundImage = null;
+            multi_funcButton56.ActiveTextColor = Color.Empty;
+            multi_funcButton56.AutoCheckOnClick = true;
+            multi_funcButton56.BackColor = Color.Transparent;
+            multi_funcButton56.Checked = false;
+            multi_funcButton56.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton56.CornerRadius = 6;
+            multi_funcButton56.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
+            multi_funcButton56.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton56.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
+            multi_funcButton56.IconSize = new Size(18, 18);
+            multi_funcButton56.IconSpacing = 6;
+            multi_funcButton56.IsWaiting = false;
+            multi_funcButton56.Location = new Point(356, 261);
+            multi_funcButton56.Name = "multi_funcButton56";
+            multi_funcButton56.NormalBackgroundImage = null;
+            multi_funcButton56.NormalIcon = Properties.Resources.Icon__39_;
+            multi_funcButton56.NormalTextColor = Color.Empty;
+            multi_funcButton56.PressedIcon = null;
+            multi_funcButton56.Size = new Size(50, 50);
+            multi_funcButton56.TabIndex = 35;
+            multi_funcButton56.ThemeColor = Color.FromArgb(22, 119, 255);
+            // 
+            // multi_funcButton57
+            // 
+            multi_funcButton57.ActiveBackgroundImage = null;
+            multi_funcButton57.ActiveTextColor = Color.Empty;
+            multi_funcButton57.AutoCheckOnClick = true;
+            multi_funcButton57.BackColor = Color.Transparent;
+            multi_funcButton57.Checked = false;
+            multi_funcButton57.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton57.CornerRadius = 6;
+            multi_funcButton57.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
+            multi_funcButton57.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton57.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
+            multi_funcButton57.IconSize = new Size(18, 18);
+            multi_funcButton57.IconSpacing = 6;
+            multi_funcButton57.IsWaiting = false;
+            multi_funcButton57.Location = new Point(251, 261);
+            multi_funcButton57.Name = "multi_funcButton57";
+            multi_funcButton57.NormalBackgroundImage = null;
+            multi_funcButton57.NormalIcon = Properties.Resources.Icon__38_;
+            multi_funcButton57.NormalTextColor = Color.Empty;
+            multi_funcButton57.PressedIcon = null;
+            multi_funcButton57.Size = new Size(50, 50);
+            multi_funcButton57.TabIndex = 34;
+            multi_funcButton57.ThemeColor = Color.FromArgb(22, 119, 255);
+            // 
+            // multi_funcButton58
+            // 
+            multi_funcButton58.ActiveBackgroundImage = null;
+            multi_funcButton58.ActiveTextColor = Color.Empty;
+            multi_funcButton58.AutoCheckOnClick = true;
+            multi_funcButton58.BackColor = Color.Transparent;
+            multi_funcButton58.Checked = false;
+            multi_funcButton58.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton58.CornerRadius = 6;
+            multi_funcButton58.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
+            multi_funcButton58.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton58.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
+            multi_funcButton58.IconSize = new Size(18, 18);
+            multi_funcButton58.IconSpacing = 6;
+            multi_funcButton58.IsWaiting = false;
+            multi_funcButton58.Location = new Point(145, 261);
+            multi_funcButton58.Name = "multi_funcButton58";
+            multi_funcButton58.NormalBackgroundImage = null;
+            multi_funcButton58.NormalIcon = Properties.Resources.Icon__37_;
+            multi_funcButton58.NormalTextColor = Color.Empty;
+            multi_funcButton58.PressedIcon = null;
+            multi_funcButton58.Size = new Size(50, 50);
+            multi_funcButton58.TabIndex = 33;
+            multi_funcButton58.ThemeColor = Color.FromArgb(22, 119, 255);
+            // 
+            // multi_funcButton59
+            // 
+            multi_funcButton59.ActiveBackgroundImage = null;
+            multi_funcButton59.ActiveTextColor = Color.Empty;
+            multi_funcButton59.AutoCheckOnClick = true;
+            multi_funcButton59.BackColor = Color.Transparent;
+            multi_funcButton59.Checked = false;
+            multi_funcButton59.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton59.CornerRadius = 6;
+            multi_funcButton59.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
+            multi_funcButton59.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton59.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
+            multi_funcButton59.IconSize = new Size(18, 18);
+            multi_funcButton59.IconSpacing = 6;
+            multi_funcButton59.IsWaiting = false;
+            multi_funcButton59.Location = new Point(39, 261);
+            multi_funcButton59.Name = "multi_funcButton59";
+            multi_funcButton59.NormalBackgroundImage = null;
+            multi_funcButton59.NormalIcon = Properties.Resources.Icon__36_;
+            multi_funcButton59.NormalTextColor = Color.Empty;
+            multi_funcButton59.PressedIcon = null;
+            multi_funcButton59.Size = new Size(50, 50);
+            multi_funcButton59.TabIndex = 32;
+            multi_funcButton59.ThemeColor = Color.FromArgb(22, 119, 255);
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label32.ForeColor = Color.FromArgb(30, 41, 57);
+            label32.Location = new Point(35, 213);
+            label32.Name = "label32";
+            label32.Size = new Size(152, 26);
+            label32.TabIndex = 31;
+            label32.Text = "工具栏图标按钮";
+            // 
+            // multi_funcButton54
+            // 
+            multi_funcButton54.ActiveBackgroundImage = null;
+            multi_funcButton54.ActiveTextColor = Color.Empty;
+            multi_funcButton54.AutoCheckOnClick = true;
+            multi_funcButton54.BackColor = Color.Transparent;
+            multi_funcButton54.Checked = false;
+            multi_funcButton54.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton54.CornerRadius = 6;
+            multi_funcButton54.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
+            multi_funcButton54.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton54.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
+            multi_funcButton54.IconSize = new Size(17, 17);
+            multi_funcButton54.IconSpacing = 8;
+            multi_funcButton54.IsWaiting = false;
+            multi_funcButton54.Location = new Point(541, 148);
+            multi_funcButton54.Name = "multi_funcButton54";
+            multi_funcButton54.NormalBackgroundImage = null;
+            multi_funcButton54.NormalIcon = Properties.Resources.Icon__34_;
+            multi_funcButton54.NormalTextColor = Color.Empty;
+            multi_funcButton54.PressedIcon = null;
+            multi_funcButton54.Size = new Size(147, 48);
+            multi_funcButton54.TabIndex = 21;
+            multi_funcButton54.Text = "重置";
+            multi_funcButton54.ThemeColor = Color.FromArgb(22, 119, 255);
+            // 
+            // multi_funcButton53
+            // 
+            multi_funcButton53.ActiveBackgroundImage = null;
+            multi_funcButton53.ActiveTextColor = Color.Empty;
+            multi_funcButton53.AutoCheckOnClick = true;
+            multi_funcButton53.BackColor = Color.Transparent;
+            multi_funcButton53.Checked = false;
+            multi_funcButton53.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton53.CornerRadius = 6;
+            multi_funcButton53.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
+            multi_funcButton53.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton53.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
+            multi_funcButton53.IconSize = new Size(17, 17);
+            multi_funcButton53.IconSpacing = 8;
+            multi_funcButton53.IsWaiting = false;
+            multi_funcButton53.Location = new Point(292, 148);
+            multi_funcButton53.Name = "multi_funcButton53";
+            multi_funcButton53.NormalBackgroundImage = null;
+            multi_funcButton53.NormalIcon = Properties.Resources.Icon__33_;
+            multi_funcButton53.NormalTextColor = Color.Empty;
+            multi_funcButton53.PressedIcon = null;
+            multi_funcButton53.Size = new Size(147, 48);
+            multi_funcButton53.TabIndex = 20;
+            multi_funcButton53.Text = "取消";
+            multi_funcButton53.ThemeColor = Color.FromArgb(22, 119, 255);
+            // 
+            // multi_funcButton52
+            // 
+            multi_funcButton52.ActiveBackgroundImage = null;
+            multi_funcButton52.ActiveTextColor = Color.Empty;
+            multi_funcButton52.AutoCheckOnClick = true;
+            multi_funcButton52.BackColor = Color.Transparent;
+            multi_funcButton52.Checked = false;
+            multi_funcButton52.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
+            multi_funcButton52.CornerRadius = 4;
+            multi_funcButton52.FillType = LYHControls.Multi_funcButton.ButtonFillType.Solid;
+            multi_funcButton52.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            multi_funcButton52.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
+            multi_funcButton52.IconSize = new Size(17, 17);
+            multi_funcButton52.IconSpacing = 6;
+            multi_funcButton52.IsWaiting = false;
+            multi_funcButton52.Location = new Point(40, 148);
+            multi_funcButton52.Name = "multi_funcButton52";
+            multi_funcButton52.NormalBackgroundImage = null;
+            multi_funcButton52.NormalIcon = Properties.Resources.Icon__35_;
+            multi_funcButton52.NormalTextColor = Color.Empty;
+            multi_funcButton52.PressedIcon = null;
+            multi_funcButton52.Size = new Size(147, 48);
+            multi_funcButton52.TabIndex = 19;
+            multi_funcButton52.Text = "保存";
+            multi_funcButton52.ThemeColor = Color.FromArgb(82, 196, 26);
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label27.ForeColor = Color.FromArgb(30, 41, 57);
+            label27.Location = new Point(35, 100);
+            label27.Name = "label27";
+            label27.Size = new Size(152, 26);
+            label27.TabIndex = 7;
+            label27.Text = "表单操作按钮组";
+            label27.Click += label27_Click;
+            // 
+            // panel6
+            // 
+            panel6.BackColor = Color.FromArgb(243, 244, 246);
+            panel6.Controls.Add(label28);
+            panel6.Controls.Add(label31);
+            panel6.Location = new Point(1, 1);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(757, 79);
+            panel6.TabIndex = 0;
+            // 
+            // label28
+            // 
+            label28.BackColor = Color.FromArgb(209, 213, 220);
+            label28.Location = new Point(0, 78);
+            label28.Name = "label28";
+            label28.Size = new Size(1630, 2);
+            label28.TabIndex = 3;
+            label28.Text = "label28";
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.Font = new Font("HarmonyOS Sans SC", 26F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label31.ForeColor = Color.FromArgb(30, 41, 57);
+            label31.Location = new Point(33, 24);
+            label31.Name = "label31";
+            label31.Size = new Size(171, 34);
+            label31.TabIndex = 2;
+            label31.Text = "实际应用场景";
             // 
             // smoothScrollPanel6
             // 
@@ -1837,7 +2188,7 @@
             multi_funcButton8.PressedIcon = null;
             multi_funcButton8.Size = new Size(126, 48);
             multi_funcButton8.TabIndex = 11;
-            multi_funcButton8.Text = " ";
+            multi_funcButton8.Text = " 轮廓按钮";
             multi_funcButton8.ThemeColor = Color.FromArgb(22, 119, 255);
             // 
             // label3
@@ -2007,357 +2358,6 @@
             label11.TabIndex = 2;
             label11.Text = "填充类型 (FillType)";
             // 
-            // smoothScrollPanel7
-            // 
-            smoothScrollPanel7.AutoScroll = true;
-            smoothScrollPanel7.AutoScrollMinSize = new Size(0, 423);
-            smoothScrollPanel7.BackColor = Color.White;
-            smoothScrollPanel7.BorderColor = Color.FromArgb(200, 200, 200);
-            smoothScrollPanel7.BorderRadius = 0;
-            smoothScrollPanel7.BorderWidth = 2;
-            smoothScrollPanel7.BottomPadding = 0;
-            smoothScrollPanel7.Controls.Add(multi_funcButton61);
-            smoothScrollPanel7.Controls.Add(multi_funcButton60);
-            smoothScrollPanel7.Controls.Add(label33);
-            smoothScrollPanel7.Controls.Add(multi_funcButton55);
-            smoothScrollPanel7.Controls.Add(multi_funcButton56);
-            smoothScrollPanel7.Controls.Add(multi_funcButton57);
-            smoothScrollPanel7.Controls.Add(multi_funcButton58);
-            smoothScrollPanel7.Controls.Add(multi_funcButton59);
-            smoothScrollPanel7.Controls.Add(label32);
-            smoothScrollPanel7.Controls.Add(multi_funcButton54);
-            smoothScrollPanel7.Controls.Add(multi_funcButton53);
-            smoothScrollPanel7.Controls.Add(multi_funcButton52);
-            smoothScrollPanel7.Controls.Add(label27);
-            smoothScrollPanel7.Controls.Add(panel6);
-            smoothScrollPanel7.Location = new Point(907, 1535);
-            smoothScrollPanel7.Name = "smoothScrollPanel7";
-            smoothScrollPanel7.Padding = new Padding(1);
-            smoothScrollPanel7.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
-            smoothScrollPanel7.ScrollBarWidth = 6;
-            smoothScrollPanel7.ShowCustomScrollbar = true;
-            smoothScrollPanel7.Size = new Size(760, 443);
-            smoothScrollPanel7.TabIndex = 6;
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
-            label27.ForeColor = Color.FromArgb(30, 41, 57);
-            label27.Location = new Point(35, 100);
-            label27.Name = "label27";
-            label27.Size = new Size(152, 26);
-            label27.TabIndex = 7;
-            label27.Text = "表单操作按钮组";
-            label27.Click += label27_Click;
-            // 
-            // panel6
-            // 
-            panel6.BackColor = Color.FromArgb(243, 244, 246);
-            panel6.Controls.Add(label28);
-            panel6.Controls.Add(label31);
-            panel6.Location = new Point(1, 1);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(757, 79);
-            panel6.TabIndex = 0;
-            // 
-            // label28
-            // 
-            label28.BackColor = Color.FromArgb(209, 213, 220);
-            label28.Location = new Point(0, 78);
-            label28.Name = "label28";
-            label28.Size = new Size(1630, 2);
-            label28.TabIndex = 3;
-            label28.Text = "label28";
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Font = new Font("HarmonyOS Sans SC", 26F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
-            label31.ForeColor = Color.FromArgb(30, 41, 57);
-            label31.Location = new Point(33, 24);
-            label31.Name = "label31";
-            label31.Size = new Size(171, 34);
-            label31.TabIndex = 2;
-            label31.Text = "实际应用场景";
-            // 
-            // multi_funcButton52
-            // 
-            multi_funcButton52.ActiveBackgroundImage = null;
-            multi_funcButton52.ActiveTextColor = Color.Empty;
-            multi_funcButton52.AutoCheckOnClick = true;
-            multi_funcButton52.BackColor = Color.Transparent;
-            multi_funcButton52.Checked = false;
-            multi_funcButton52.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton52.CornerRadius = 4;
-            multi_funcButton52.FillType = LYHControls.Multi_funcButton.ButtonFillType.Solid;
-            multi_funcButton52.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton52.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
-            multi_funcButton52.IconSize = new Size(17, 17);
-            multi_funcButton52.IconSpacing = 6;
-            multi_funcButton52.IsWaiting = false;
-            multi_funcButton52.Location = new Point(40, 148);
-            multi_funcButton52.Name = "multi_funcButton52";
-            multi_funcButton52.NormalBackgroundImage = null;
-            multi_funcButton52.NormalIcon = Properties.Resources.Icon__35_;
-            multi_funcButton52.NormalTextColor = Color.Empty;
-            multi_funcButton52.PressedIcon = null;
-            multi_funcButton52.Size = new Size(147, 48);
-            multi_funcButton52.TabIndex = 19;
-            multi_funcButton52.Text = "保存";
-            multi_funcButton52.ThemeColor = Color.FromArgb(82, 196, 26);
-            // 
-            // multi_funcButton53
-            // 
-            multi_funcButton53.ActiveBackgroundImage = null;
-            multi_funcButton53.ActiveTextColor = Color.Empty;
-            multi_funcButton53.AutoCheckOnClick = true;
-            multi_funcButton53.BackColor = Color.Transparent;
-            multi_funcButton53.Checked = false;
-            multi_funcButton53.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton53.CornerRadius = 6;
-            multi_funcButton53.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
-            multi_funcButton53.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton53.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
-            multi_funcButton53.IconSize = new Size(17, 17);
-            multi_funcButton53.IconSpacing = 8;
-            multi_funcButton53.IsWaiting = false;
-            multi_funcButton53.Location = new Point(292, 148);
-            multi_funcButton53.Name = "multi_funcButton53";
-            multi_funcButton53.NormalBackgroundImage = null;
-            multi_funcButton53.NormalIcon = Properties.Resources.Icon__33_;
-            multi_funcButton53.NormalTextColor = Color.Empty;
-            multi_funcButton53.PressedIcon = null;
-            multi_funcButton53.Size = new Size(147, 48);
-            multi_funcButton53.TabIndex = 20;
-            multi_funcButton53.Text = "取消";
-            multi_funcButton53.ThemeColor = Color.FromArgb(22, 119, 255);
-            // 
-            // multi_funcButton54
-            // 
-            multi_funcButton54.ActiveBackgroundImage = null;
-            multi_funcButton54.ActiveTextColor = Color.Empty;
-            multi_funcButton54.AutoCheckOnClick = true;
-            multi_funcButton54.BackColor = Color.Transparent;
-            multi_funcButton54.Checked = false;
-            multi_funcButton54.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton54.CornerRadius = 6;
-            multi_funcButton54.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
-            multi_funcButton54.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton54.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
-            multi_funcButton54.IconSize = new Size(17, 17);
-            multi_funcButton54.IconSpacing = 8;
-            multi_funcButton54.IsWaiting = false;
-            multi_funcButton54.Location = new Point(541, 148);
-            multi_funcButton54.Name = "multi_funcButton54";
-            multi_funcButton54.NormalBackgroundImage = null;
-            multi_funcButton54.NormalIcon = Properties.Resources.Icon__34_;
-            multi_funcButton54.NormalTextColor = Color.Empty;
-            multi_funcButton54.PressedIcon = null;
-            multi_funcButton54.Size = new Size(147, 48);
-            multi_funcButton54.TabIndex = 21;
-            multi_funcButton54.Text = "重置";
-            multi_funcButton54.ThemeColor = Color.FromArgb(22, 119, 255);
-            // 
-            // multi_funcButton55
-            // 
-            multi_funcButton55.ActiveBackgroundImage = null;
-            multi_funcButton55.ActiveTextColor = Color.Empty;
-            multi_funcButton55.AutoCheckOnClick = true;
-            multi_funcButton55.BackColor = Color.Transparent;
-            multi_funcButton55.Checked = false;
-            multi_funcButton55.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton55.CornerRadius = 6;
-            multi_funcButton55.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
-            multi_funcButton55.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton55.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
-            multi_funcButton55.IconSize = new Size(18, 18);
-            multi_funcButton55.IconSpacing = 6;
-            multi_funcButton55.IsWaiting = false;
-            multi_funcButton55.Location = new Point(466, 261);
-            multi_funcButton55.Name = "multi_funcButton55";
-            multi_funcButton55.NormalBackgroundImage = null;
-            multi_funcButton55.NormalIcon = Properties.Resources.Icon__40_;
-            multi_funcButton55.NormalTextColor = Color.Empty;
-            multi_funcButton55.PressedIcon = null;
-            multi_funcButton55.Size = new Size(50, 50);
-            multi_funcButton55.TabIndex = 36;
-            multi_funcButton55.ThemeColor = Color.FromArgb(255, 77, 79);
-            // 
-            // multi_funcButton56
-            // 
-            multi_funcButton56.ActiveBackgroundImage = null;
-            multi_funcButton56.ActiveTextColor = Color.Empty;
-            multi_funcButton56.AutoCheckOnClick = true;
-            multi_funcButton56.BackColor = Color.Transparent;
-            multi_funcButton56.Checked = false;
-            multi_funcButton56.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton56.CornerRadius = 6;
-            multi_funcButton56.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
-            multi_funcButton56.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton56.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
-            multi_funcButton56.IconSize = new Size(18, 18);
-            multi_funcButton56.IconSpacing = 6;
-            multi_funcButton56.IsWaiting = false;
-            multi_funcButton56.Location = new Point(356, 261);
-            multi_funcButton56.Name = "multi_funcButton56";
-            multi_funcButton56.NormalBackgroundImage = null;
-            multi_funcButton56.NormalIcon = Properties.Resources.Icon__39_;
-            multi_funcButton56.NormalTextColor = Color.Empty;
-            multi_funcButton56.PressedIcon = null;
-            multi_funcButton56.Size = new Size(50, 50);
-            multi_funcButton56.TabIndex = 35;
-            multi_funcButton56.ThemeColor = Color.FromArgb(22, 119, 255);
-            // 
-            // multi_funcButton57
-            // 
-            multi_funcButton57.ActiveBackgroundImage = null;
-            multi_funcButton57.ActiveTextColor = Color.Empty;
-            multi_funcButton57.AutoCheckOnClick = true;
-            multi_funcButton57.BackColor = Color.Transparent;
-            multi_funcButton57.Checked = false;
-            multi_funcButton57.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton57.CornerRadius = 6;
-            multi_funcButton57.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
-            multi_funcButton57.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton57.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
-            multi_funcButton57.IconSize = new Size(18, 18);
-            multi_funcButton57.IconSpacing = 6;
-            multi_funcButton57.IsWaiting = false;
-            multi_funcButton57.Location = new Point(251, 261);
-            multi_funcButton57.Name = "multi_funcButton57";
-            multi_funcButton57.NormalBackgroundImage = null;
-            multi_funcButton57.NormalIcon = Properties.Resources.Icon__38_;
-            multi_funcButton57.NormalTextColor = Color.Empty;
-            multi_funcButton57.PressedIcon = null;
-            multi_funcButton57.Size = new Size(50, 50);
-            multi_funcButton57.TabIndex = 34;
-            multi_funcButton57.ThemeColor = Color.FromArgb(22, 119, 255);
-            // 
-            // multi_funcButton58
-            // 
-            multi_funcButton58.ActiveBackgroundImage = null;
-            multi_funcButton58.ActiveTextColor = Color.Empty;
-            multi_funcButton58.AutoCheckOnClick = true;
-            multi_funcButton58.BackColor = Color.Transparent;
-            multi_funcButton58.Checked = false;
-            multi_funcButton58.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton58.CornerRadius = 6;
-            multi_funcButton58.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
-            multi_funcButton58.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton58.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
-            multi_funcButton58.IconSize = new Size(18, 18);
-            multi_funcButton58.IconSpacing = 6;
-            multi_funcButton58.IsWaiting = false;
-            multi_funcButton58.Location = new Point(145, 261);
-            multi_funcButton58.Name = "multi_funcButton58";
-            multi_funcButton58.NormalBackgroundImage = null;
-            multi_funcButton58.NormalIcon = Properties.Resources.Icon__37_;
-            multi_funcButton58.NormalTextColor = Color.Empty;
-            multi_funcButton58.PressedIcon = null;
-            multi_funcButton58.Size = new Size(50, 50);
-            multi_funcButton58.TabIndex = 33;
-            multi_funcButton58.ThemeColor = Color.FromArgb(22, 119, 255);
-            // 
-            // multi_funcButton59
-            // 
-            multi_funcButton59.ActiveBackgroundImage = null;
-            multi_funcButton59.ActiveTextColor = Color.Empty;
-            multi_funcButton59.AutoCheckOnClick = true;
-            multi_funcButton59.BackColor = Color.Transparent;
-            multi_funcButton59.Checked = false;
-            multi_funcButton59.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton59.CornerRadius = 6;
-            multi_funcButton59.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
-            multi_funcButton59.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton59.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
-            multi_funcButton59.IconSize = new Size(18, 18);
-            multi_funcButton59.IconSpacing = 6;
-            multi_funcButton59.IsWaiting = false;
-            multi_funcButton59.Location = new Point(39, 261);
-            multi_funcButton59.Name = "multi_funcButton59";
-            multi_funcButton59.NormalBackgroundImage = null;
-            multi_funcButton59.NormalIcon = Properties.Resources.Icon__36_;
-            multi_funcButton59.NormalTextColor = Color.Empty;
-            multi_funcButton59.PressedIcon = null;
-            multi_funcButton59.Size = new Size(50, 50);
-            multi_funcButton59.TabIndex = 32;
-            multi_funcButton59.ThemeColor = Color.FromArgb(22, 119, 255);
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
-            label32.ForeColor = Color.FromArgb(30, 41, 57);
-            label32.Location = new Point(35, 213);
-            label32.Name = "label32";
-            label32.Size = new Size(152, 26);
-            label32.TabIndex = 31;
-            label32.Text = "工具栏图标按钮";
-            // 
-            // label33
-            // 
-            label33.AutoSize = true;
-            label33.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
-            label33.ForeColor = Color.FromArgb(30, 41, 57);
-            label33.Location = new Point(35, 331);
-            label33.Name = "label33";
-            label33.Size = new Size(141, 26);
-            label33.TabIndex = 37;
-            label33.Text = "导航/引导按钮";
-            // 
-            // multi_funcButton60
-            // 
-            multi_funcButton60.ActiveBackgroundImage = null;
-            multi_funcButton60.ActiveTextColor = Color.Empty;
-            multi_funcButton60.AutoCheckOnClick = true;
-            multi_funcButton60.BackColor = Color.Transparent;
-            multi_funcButton60.Checked = false;
-            multi_funcButton60.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton60.CornerRadius = 6;
-            multi_funcButton60.FillType = LYHControls.Multi_funcButton.ButtonFillType.Outline;
-            multi_funcButton60.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton60.IconPos = LYHControls.Multi_funcButton.IconPosition.Left;
-            multi_funcButton60.IconSize = new Size(17, 17);
-            multi_funcButton60.IconSpacing = 8;
-            multi_funcButton60.IsWaiting = false;
-            multi_funcButton60.Location = new Point(40, 375);
-            multi_funcButton60.Name = "multi_funcButton60";
-            multi_funcButton60.NormalBackgroundImage = null;
-            multi_funcButton60.NormalIcon = Properties.Resources.Icon__41_;
-            multi_funcButton60.NormalTextColor = Color.Empty;
-            multi_funcButton60.PressedIcon = null;
-            multi_funcButton60.Size = new Size(176, 48);
-            multi_funcButton60.TabIndex = 38;
-            multi_funcButton60.Text = "上一步";
-            multi_funcButton60.ThemeColor = Color.FromArgb(22, 119, 255);
-            // 
-            // multi_funcButton61
-            // 
-            multi_funcButton61.ActiveBackgroundImage = null;
-            multi_funcButton61.ActiveTextColor = Color.Empty;
-            multi_funcButton61.AutoCheckOnClick = true;
-            multi_funcButton61.BackColor = Color.Transparent;
-            multi_funcButton61.Checked = false;
-            multi_funcButton61.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
-            multi_funcButton61.CornerRadius = 6;
-            multi_funcButton61.FillType = LYHControls.Multi_funcButton.ButtonFillType.Solid;
-            multi_funcButton61.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            multi_funcButton61.IconPos = LYHControls.Multi_funcButton.IconPosition.Right;
-            multi_funcButton61.IconSize = new Size(17, 17);
-            multi_funcButton61.IconSpacing = 8;
-            multi_funcButton61.IsWaiting = false;
-            multi_funcButton61.Location = new Point(327, 375);
-            multi_funcButton61.Name = "multi_funcButton61";
-            multi_funcButton61.NormalBackgroundImage = null;
-            multi_funcButton61.NormalIcon = Properties.Resources.Icon__42_;
-            multi_funcButton61.NormalTextColor = Color.Empty;
-            multi_funcButton61.PressedIcon = null;
-            multi_funcButton61.Size = new Size(176, 48);
-            multi_funcButton61.TabIndex = 39;
-            multi_funcButton61.Text = "下一步";
-            multi_funcButton61.ThemeColor = Color.FromArgb(22, 119, 255);
-            // 
             // Muti_func_button
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
@@ -2366,6 +2366,10 @@
             Name = "Muti_func_button";
             Size = new Size(1700, 990);
             smoothScrollPanel1.ResumeLayout(false);
+            smoothScrollPanel7.ResumeLayout(false);
+            smoothScrollPanel7.PerformLayout();
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
             smoothScrollPanel6.ResumeLayout(false);
             smoothScrollPanel6.PerformLayout();
             panel5.ResumeLayout(false);
@@ -2386,10 +2390,6 @@
             smoothScrollPanel2.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            smoothScrollPanel7.ResumeLayout(false);
-            smoothScrollPanel7.PerformLayout();
-            panel6.ResumeLayout(false);
-            panel6.PerformLayout();
             ResumeLayout(false);
         }
 

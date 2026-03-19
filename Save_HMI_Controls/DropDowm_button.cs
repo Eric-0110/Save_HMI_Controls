@@ -17,10 +17,6 @@ namespace Save_HMI_Controls
             InitializeComponent();
         }
 
-
-
-
-
         private async void btn_Click(object sender, EventArgs e)
         {
             // 1. 进入等待状态
