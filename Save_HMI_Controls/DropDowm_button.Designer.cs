@@ -332,7 +332,7 @@
             // 
             // contextMenuStrip23
             // 
-            contextMenuStrip23.BackColor = Color.FromArgb(244, 251, 241);
+            contextMenuStrip23.BackColor = Color.FromArgb(237, 249, 232);
             contextMenuStrip23.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip23.Items.AddRange(new ToolStripItem[] { toolStripMenuItem67, toolStripMenuItem68, toolStripMenuItem69 });
             contextMenuStrip23.Name = "contextMenuStrip1";
@@ -343,22 +343,22 @@
             // toolStripMenuItem67
             // 
             toolStripMenuItem67.Name = "toolStripMenuItem67";
-            toolStripMenuItem67.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem67.Size = new Size(119, 32);
+            toolStripMenuItem67.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem67.Size = new Size(125, 32);
             toolStripMenuItem67.Text = "选项一";
             // 
             // toolStripMenuItem68
             // 
             toolStripMenuItem68.Name = "toolStripMenuItem68";
-            toolStripMenuItem68.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem68.Size = new Size(119, 32);
+            toolStripMenuItem68.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem68.Size = new Size(125, 32);
             toolStripMenuItem68.Text = "选项二";
             // 
             // toolStripMenuItem69
             // 
             toolStripMenuItem69.Name = "toolStripMenuItem69";
-            toolStripMenuItem69.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem69.Size = new Size(119, 32);
+            toolStripMenuItem69.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem69.Size = new Size(125, 32);
             toolStripMenuItem69.Text = "选项三";
             // 
             // dropdownButton22
@@ -388,7 +388,7 @@
             // 
             // contextMenuStrip24
             // 
-            contextMenuStrip24.BackColor = Color.FromArgb(246, 242, 252);
+            contextMenuStrip24.BackColor = Color.FromArgb(240, 234, 250);
             contextMenuStrip24.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip24.Items.AddRange(new ToolStripItem[] { toolStripMenuItem70, toolStripMenuItem71, toolStripMenuItem72 });
             contextMenuStrip24.Name = "contextMenuStrip1";
@@ -399,22 +399,22 @@
             // toolStripMenuItem70
             // 
             toolStripMenuItem70.Name = "toolStripMenuItem70";
-            toolStripMenuItem70.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem70.Size = new Size(119, 32);
+            toolStripMenuItem70.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem70.Size = new Size(125, 32);
             toolStripMenuItem70.Text = "选项一";
             // 
             // toolStripMenuItem71
             // 
             toolStripMenuItem71.Name = "toolStripMenuItem71";
-            toolStripMenuItem71.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem71.Size = new Size(119, 32);
+            toolStripMenuItem71.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem71.Size = new Size(125, 32);
             toolStripMenuItem71.Text = "选项二";
             // 
             // toolStripMenuItem72
             // 
             toolStripMenuItem72.Name = "toolStripMenuItem72";
-            toolStripMenuItem72.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem72.Size = new Size(119, 32);
+            toolStripMenuItem72.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem72.Size = new Size(125, 32);
             toolStripMenuItem72.Text = "选项三";
             // 
             // label45
@@ -464,7 +464,7 @@
             // 
             // contextMenuStrip22
             // 
-            contextMenuStrip22.BackColor = Color.FromArgb(241, 248, 255);
+            contextMenuStrip22.BackColor = Color.FromArgb(231, 243, 255);
             contextMenuStrip22.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip22.Items.AddRange(new ToolStripItem[] { toolStripMenuItem64, toolStripMenuItem65, toolStripMenuItem66 });
             contextMenuStrip22.Name = "contextMenuStrip1";
@@ -475,22 +475,22 @@
             // toolStripMenuItem64
             // 
             toolStripMenuItem64.Name = "toolStripMenuItem64";
-            toolStripMenuItem64.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem64.Size = new Size(119, 32);
+            toolStripMenuItem64.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem64.Size = new Size(125, 32);
             toolStripMenuItem64.Text = "选项一";
             // 
             // toolStripMenuItem65
             // 
             toolStripMenuItem65.Name = "toolStripMenuItem65";
-            toolStripMenuItem65.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem65.Size = new Size(119, 32);
+            toolStripMenuItem65.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem65.Size = new Size(125, 32);
             toolStripMenuItem65.Text = "选项二";
             // 
             // toolStripMenuItem66
             // 
             toolStripMenuItem66.Name = "toolStripMenuItem66";
-            toolStripMenuItem66.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem66.Size = new Size(119, 32);
+            toolStripMenuItem66.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem66.Size = new Size(125, 32);
             toolStripMenuItem66.Text = "选项三";
             // 
             // label47
@@ -535,6 +535,7 @@
             label49.Size = new Size(579, 25);
             label49.TabIndex = 5;
             label49.Text = "常见的业务场景示例";
+            label49.Click += label49_Click;
             // 
             // label50
             // 
@@ -606,7 +607,7 @@
             // 
             // contextMenuStrip21
             // 
-            contextMenuStrip21.BackColor = Color.FromArgb(244, 251, 241);
+            contextMenuStrip21.BackColor = Color.FromArgb(237, 249, 232);
             contextMenuStrip21.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip21.Items.AddRange(new ToolStripItem[] { toolStripMenuItem61, toolStripMenuItem62, toolStripMenuItem63 });
             contextMenuStrip21.Name = "contextMenuStrip1";
@@ -617,22 +618,22 @@
             // toolStripMenuItem61
             // 
             toolStripMenuItem61.Name = "toolStripMenuItem61";
-            toolStripMenuItem61.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem61.Size = new Size(119, 32);
+            toolStripMenuItem61.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem61.Size = new Size(125, 32);
             toolStripMenuItem61.Text = "选项一";
             // 
             // toolStripMenuItem62
             // 
             toolStripMenuItem62.Name = "toolStripMenuItem62";
-            toolStripMenuItem62.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem62.Size = new Size(119, 32);
+            toolStripMenuItem62.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem62.Size = new Size(125, 32);
             toolStripMenuItem62.Text = "选项二";
             // 
             // toolStripMenuItem63
             // 
             toolStripMenuItem63.Name = "toolStripMenuItem63";
-            toolStripMenuItem63.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem63.Size = new Size(119, 32);
+            toolStripMenuItem63.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem63.Size = new Size(125, 32);
             toolStripMenuItem63.Text = "选项三";
             // 
             // label32
@@ -672,7 +673,7 @@
             // 
             // contextMenuStrip20
             // 
-            contextMenuStrip20.BackColor = Color.FromArgb(241, 248, 255);
+            contextMenuStrip20.BackColor = Color.FromArgb(231, 243, 255);
             contextMenuStrip20.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip20.Items.AddRange(new ToolStripItem[] { toolStripMenuItem58, toolStripMenuItem59, toolStripMenuItem60 });
             contextMenuStrip20.Name = "contextMenuStrip1";
@@ -683,22 +684,22 @@
             // toolStripMenuItem58
             // 
             toolStripMenuItem58.Name = "toolStripMenuItem58";
-            toolStripMenuItem58.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem58.Size = new Size(119, 32);
+            toolStripMenuItem58.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem58.Size = new Size(125, 32);
             toolStripMenuItem58.Text = "选项一";
             // 
             // toolStripMenuItem59
             // 
             toolStripMenuItem59.Name = "toolStripMenuItem59";
-            toolStripMenuItem59.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem59.Size = new Size(119, 32);
+            toolStripMenuItem59.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem59.Size = new Size(125, 32);
             toolStripMenuItem59.Text = "选项二";
             // 
             // toolStripMenuItem60
             // 
             toolStripMenuItem60.Name = "toolStripMenuItem60";
-            toolStripMenuItem60.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem60.Size = new Size(119, 32);
+            toolStripMenuItem60.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem60.Size = new Size(125, 32);
             toolStripMenuItem60.Text = "选项三";
             // 
             // label33
@@ -814,7 +815,7 @@
             // 
             // contextMenuStrip19
             // 
-            contextMenuStrip19.BackColor = Color.FromArgb(241, 248, 255);
+            contextMenuStrip19.BackColor = Color.FromArgb(231, 243, 255);
             contextMenuStrip19.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip19.Items.AddRange(new ToolStripItem[] { toolStripMenuItem55, toolStripMenuItem56, toolStripMenuItem57 });
             contextMenuStrip19.Name = "contextMenuStrip1";
@@ -825,22 +826,22 @@
             // toolStripMenuItem55
             // 
             toolStripMenuItem55.Name = "toolStripMenuItem55";
-            toolStripMenuItem55.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem55.Size = new Size(119, 32);
+            toolStripMenuItem55.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem55.Size = new Size(125, 32);
             toolStripMenuItem55.Text = "选项一";
             // 
             // toolStripMenuItem56
             // 
             toolStripMenuItem56.Name = "toolStripMenuItem56";
-            toolStripMenuItem56.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem56.Size = new Size(119, 32);
+            toolStripMenuItem56.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem56.Size = new Size(125, 32);
             toolStripMenuItem56.Text = "选项二";
             // 
             // toolStripMenuItem57
             // 
             toolStripMenuItem57.Name = "toolStripMenuItem57";
-            toolStripMenuItem57.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem57.Size = new Size(119, 32);
+            toolStripMenuItem57.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem57.Size = new Size(125, 32);
             toolStripMenuItem57.Text = "选项三";
             // 
             // label34
@@ -881,7 +882,7 @@
             // 
             // contextMenuStrip18
             // 
-            contextMenuStrip18.BackColor = Color.FromArgb(241, 248, 255);
+            contextMenuStrip18.BackColor = Color.FromArgb(231, 243, 255);
             contextMenuStrip18.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip18.Items.AddRange(new ToolStripItem[] { toolStripMenuItem52, toolStripMenuItem53, toolStripMenuItem54 });
             contextMenuStrip18.Name = "contextMenuStrip1";
@@ -892,22 +893,22 @@
             // toolStripMenuItem52
             // 
             toolStripMenuItem52.Name = "toolStripMenuItem52";
-            toolStripMenuItem52.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem52.Size = new Size(119, 32);
+            toolStripMenuItem52.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem52.Size = new Size(125, 32);
             toolStripMenuItem52.Text = "选项一";
             // 
             // toolStripMenuItem53
             // 
             toolStripMenuItem53.Name = "toolStripMenuItem53";
-            toolStripMenuItem53.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem53.Size = new Size(119, 32);
+            toolStripMenuItem53.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem53.Size = new Size(125, 32);
             toolStripMenuItem53.Text = "选项二";
             // 
             // toolStripMenuItem54
             // 
             toolStripMenuItem54.Name = "toolStripMenuItem54";
-            toolStripMenuItem54.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem54.Size = new Size(119, 32);
+            toolStripMenuItem54.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem54.Size = new Size(125, 32);
             toolStripMenuItem54.Text = "选项三";
             // 
             // label35
@@ -1027,7 +1028,7 @@
             // 
             // contextMenuStrip17
             // 
-            contextMenuStrip17.BackColor = Color.FromArgb(254, 248, 241);
+            contextMenuStrip17.BackColor = Color.FromArgb(254, 243, 231);
             contextMenuStrip17.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip17.Items.AddRange(new ToolStripItem[] { toolStripMenuItem49, toolStripMenuItem50, toolStripMenuItem51 });
             contextMenuStrip17.Name = "contextMenuStrip1";
@@ -1038,22 +1039,22 @@
             // toolStripMenuItem49
             // 
             toolStripMenuItem49.Name = "toolStripMenuItem49";
-            toolStripMenuItem49.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem49.Size = new Size(119, 32);
+            toolStripMenuItem49.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem49.Size = new Size(125, 32);
             toolStripMenuItem49.Text = "选项一";
             // 
             // toolStripMenuItem50
             // 
             toolStripMenuItem50.Name = "toolStripMenuItem50";
-            toolStripMenuItem50.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem50.Size = new Size(119, 32);
+            toolStripMenuItem50.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem50.Size = new Size(125, 32);
             toolStripMenuItem50.Text = "选项二";
             // 
             // toolStripMenuItem51
             // 
             toolStripMenuItem51.Name = "toolStripMenuItem51";
-            toolStripMenuItem51.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem51.Size = new Size(119, 32);
+            toolStripMenuItem51.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem51.Size = new Size(125, 32);
             toolStripMenuItem51.Text = "选项三";
             // 
             // label26
@@ -1093,7 +1094,7 @@
             // 
             // contextMenuStrip16
             // 
-            contextMenuStrip16.BackColor = Color.FromArgb(246, 242, 252);
+            contextMenuStrip16.BackColor = Color.FromArgb(240, 234, 250);
             contextMenuStrip16.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip16.Items.AddRange(new ToolStripItem[] { toolStripMenuItem46, toolStripMenuItem47, toolStripMenuItem48 });
             contextMenuStrip16.Name = "contextMenuStrip1";
@@ -1104,22 +1105,22 @@
             // toolStripMenuItem46
             // 
             toolStripMenuItem46.Name = "toolStripMenuItem46";
-            toolStripMenuItem46.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem46.Size = new Size(119, 32);
+            toolStripMenuItem46.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem46.Size = new Size(125, 32);
             toolStripMenuItem46.Text = "选项一";
             // 
             // toolStripMenuItem47
             // 
             toolStripMenuItem47.Name = "toolStripMenuItem47";
-            toolStripMenuItem47.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem47.Size = new Size(119, 32);
+            toolStripMenuItem47.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem47.Size = new Size(125, 32);
             toolStripMenuItem47.Text = "选项二";
             // 
             // toolStripMenuItem48
             // 
             toolStripMenuItem48.Name = "toolStripMenuItem48";
-            toolStripMenuItem48.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem48.Size = new Size(119, 32);
+            toolStripMenuItem48.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem48.Size = new Size(125, 32);
             toolStripMenuItem48.Text = "选项三";
             // 
             // label25
@@ -1159,7 +1160,7 @@
             // 
             // contextMenuStrip15
             // 
-            contextMenuStrip15.BackColor = Color.FromArgb(244, 251, 241);
+            contextMenuStrip15.BackColor = Color.FromArgb(237, 249, 232);
             contextMenuStrip15.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip15.Items.AddRange(new ToolStripItem[] { toolStripMenuItem43, toolStripMenuItem44, toolStripMenuItem45 });
             contextMenuStrip15.Name = "contextMenuStrip1";
@@ -1170,22 +1171,22 @@
             // toolStripMenuItem43
             // 
             toolStripMenuItem43.Name = "toolStripMenuItem43";
-            toolStripMenuItem43.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem43.Size = new Size(119, 32);
+            toolStripMenuItem43.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem43.Size = new Size(125, 32);
             toolStripMenuItem43.Text = "选项一";
             // 
             // toolStripMenuItem44
             // 
             toolStripMenuItem44.Name = "toolStripMenuItem44";
-            toolStripMenuItem44.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem44.Size = new Size(119, 32);
+            toolStripMenuItem44.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem44.Size = new Size(125, 32);
             toolStripMenuItem44.Text = "选项二";
             // 
             // toolStripMenuItem45
             // 
             toolStripMenuItem45.Name = "toolStripMenuItem45";
-            toolStripMenuItem45.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem45.Size = new Size(119, 32);
+            toolStripMenuItem45.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem45.Size = new Size(125, 32);
             toolStripMenuItem45.Text = "选项三";
             // 
             // label20
@@ -1225,7 +1226,7 @@
             // 
             // contextMenuStrip14
             // 
-            contextMenuStrip14.BackColor = Color.FromArgb(241, 248, 255);
+            contextMenuStrip14.BackColor = Color.FromArgb(231, 243, 255);
             contextMenuStrip14.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip14.Items.AddRange(new ToolStripItem[] { toolStripMenuItem40, toolStripMenuItem41, toolStripMenuItem42 });
             contextMenuStrip14.Name = "contextMenuStrip1";
@@ -1236,22 +1237,22 @@
             // toolStripMenuItem40
             // 
             toolStripMenuItem40.Name = "toolStripMenuItem40";
-            toolStripMenuItem40.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem40.Size = new Size(119, 32);
+            toolStripMenuItem40.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem40.Size = new Size(125, 32);
             toolStripMenuItem40.Text = "选项一";
             // 
             // toolStripMenuItem41
             // 
             toolStripMenuItem41.Name = "toolStripMenuItem41";
-            toolStripMenuItem41.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem41.Size = new Size(119, 32);
+            toolStripMenuItem41.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem41.Size = new Size(125, 32);
             toolStripMenuItem41.Text = "选项二";
             // 
             // toolStripMenuItem42
             // 
             toolStripMenuItem42.Name = "toolStripMenuItem42";
-            toolStripMenuItem42.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem42.Size = new Size(119, 32);
+            toolStripMenuItem42.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem42.Size = new Size(125, 32);
             toolStripMenuItem42.Text = "选项三";
             // 
             // label27
@@ -1371,7 +1372,7 @@
             // 
             // contextMenuStrip13
             // 
-            contextMenuStrip13.BackColor = Color.FromArgb(241, 246, 255);
+            contextMenuStrip13.BackColor = Color.FromArgb(231, 241, 255);
             contextMenuStrip13.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip13.Items.AddRange(new ToolStripItem[] { toolStripMenuItem37, toolStripMenuItem38, toolStripMenuItem39 });
             contextMenuStrip13.Name = "contextMenuStrip1";
@@ -1382,22 +1383,22 @@
             // toolStripMenuItem37
             // 
             toolStripMenuItem37.Name = "toolStripMenuItem37";
-            toolStripMenuItem37.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem37.Size = new Size(119, 32);
+            toolStripMenuItem37.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem37.Size = new Size(125, 32);
             toolStripMenuItem37.Text = "选项一";
             // 
             // toolStripMenuItem38
             // 
             toolStripMenuItem38.Name = "toolStripMenuItem38";
-            toolStripMenuItem38.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem38.Size = new Size(119, 32);
+            toolStripMenuItem38.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem38.Size = new Size(125, 32);
             toolStripMenuItem38.Text = "选项二";
             // 
             // toolStripMenuItem39
             // 
             toolStripMenuItem39.Name = "toolStripMenuItem39";
-            toolStripMenuItem39.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem39.Size = new Size(119, 32);
+            toolStripMenuItem39.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem39.Size = new Size(125, 32);
             toolStripMenuItem39.Text = "选项三";
             // 
             // label18
@@ -1437,7 +1438,7 @@
             // 
             // contextMenuStrip12
             // 
-            contextMenuStrip12.BackColor = Color.FromArgb(241, 246, 255);
+            contextMenuStrip12.BackColor = Color.FromArgb(231, 241, 255);
             contextMenuStrip12.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip12.Items.AddRange(new ToolStripItem[] { toolStripMenuItem34, toolStripMenuItem35, toolStripMenuItem36 });
             contextMenuStrip12.Name = "contextMenuStrip1";
@@ -1448,22 +1449,22 @@
             // toolStripMenuItem34
             // 
             toolStripMenuItem34.Name = "toolStripMenuItem34";
-            toolStripMenuItem34.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem34.Size = new Size(119, 32);
+            toolStripMenuItem34.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem34.Size = new Size(125, 32);
             toolStripMenuItem34.Text = "选项一";
             // 
             // toolStripMenuItem35
             // 
             toolStripMenuItem35.Name = "toolStripMenuItem35";
-            toolStripMenuItem35.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem35.Size = new Size(119, 32);
+            toolStripMenuItem35.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem35.Size = new Size(125, 32);
             toolStripMenuItem35.Text = "选项二";
             // 
             // toolStripMenuItem36
             // 
             toolStripMenuItem36.Name = "toolStripMenuItem36";
-            toolStripMenuItem36.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem36.Size = new Size(119, 32);
+            toolStripMenuItem36.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem36.Size = new Size(125, 32);
             toolStripMenuItem36.Text = "选项三";
             // 
             // label17
@@ -1503,7 +1504,7 @@
             // 
             // contextMenuStrip11
             // 
-            contextMenuStrip11.BackColor = Color.FromArgb(241, 246, 255);
+            contextMenuStrip11.BackColor = Color.FromArgb(231, 241, 255);
             contextMenuStrip11.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip11.Items.AddRange(new ToolStripItem[] { toolStripMenuItem31, toolStripMenuItem32, toolStripMenuItem33 });
             contextMenuStrip11.Name = "contextMenuStrip1";
@@ -1514,22 +1515,22 @@
             // toolStripMenuItem31
             // 
             toolStripMenuItem31.Name = "toolStripMenuItem31";
-            toolStripMenuItem31.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem31.Size = new Size(119, 32);
+            toolStripMenuItem31.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem31.Size = new Size(125, 32);
             toolStripMenuItem31.Text = "选项一";
             // 
             // toolStripMenuItem32
             // 
             toolStripMenuItem32.Name = "toolStripMenuItem32";
-            toolStripMenuItem32.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem32.Size = new Size(119, 32);
+            toolStripMenuItem32.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem32.Size = new Size(125, 32);
             toolStripMenuItem32.Text = "选项二";
             // 
             // toolStripMenuItem33
             // 
             toolStripMenuItem33.Name = "toolStripMenuItem33";
-            toolStripMenuItem33.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem33.Size = new Size(119, 32);
+            toolStripMenuItem33.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem33.Size = new Size(125, 32);
             toolStripMenuItem33.Text = "选项三";
             // 
             // label16
@@ -1569,7 +1570,7 @@
             // 
             // contextMenuStrip10
             // 
-            contextMenuStrip10.BackColor = Color.FromArgb(241, 246, 255);
+            contextMenuStrip10.BackColor = Color.FromArgb(231, 241, 255);
             contextMenuStrip10.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip10.Items.AddRange(new ToolStripItem[] { toolStripMenuItem28, toolStripMenuItem29, toolStripMenuItem30 });
             contextMenuStrip10.Name = "contextMenuStrip1";
@@ -1580,22 +1581,22 @@
             // toolStripMenuItem28
             // 
             toolStripMenuItem28.Name = "toolStripMenuItem28";
-            toolStripMenuItem28.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem28.Size = new Size(119, 32);
+            toolStripMenuItem28.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem28.Size = new Size(125, 32);
             toolStripMenuItem28.Text = "选项一";
             // 
             // toolStripMenuItem29
             // 
             toolStripMenuItem29.Name = "toolStripMenuItem29";
-            toolStripMenuItem29.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem29.Size = new Size(119, 32);
+            toolStripMenuItem29.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem29.Size = new Size(125, 32);
             toolStripMenuItem29.Text = "选项二";
             // 
             // toolStripMenuItem30
             // 
             toolStripMenuItem30.Name = "toolStripMenuItem30";
-            toolStripMenuItem30.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem30.Size = new Size(119, 32);
+            toolStripMenuItem30.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem30.Size = new Size(125, 32);
             toolStripMenuItem30.Text = "选项三";
             // 
             // label21
@@ -1739,7 +1740,7 @@
             // 
             // contextMenuStrip9
             // 
-            contextMenuStrip9.BackColor = Color.FromArgb(240, 251, 251);
+            contextMenuStrip9.BackColor = Color.FromArgb(231, 248, 248);
             contextMenuStrip9.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip9.Items.AddRange(new ToolStripItem[] { toolStripMenuItem25, toolStripMenuItem26, toolStripMenuItem27 });
             contextMenuStrip9.Name = "contextMenuStrip1";
@@ -1750,22 +1751,22 @@
             // toolStripMenuItem25
             // 
             toolStripMenuItem25.Name = "toolStripMenuItem25";
-            toolStripMenuItem25.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem25.Size = new Size(119, 32);
+            toolStripMenuItem25.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem25.Size = new Size(125, 32);
             toolStripMenuItem25.Text = "选项一";
             // 
             // toolStripMenuItem26
             // 
             toolStripMenuItem26.Name = "toolStripMenuItem26";
-            toolStripMenuItem26.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem26.Size = new Size(119, 32);
+            toolStripMenuItem26.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem26.Size = new Size(125, 32);
             toolStripMenuItem26.Text = "选项二";
             // 
             // toolStripMenuItem27
             // 
             toolStripMenuItem27.Name = "toolStripMenuItem27";
-            toolStripMenuItem27.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem27.Size = new Size(119, 32);
+            toolStripMenuItem27.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem27.Size = new Size(125, 32);
             toolStripMenuItem27.Text = "选项三";
             // 
             // dropdownButton8
@@ -1795,7 +1796,7 @@
             // 
             // contextMenuStrip8
             // 
-            contextMenuStrip8.BackColor = Color.FromArgb(246, 242, 252);
+            contextMenuStrip8.BackColor = Color.FromArgb(240, 234, 250);
             contextMenuStrip8.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip8.Items.AddRange(new ToolStripItem[] { toolStripMenuItem22, toolStripMenuItem23, toolStripMenuItem24 });
             contextMenuStrip8.Name = "contextMenuStrip1";
@@ -1806,22 +1807,22 @@
             // toolStripMenuItem22
             // 
             toolStripMenuItem22.Name = "toolStripMenuItem22";
-            toolStripMenuItem22.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem22.Size = new Size(119, 32);
+            toolStripMenuItem22.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem22.Size = new Size(125, 32);
             toolStripMenuItem22.Text = "选项一";
             // 
             // toolStripMenuItem23
             // 
             toolStripMenuItem23.Name = "toolStripMenuItem23";
-            toolStripMenuItem23.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem23.Size = new Size(119, 32);
+            toolStripMenuItem23.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem23.Size = new Size(125, 32);
             toolStripMenuItem23.Text = "选项二";
             // 
             // toolStripMenuItem24
             // 
             toolStripMenuItem24.Name = "toolStripMenuItem24";
-            toolStripMenuItem24.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem24.Size = new Size(119, 32);
+            toolStripMenuItem24.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem24.Size = new Size(125, 32);
             toolStripMenuItem24.Text = "选项三";
             // 
             // dropdownButton9
@@ -1851,7 +1852,7 @@
             // 
             // contextMenuStrip7
             // 
-            contextMenuStrip7.BackColor = Color.FromArgb(254, 248, 241);
+            contextMenuStrip7.BackColor = Color.FromArgb(254, 243, 231);
             contextMenuStrip7.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip7.Items.AddRange(new ToolStripItem[] { toolStripMenuItem19, toolStripMenuItem20, toolStripMenuItem21 });
             contextMenuStrip7.Name = "contextMenuStrip1";
@@ -1862,22 +1863,22 @@
             // toolStripMenuItem19
             // 
             toolStripMenuItem19.Name = "toolStripMenuItem19";
-            toolStripMenuItem19.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem19.Size = new Size(119, 32);
+            toolStripMenuItem19.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem19.Size = new Size(125, 32);
             toolStripMenuItem19.Text = "选项一";
             // 
             // toolStripMenuItem20
             // 
             toolStripMenuItem20.Name = "toolStripMenuItem20";
-            toolStripMenuItem20.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem20.Size = new Size(119, 32);
+            toolStripMenuItem20.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem20.Size = new Size(125, 32);
             toolStripMenuItem20.Text = "选项二";
             // 
             // toolStripMenuItem21
             // 
             toolStripMenuItem21.Name = "toolStripMenuItem21";
-            toolStripMenuItem21.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem21.Size = new Size(119, 32);
+            toolStripMenuItem21.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem21.Size = new Size(125, 32);
             toolStripMenuItem21.Text = "选项三";
             // 
             // label15
@@ -1937,7 +1938,7 @@
             // 
             // contextMenuStrip6
             // 
-            contextMenuStrip6.BackColor = Color.FromArgb(255, 244, 244);
+            contextMenuStrip6.BackColor = Color.FromArgb(255, 237, 237);
             contextMenuStrip6.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip6.Items.AddRange(new ToolStripItem[] { toolStripMenuItem16, toolStripMenuItem17, toolStripMenuItem18 });
             contextMenuStrip6.Name = "contextMenuStrip1";
@@ -1948,22 +1949,22 @@
             // toolStripMenuItem16
             // 
             toolStripMenuItem16.Name = "toolStripMenuItem16";
-            toolStripMenuItem16.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem16.Size = new Size(119, 32);
+            toolStripMenuItem16.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem16.Size = new Size(125, 32);
             toolStripMenuItem16.Text = "选项一";
             // 
             // toolStripMenuItem17
             // 
             toolStripMenuItem17.Name = "toolStripMenuItem17";
-            toolStripMenuItem17.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem17.Size = new Size(119, 32);
+            toolStripMenuItem17.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem17.Size = new Size(125, 32);
             toolStripMenuItem17.Text = "选项二";
             // 
             // toolStripMenuItem18
             // 
             toolStripMenuItem18.Name = "toolStripMenuItem18";
-            toolStripMenuItem18.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem18.Size = new Size(119, 32);
+            toolStripMenuItem18.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem18.Size = new Size(125, 32);
             toolStripMenuItem18.Text = "选项三";
             // 
             // dropdownButton5
@@ -1993,7 +1994,7 @@
             // 
             // contextMenuStrip5
             // 
-            contextMenuStrip5.BackColor = Color.FromArgb(244, 251, 241);
+            contextMenuStrip5.BackColor = Color.FromArgb(237, 249, 232);
             contextMenuStrip5.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip5.Items.AddRange(new ToolStripItem[] { toolStripMenuItem13, toolStripMenuItem14, toolStripMenuItem15 });
             contextMenuStrip5.Name = "contextMenuStrip1";
@@ -2004,22 +2005,22 @@
             // toolStripMenuItem13
             // 
             toolStripMenuItem13.Name = "toolStripMenuItem13";
-            toolStripMenuItem13.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem13.Size = new Size(119, 32);
+            toolStripMenuItem13.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem13.Size = new Size(125, 32);
             toolStripMenuItem13.Text = "选项一";
             // 
             // toolStripMenuItem14
             // 
             toolStripMenuItem14.Name = "toolStripMenuItem14";
-            toolStripMenuItem14.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem14.Size = new Size(119, 32);
+            toolStripMenuItem14.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem14.Size = new Size(125, 32);
             toolStripMenuItem14.Text = "选项二";
             // 
             // toolStripMenuItem15
             // 
             toolStripMenuItem15.Name = "toolStripMenuItem15";
-            toolStripMenuItem15.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem15.Size = new Size(119, 32);
+            toolStripMenuItem15.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem15.Size = new Size(125, 32);
             toolStripMenuItem15.Text = "选项三";
             // 
             // dropdownButton6
@@ -2049,7 +2050,7 @@
             // 
             // contextMenuStrip4
             // 
-            contextMenuStrip4.BackColor = Color.FromArgb(241, 246, 255);
+            contextMenuStrip4.BackColor = Color.FromArgb(231, 241, 255);
             contextMenuStrip4.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip4.Items.AddRange(new ToolStripItem[] { toolStripMenuItem10, toolStripMenuItem11, toolStripMenuItem12 });
             contextMenuStrip4.Name = "contextMenuStrip1";
@@ -2060,22 +2061,22 @@
             // toolStripMenuItem10
             // 
             toolStripMenuItem10.Name = "toolStripMenuItem10";
-            toolStripMenuItem10.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem10.Size = new Size(119, 32);
+            toolStripMenuItem10.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem10.Size = new Size(125, 32);
             toolStripMenuItem10.Text = "选项一";
             // 
             // toolStripMenuItem11
             // 
             toolStripMenuItem11.Name = "toolStripMenuItem11";
-            toolStripMenuItem11.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem11.Size = new Size(119, 32);
+            toolStripMenuItem11.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem11.Size = new Size(125, 32);
             toolStripMenuItem11.Text = "选项二";
             // 
             // toolStripMenuItem12
             // 
             toolStripMenuItem12.Name = "toolStripMenuItem12";
-            toolStripMenuItem12.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem12.Size = new Size(119, 32);
+            toolStripMenuItem12.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem12.Size = new Size(125, 32);
             toolStripMenuItem12.Text = "选项三";
             // 
             // label7
@@ -2181,7 +2182,7 @@
             // 
             // contextMenuStrip3
             // 
-            contextMenuStrip3.BackColor = Color.FromArgb(241, 246, 255);
+            contextMenuStrip3.BackColor = Color.FromArgb(231, 241, 255);
             contextMenuStrip3.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip3.Items.AddRange(new ToolStripItem[] { toolStripMenuItem7, toolStripMenuItem8, toolStripMenuItem9 });
             contextMenuStrip3.Name = "contextMenuStrip1";
@@ -2192,22 +2193,22 @@
             // toolStripMenuItem7
             // 
             toolStripMenuItem7.Name = "toolStripMenuItem7";
-            toolStripMenuItem7.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem7.Size = new Size(119, 32);
+            toolStripMenuItem7.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem7.Size = new Size(125, 32);
             toolStripMenuItem7.Text = "选项一";
             // 
             // toolStripMenuItem8
             // 
             toolStripMenuItem8.Name = "toolStripMenuItem8";
-            toolStripMenuItem8.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem8.Size = new Size(119, 32);
+            toolStripMenuItem8.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem8.Size = new Size(125, 32);
             toolStripMenuItem8.Text = "选项二";
             // 
             // toolStripMenuItem9
             // 
             toolStripMenuItem9.Name = "toolStripMenuItem9";
-            toolStripMenuItem9.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem9.Size = new Size(119, 32);
+            toolStripMenuItem9.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem9.Size = new Size(125, 32);
             toolStripMenuItem9.Text = "选项三";
             // 
             // label4
@@ -2248,7 +2249,7 @@
             // 
             // contextMenuStrip2
             // 
-            contextMenuStrip2.BackColor = Color.FromArgb(241, 246, 255);
+            contextMenuStrip2.BackColor = Color.FromArgb(231, 241, 255);
             contextMenuStrip2.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip2.Items.AddRange(new ToolStripItem[] { toolStripMenuItem4, toolStripMenuItem5, toolStripMenuItem6 });
             contextMenuStrip2.Name = "contextMenuStrip1";
@@ -2259,23 +2260,23 @@
             // toolStripMenuItem4
             // 
             toolStripMenuItem4.Name = "toolStripMenuItem4";
-            toolStripMenuItem4.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem4.Size = new Size(119, 32);
+            toolStripMenuItem4.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem4.Size = new Size(125, 32);
             toolStripMenuItem4.Text = "选项一";
             // 
             // toolStripMenuItem5
             // 
             toolStripMenuItem5.Name = "toolStripMenuItem5";
-            toolStripMenuItem5.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem5.Size = new Size(119, 32);
+            toolStripMenuItem5.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem5.Size = new Size(125, 32);
             toolStripMenuItem5.Text = "选项二";
             // 
             // toolStripMenuItem6
             // 
             toolStripMenuItem6.Enabled = false;
             toolStripMenuItem6.Name = "toolStripMenuItem6";
-            toolStripMenuItem6.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem6.Size = new Size(119, 32);
+            toolStripMenuItem6.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem6.Size = new Size(125, 32);
             toolStripMenuItem6.Text = "选项三";
             // 
             // label3
@@ -2316,7 +2317,7 @@
             // 
             // contextMenuStrip1
             // 
-            contextMenuStrip1.BackColor = Color.FromArgb(241, 246, 255);
+            contextMenuStrip1.BackColor = Color.FromArgb(231, 241, 255);
             contextMenuStrip1.Font = new Font("HarmonyOS Sans SC", 10.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
             contextMenuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, toolStripMenuItem2, toolStripMenuItem3 });
             contextMenuStrip1.Name = "contextMenuStrip1";
@@ -2327,22 +2328,22 @@
             // toolStripMenuItem1
             // 
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem1.Size = new Size(119, 32);
+            toolStripMenuItem1.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem1.Size = new Size(125, 32);
             toolStripMenuItem1.Text = "选项一";
             // 
             // toolStripMenuItem2
             // 
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem2.Size = new Size(119, 32);
+            toolStripMenuItem2.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem2.Size = new Size(125, 32);
             toolStripMenuItem2.Text = "选项二";
             // 
             // toolStripMenuItem3
             // 
             toolStripMenuItem3.Name = "toolStripMenuItem3";
-            toolStripMenuItem3.Padding = new Padding(12, 5, 12, 5);
-            toolStripMenuItem3.Size = new Size(119, 32);
+            toolStripMenuItem3.Padding = new Padding(15, 5, 15, 5);
+            toolStripMenuItem3.Size = new Size(125, 32);
             toolStripMenuItem3.Text = "选项三";
             // 
             // label1

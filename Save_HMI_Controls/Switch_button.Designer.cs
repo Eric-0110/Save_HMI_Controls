@@ -28,8 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             smoothScrollPanel1 = new SmoothScrollPanel();
+            smoothScrollPanel8 = new SmoothScrollPanel();
+            label86 = new Label();
+            smoothScrollPanel10 = new LYHControls.SmoothScrollPanel();
+            smoothScrollPanel13 = new LYHControls.SmoothScrollPanel();
+            pictureBox7 = new PictureBox();
+            label80 = new Label();
+            switchButton50 = new LYHControls.SwitchButton();
+            smoothScrollPanel12 = new LYHControls.SmoothScrollPanel();
+            pictureBox6 = new PictureBox();
+            label76 = new Label();
+            switchButton49 = new LYHControls.SwitchButton();
+            smoothScrollPanel11 = new LYHControls.SmoothScrollPanel();
+            pictureBox5 = new PictureBox();
+            label75 = new Label();
+            switchButton52 = new LYHControls.SwitchButton();
+            smoothScrollPanel9 = new LYHControls.SmoothScrollPanel();
+            pictureBox3 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox1 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            switchButton48 = new LYHControls.SwitchButton();
+            label73 = new Label();
+            label74 = new Label();
+            switchButton47 = new LYHControls.SwitchButton();
+            label71 = new Label();
+            label72 = new Label();
+            switchButton46 = new LYHControls.SwitchButton();
+            label69 = new Label();
+            label70 = new Label();
+            switchButton45 = new LYHControls.SwitchButton();
+            label68 = new Label();
+            label64 = new Label();
+            label77 = new Label();
+            panel7 = new Panel();
+            label78 = new Label();
+            label79 = new Label();
+            smoothScrollPanel7 = new SmoothScrollPanel();
+            label63 = new Label();
+            switchButton44 = new LYHControls.SwitchButton();
+            label62 = new Label();
+            switchButton43 = new LYHControls.SwitchButton();
+            label61 = new Label();
+            switchButton42 = new LYHControls.SwitchButton();
+            label60 = new Label();
+            switchButton41 = new LYHControls.SwitchButton();
+            label59 = new Label();
+            label58 = new Label();
+            switchButton40 = new LYHControls.SwitchButton();
+            label57 = new Label();
+            switchButton39 = new LYHControls.SwitchButton();
+            label56 = new Label();
+            switchButton38 = new LYHControls.SwitchButton();
+            label55 = new Label();
+            switchButton37 = new LYHControls.SwitchButton();
+            label65 = new Label();
+            panel6 = new Panel();
+            label66 = new Label();
+            label67 = new Label();
             smoothScrollPanel6 = new SmoothScrollPanel();
+            label51 = new Label();
+            switchButton36 = new LYHControls.SwitchButton();
+            label50 = new Label();
+            switchButton35 = new LYHControls.SwitchButton();
+            label49 = new Label();
+            switchButton34 = new LYHControls.SwitchButton();
+            label48 = new Label();
+            switchButton33 = new LYHControls.SwitchButton();
+            label47 = new Label();
+            switchButton32 = new LYHControls.SwitchButton();
+            label46 = new Label();
+            switchButton31 = new LYHControls.SwitchButton();
             label42 = new Label();
             switchButton27 = new LYHControls.SwitchButton();
             label43 = new Label();
@@ -117,7 +188,24 @@
             panel1 = new Panel();
             label2 = new Label();
             label11 = new Label();
+            watermarkProvider1 = new LYHControls.WatermarkProvider(components);
             smoothScrollPanel1.SuspendLayout();
+            smoothScrollPanel8.SuspendLayout();
+            smoothScrollPanel10.SuspendLayout();
+            smoothScrollPanel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            smoothScrollPanel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            smoothScrollPanel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            smoothScrollPanel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            panel7.SuspendLayout();
+            smoothScrollPanel7.SuspendLayout();
+            panel6.SuspendLayout();
             smoothScrollPanel6.SuspendLayout();
             panel5.SuspendLayout();
             smoothScrollPanel5.SuspendLayout();
@@ -133,12 +221,14 @@
             // smoothScrollPanel1
             // 
             smoothScrollPanel1.AutoScroll = true;
-            smoothScrollPanel1.AutoScrollMinSize = new Size(0, 1061);
+            smoothScrollPanel1.AutoScrollMinSize = new Size(0, 1493);
             smoothScrollPanel1.BackColor = Color.White;
             smoothScrollPanel1.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel1.BorderRadius = 0;
             smoothScrollPanel1.BorderWidth = 1;
             smoothScrollPanel1.BottomPadding = 50;
+            smoothScrollPanel1.Controls.Add(smoothScrollPanel8);
+            smoothScrollPanel1.Controls.Add(smoothScrollPanel7);
             smoothScrollPanel1.Controls.Add(smoothScrollPanel6);
             smoothScrollPanel1.Controls.Add(smoothScrollPanel5);
             smoothScrollPanel1.Controls.Add(smoothScrollPanel4);
@@ -153,15 +243,836 @@
             smoothScrollPanel1.Size = new Size(1700, 990);
             smoothScrollPanel1.TabIndex = 3;
             // 
+            // smoothScrollPanel8
+            // 
+            smoothScrollPanel8.AutoScroll = true;
+            smoothScrollPanel8.AutoScrollMinSize = new Size(0, 387);
+            smoothScrollPanel8.BackColor = Color.White;
+            smoothScrollPanel8.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel8.BorderRadius = 0;
+            smoothScrollPanel8.BorderWidth = 2;
+            smoothScrollPanel8.BottomPadding = 0;
+            smoothScrollPanel8.Controls.Add(label86);
+            smoothScrollPanel8.Controls.Add(smoothScrollPanel10);
+            smoothScrollPanel8.Controls.Add(smoothScrollPanel9);
+            smoothScrollPanel8.Controls.Add(label77);
+            smoothScrollPanel8.Controls.Add(panel7);
+            smoothScrollPanel8.Location = new Point(34, 1023);
+            smoothScrollPanel8.Name = "smoothScrollPanel8";
+            smoothScrollPanel8.Padding = new Padding(1);
+            smoothScrollPanel8.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
+            smoothScrollPanel8.ScrollBarWidth = 6;
+            smoothScrollPanel8.ShowCustomScrollbar = true;
+            smoothScrollPanel8.Size = new Size(1631, 420);
+            smoothScrollPanel8.TabIndex = 7;
+            // 
+            // label86
+            // 
+            label86.AutoSize = true;
+            label86.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label86.ForeColor = Color.FromArgb(30, 41, 57);
+            label86.Location = new Point(800, 100);
+            label86.Name = "label86";
+            label86.Size = new Size(112, 26);
+            label86.TabIndex = 8;
+            label86.Text = "功能开关组";
+            // 
+            // smoothScrollPanel10
+            // 
+            smoothScrollPanel10.AutoScroll = true;
+            smoothScrollPanel10.BackColor = Color.FromArgb(248, 250, 252);
+            smoothScrollPanel10.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel10.BorderRadius = 10;
+            smoothScrollPanel10.BorderWidth = 0;
+            smoothScrollPanel10.Controls.Add(smoothScrollPanel13);
+            smoothScrollPanel10.Controls.Add(smoothScrollPanel12);
+            smoothScrollPanel10.Controls.Add(smoothScrollPanel11);
+            smoothScrollPanel10.Location = new Point(800, 144);
+            smoothScrollPanel10.Name = "smoothScrollPanel10";
+            smoothScrollPanel10.Padding = new Padding(1);
+            smoothScrollPanel10.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
+            smoothScrollPanel10.ScrollBarWidth = 6;
+            smoothScrollPanel10.ShowCustomScrollbar = true;
+            smoothScrollPanel10.Size = new Size(796, 243);
+            smoothScrollPanel10.TabIndex = 7;
+            // 
+            // smoothScrollPanel13
+            // 
+            smoothScrollPanel13.AutoScroll = true;
+            smoothScrollPanel13.BackColor = Color.White;
+            smoothScrollPanel13.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel13.BorderRadius = 10;
+            smoothScrollPanel13.BorderWidth = 2;
+            smoothScrollPanel13.Controls.Add(pictureBox7);
+            smoothScrollPanel13.Controls.Add(label80);
+            smoothScrollPanel13.Controls.Add(switchButton50);
+            smoothScrollPanel13.Location = new Point(567, 39);
+            smoothScrollPanel13.Name = "smoothScrollPanel13";
+            smoothScrollPanel13.Padding = new Padding(1);
+            smoothScrollPanel13.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
+            smoothScrollPanel13.ScrollBarWidth = 6;
+            smoothScrollPanel13.ShowCustomScrollbar = true;
+            smoothScrollPanel13.Size = new Size(204, 172);
+            smoothScrollPanel13.TabIndex = 61;
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.BackgroundImage = Properties.Resources.Icon__49_;
+            pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox7.Location = new Point(83, 38);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(32, 32);
+            pictureBox7.TabIndex = 62;
+            pictureBox7.TabStop = false;
+            // 
+            // label80
+            // 
+            label80.AutoSize = true;
+            label80.Font = new Font("HarmonyOS Sans SC", 16F, FontStyle.Regular, GraphicsUnit.Pixel, 134);
+            label80.ForeColor = Color.FromArgb(30, 41, 57);
+            label80.Location = new Point(65, 88);
+            label80.Name = "label80";
+            label80.Size = new Size(74, 21);
+            label80.TabIndex = 61;
+            label80.Text = "夜间模式";
+            // 
+            // switchButton50
+            // 
+            switchButton50.AnimationSpeed = 4F;
+            switchButton50.Checked = true;
+            switchButton50.CornerRadius = -1;
+            switchButton50.IsSquareSlider = false;
+            switchButton50.Location = new Point(72, 126);
+            switchButton50.Name = "switchButton50";
+            switchButton50.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton50.OffText = "";
+            switchButton50.OnBackColor = Color.FromArgb(114, 46, 209);
+            switchButton50.OnText = "";
+            switchButton50.Size = new Size(60, 30);
+            switchButton50.SliderColor = Color.White;
+            switchButton50.TabIndex = 49;
+            switchButton50.Text = "switchButton50";
+            // 
+            // smoothScrollPanel12
+            // 
+            smoothScrollPanel12.AutoScroll = true;
+            smoothScrollPanel12.BackColor = Color.White;
+            smoothScrollPanel12.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel12.BorderRadius = 10;
+            smoothScrollPanel12.BorderWidth = 2;
+            smoothScrollPanel12.Controls.Add(pictureBox6);
+            smoothScrollPanel12.Controls.Add(label76);
+            smoothScrollPanel12.Controls.Add(switchButton49);
+            smoothScrollPanel12.Location = new Point(299, 39);
+            smoothScrollPanel12.Name = "smoothScrollPanel12";
+            smoothScrollPanel12.Padding = new Padding(1);
+            smoothScrollPanel12.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
+            smoothScrollPanel12.ScrollBarWidth = 6;
+            smoothScrollPanel12.ShowCustomScrollbar = true;
+            smoothScrollPanel12.Size = new Size(204, 172);
+            smoothScrollPanel12.TabIndex = 60;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.BackgroundImage = Properties.Resources.Icon__48_;
+            pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox6.Location = new Point(85, 38);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(32, 32);
+            pictureBox6.TabIndex = 62;
+            pictureBox6.TabStop = false;
+            // 
+            // label76
+            // 
+            label76.AutoSize = true;
+            label76.Font = new Font("HarmonyOS Sans SC", 16F, FontStyle.Regular, GraphicsUnit.Pixel, 134);
+            label76.ForeColor = Color.FromArgb(30, 41, 57);
+            label76.Location = new Point(65, 88);
+            label76.Name = "label76";
+            label76.Size = new Size(74, 21);
+            label76.TabIndex = 61;
+            label76.Text = "性能模式";
+            // 
+            // switchButton49
+            // 
+            switchButton49.AnimationSpeed = 4F;
+            switchButton49.Checked = false;
+            switchButton49.CornerRadius = -1;
+            switchButton49.IsSquareSlider = false;
+            switchButton49.Location = new Point(72, 126);
+            switchButton49.Name = "switchButton49";
+            switchButton49.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton49.OffText = "";
+            switchButton49.OnBackColor = Color.FromArgb(250, 173, 20);
+            switchButton49.OnText = "";
+            switchButton49.Size = new Size(60, 30);
+            switchButton49.SliderColor = Color.White;
+            switchButton49.TabIndex = 49;
+            switchButton49.Text = "switchButton49";
+            // 
+            // smoothScrollPanel11
+            // 
+            smoothScrollPanel11.AutoScroll = true;
+            smoothScrollPanel11.BackColor = Color.White;
+            smoothScrollPanel11.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel11.BorderRadius = 10;
+            smoothScrollPanel11.BorderWidth = 2;
+            smoothScrollPanel11.Controls.Add(pictureBox5);
+            smoothScrollPanel11.Controls.Add(label75);
+            smoothScrollPanel11.Controls.Add(switchButton52);
+            smoothScrollPanel11.Location = new Point(36, 39);
+            smoothScrollPanel11.Name = "smoothScrollPanel11";
+            smoothScrollPanel11.Padding = new Padding(1);
+            smoothScrollPanel11.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
+            smoothScrollPanel11.ScrollBarWidth = 6;
+            smoothScrollPanel11.ShowCustomScrollbar = true;
+            smoothScrollPanel11.Size = new Size(204, 172);
+            smoothScrollPanel11.TabIndex = 59;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BackgroundImage = Properties.Resources.Icon__47_;
+            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox5.Location = new Point(85, 38);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(32, 32);
+            pictureBox5.TabIndex = 60;
+            pictureBox5.TabStop = false;
+            // 
+            // label75
+            // 
+            label75.AutoSize = true;
+            label75.Font = new Font("HarmonyOS Sans SC", 16F, FontStyle.Regular, GraphicsUnit.Pixel, 134);
+            label75.ForeColor = Color.FromArgb(30, 41, 57);
+            label75.Location = new Point(81, 88);
+            label75.Name = "label75";
+            label75.Size = new Size(42, 21);
+            label75.TabIndex = 54;
+            label75.Text = "电源";
+            label75.Click += label75_Click;
+            // 
+            // switchButton52
+            // 
+            switchButton52.AnimationSpeed = 4F;
+            switchButton52.Checked = true;
+            switchButton52.CornerRadius = -1;
+            switchButton52.IsSquareSlider = false;
+            switchButton52.Location = new Point(72, 126);
+            switchButton52.Name = "switchButton52";
+            switchButton52.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton52.OffText = "";
+            switchButton52.OnBackColor = Color.FromArgb(255, 77, 79);
+            switchButton52.OnText = "";
+            switchButton52.Size = new Size(60, 30);
+            switchButton52.SliderColor = Color.White;
+            switchButton52.TabIndex = 49;
+            switchButton52.Text = "switchButton52";
+            // 
+            // smoothScrollPanel9
+            // 
+            smoothScrollPanel9.AutoScroll = true;
+            smoothScrollPanel9.BackColor = Color.FromArgb(248, 250, 252);
+            smoothScrollPanel9.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel9.BorderRadius = 10;
+            smoothScrollPanel9.BorderWidth = 0;
+            smoothScrollPanel9.Controls.Add(pictureBox3);
+            smoothScrollPanel9.Controls.Add(pictureBox2);
+            smoothScrollPanel9.Controls.Add(pictureBox1);
+            smoothScrollPanel9.Controls.Add(pictureBox4);
+            smoothScrollPanel9.Controls.Add(switchButton48);
+            smoothScrollPanel9.Controls.Add(label73);
+            smoothScrollPanel9.Controls.Add(label74);
+            smoothScrollPanel9.Controls.Add(switchButton47);
+            smoothScrollPanel9.Controls.Add(label71);
+            smoothScrollPanel9.Controls.Add(label72);
+            smoothScrollPanel9.Controls.Add(switchButton46);
+            smoothScrollPanel9.Controls.Add(label69);
+            smoothScrollPanel9.Controls.Add(label70);
+            smoothScrollPanel9.Controls.Add(switchButton45);
+            smoothScrollPanel9.Controls.Add(label68);
+            smoothScrollPanel9.Controls.Add(label64);
+            smoothScrollPanel9.Location = new Point(41, 144);
+            smoothScrollPanel9.Name = "smoothScrollPanel9";
+            smoothScrollPanel9.Padding = new Padding(1);
+            smoothScrollPanel9.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
+            smoothScrollPanel9.ScrollBarWidth = 6;
+            smoothScrollPanel9.ShowCustomScrollbar = true;
+            smoothScrollPanel9.Size = new Size(695, 243);
+            smoothScrollPanel9.TabIndex = 6;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImage = Properties.Resources.Icon__46_;
+            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox3.Location = new Point(23, 181);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(24, 24);
+            pictureBox3.TabIndex = 62;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = Properties.Resources.Icon__45_;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox2.Location = new Point(23, 134);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(24, 24);
+            pictureBox2.TabIndex = 61;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = Properties.Resources.Icon__44_;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Location = new Point(23, 87);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(24, 24);
+            pictureBox1.TabIndex = 60;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.BackgroundImage = Properties.Resources.Icon__43_;
+            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox4.Location = new Point(22, 39);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(24, 24);
+            pictureBox4.TabIndex = 59;
+            pictureBox4.TabStop = false;
+            // 
+            // switchButton48
+            // 
+            switchButton48.AnimationSpeed = 4F;
+            switchButton48.Checked = true;
+            switchButton48.CornerRadius = -1;
+            switchButton48.IsSquareSlider = false;
+            switchButton48.Location = new Point(613, 181);
+            switchButton48.Name = "switchButton48";
+            switchButton48.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton48.OffText = "";
+            switchButton48.OnBackColor = Color.FromArgb(82, 196, 26);
+            switchButton48.OnText = "";
+            switchButton48.Size = new Size(60, 30);
+            switchButton48.SliderColor = Color.White;
+            switchButton48.TabIndex = 58;
+            switchButton48.Text = "switchButton48";
+            // 
+            // label73
+            // 
+            label73.AutoSize = true;
+            label73.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label73.ForeColor = Color.FromArgb(98, 116, 142);
+            label73.Location = new Point(57, 195);
+            label73.Name = "label73";
+            label73.Size = new Size(79, 16);
+            label73.TabIndex = 57;
+            label73.Text = "启用系统声音";
+            // 
+            // label74
+            // 
+            label74.AutoSize = true;
+            label74.Font = new Font("HarmonyOS Sans SC", 16F, FontStyle.Regular, GraphicsUnit.Pixel, 134);
+            label74.ForeColor = Color.FromArgb(30, 41, 57);
+            label74.Location = new Point(57, 174);
+            label74.Name = "label74";
+            label74.Size = new Size(42, 21);
+            label74.TabIndex = 56;
+            label74.Text = "声音";
+            // 
+            // switchButton47
+            // 
+            switchButton47.AnimationSpeed = 4F;
+            switchButton47.Checked = false;
+            switchButton47.CornerRadius = -1;
+            switchButton47.IsSquareSlider = false;
+            switchButton47.Location = new Point(613, 134);
+            switchButton47.Name = "switchButton47";
+            switchButton47.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton47.OffText = "";
+            switchButton47.OnBackColor = Color.FromArgb(250, 173, 20);
+            switchButton47.OnText = "";
+            switchButton47.Size = new Size(60, 30);
+            switchButton47.SliderColor = Color.White;
+            switchButton47.TabIndex = 55;
+            switchButton47.Text = "switchButton47";
+            // 
+            // label71
+            // 
+            label71.AutoSize = true;
+            label71.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label71.ForeColor = Color.FromArgb(98, 116, 142);
+            label71.Location = new Point(57, 148);
+            label71.Name = "label71";
+            label71.Size = new Size(79, 16);
+            label71.TabIndex = 54;
+            label71.Text = "接收推送通知";
+            // 
+            // label72
+            // 
+            label72.AutoSize = true;
+            label72.Font = new Font("HarmonyOS Sans SC", 16F, FontStyle.Regular, GraphicsUnit.Pixel, 134);
+            label72.ForeColor = Color.FromArgb(30, 41, 57);
+            label72.Location = new Point(57, 127);
+            label72.Name = "label72";
+            label72.Size = new Size(42, 21);
+            label72.TabIndex = 53;
+            label72.Text = "通知";
+            // 
+            // switchButton46
+            // 
+            switchButton46.AnimationSpeed = 4F;
+            switchButton46.Checked = true;
+            switchButton46.CornerRadius = -1;
+            switchButton46.IsSquareSlider = false;
+            switchButton46.Location = new Point(613, 87);
+            switchButton46.Name = "switchButton46";
+            switchButton46.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton46.OffText = "";
+            switchButton46.OnBackColor = Color.FromArgb(22, 119, 255);
+            switchButton46.OnText = "";
+            switchButton46.Size = new Size(60, 30);
+            switchButton46.SliderColor = Color.White;
+            switchButton46.TabIndex = 52;
+            switchButton46.Text = "switchButton46";
+            // 
+            // label69
+            // 
+            label69.AutoSize = true;
+            label69.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label69.ForeColor = Color.FromArgb(98, 116, 142);
+            label69.Location = new Point(57, 101);
+            label69.Name = "label69";
+            label69.Size = new Size(79, 16);
+            label69.TabIndex = 51;
+            label69.Text = "连接外部设备";
+            // 
+            // label70
+            // 
+            label70.AutoSize = true;
+            label70.Font = new Font("HarmonyOS Sans SC", 16F, FontStyle.Regular, GraphicsUnit.Pixel, 134);
+            label70.ForeColor = Color.FromArgb(30, 41, 57);
+            label70.Location = new Point(57, 80);
+            label70.Name = "label70";
+            label70.Size = new Size(42, 21);
+            label70.TabIndex = 50;
+            label70.Text = "蓝牙";
+            // 
+            // switchButton45
+            // 
+            switchButton45.AnimationSpeed = 4F;
+            switchButton45.Checked = true;
+            switchButton45.CornerRadius = -1;
+            switchButton45.IsSquareSlider = false;
+            switchButton45.Location = new Point(613, 39);
+            switchButton45.Name = "switchButton45";
+            switchButton45.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton45.OffText = "";
+            switchButton45.OnBackColor = Color.FromArgb(22, 119, 255);
+            switchButton45.OnText = "";
+            switchButton45.Size = new Size(60, 30);
+            switchButton45.SliderColor = Color.White;
+            switchButton45.TabIndex = 49;
+            switchButton45.Text = "switchButton45";
+            // 
+            // label68
+            // 
+            label68.AutoSize = true;
+            label68.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label68.ForeColor = Color.FromArgb(98, 116, 142);
+            label68.Location = new Point(57, 53);
+            label68.Name = "label68";
+            label68.Size = new Size(91, 16);
+            label68.TabIndex = 28;
+            label68.Text = "连接到无线网络";
+            // 
+            // label64
+            // 
+            label64.AutoSize = true;
+            label64.Font = new Font("HarmonyOS Sans SC", 16F, FontStyle.Regular, GraphicsUnit.Pixel, 134);
+            label64.ForeColor = Color.FromArgb(30, 41, 57);
+            label64.Location = new Point(57, 32);
+            label64.Name = "label64";
+            label64.Size = new Size(50, 21);
+            label64.TabIndex = 6;
+            label64.Text = "Wi-Fi";
+            // 
+            // label77
+            // 
+            label77.AutoSize = true;
+            label77.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label77.ForeColor = Color.FromArgb(30, 41, 57);
+            label77.Location = new Point(35, 100);
+            label77.Name = "label77";
+            label77.Size = new Size(92, 26);
+            label77.TabIndex = 5;
+            label77.Text = "设置面板";
+            // 
+            // panel7
+            // 
+            panel7.BackColor = Color.FromArgb(243, 244, 246);
+            panel7.Controls.Add(label78);
+            panel7.Controls.Add(label79);
+            panel7.Location = new Point(1, 1);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(1628, 79);
+            panel7.TabIndex = 0;
+            // 
+            // label78
+            // 
+            label78.BackColor = Color.FromArgb(209, 213, 220);
+            label78.Location = new Point(0, 78);
+            label78.Name = "label78";
+            label78.Size = new Size(1630, 2);
+            label78.TabIndex = 3;
+            label78.Text = "label78";
+            // 
+            // label79
+            // 
+            label79.AutoSize = true;
+            label79.Font = new Font("HarmonyOS Sans SC", 26F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label79.ForeColor = Color.FromArgb(30, 41, 57);
+            label79.Location = new Point(33, 22);
+            label79.Name = "label79";
+            label79.Size = new Size(171, 34);
+            label79.TabIndex = 2;
+            label79.Text = "实际应用场景";
+            // 
+            // smoothScrollPanel7
+            // 
+            smoothScrollPanel7.AutoScroll = true;
+            smoothScrollPanel7.AutoScrollMinSize = new Size(0, 283);
+            smoothScrollPanel7.BackColor = Color.White;
+            smoothScrollPanel7.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel7.BorderRadius = 0;
+            smoothScrollPanel7.BorderWidth = 2;
+            smoothScrollPanel7.BottomPadding = 0;
+            smoothScrollPanel7.Controls.Add(label63);
+            smoothScrollPanel7.Controls.Add(switchButton44);
+            smoothScrollPanel7.Controls.Add(label62);
+            smoothScrollPanel7.Controls.Add(switchButton43);
+            smoothScrollPanel7.Controls.Add(label61);
+            smoothScrollPanel7.Controls.Add(switchButton42);
+            smoothScrollPanel7.Controls.Add(label60);
+            smoothScrollPanel7.Controls.Add(switchButton41);
+            smoothScrollPanel7.Controls.Add(label59);
+            smoothScrollPanel7.Controls.Add(label58);
+            smoothScrollPanel7.Controls.Add(switchButton40);
+            smoothScrollPanel7.Controls.Add(label57);
+            smoothScrollPanel7.Controls.Add(switchButton39);
+            smoothScrollPanel7.Controls.Add(label56);
+            smoothScrollPanel7.Controls.Add(switchButton38);
+            smoothScrollPanel7.Controls.Add(label55);
+            smoothScrollPanel7.Controls.Add(switchButton37);
+            smoothScrollPanel7.Controls.Add(label65);
+            smoothScrollPanel7.Controls.Add(panel6);
+            smoothScrollPanel7.Location = new Point(906, 675);
+            smoothScrollPanel7.Name = "smoothScrollPanel7";
+            smoothScrollPanel7.Padding = new Padding(1);
+            smoothScrollPanel7.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
+            smoothScrollPanel7.ScrollBarWidth = 6;
+            smoothScrollPanel7.ShowCustomScrollbar = true;
+            smoothScrollPanel7.Size = new Size(760, 306);
+            smoothScrollPanel7.TabIndex = 6;
+            // 
+            // label63
+            // 
+            label63.AutoSize = true;
+            label63.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label63.ForeColor = Color.FromArgb(98, 116, 142);
+            label63.Location = new Point(650, 267);
+            label63.Name = "label63";
+            label63.Size = new Size(56, 16);
+            label63.TabIndex = 60;
+            label63.Text = "极速 (15)";
+            // 
+            // switchButton44
+            // 
+            switchButton44.AnimationSpeed = 15F;
+            switchButton44.Checked = true;
+            switchButton44.CornerRadius = -1;
+            switchButton44.IsSquareSlider = false;
+            switchButton44.Location = new Point(637, 227);
+            switchButton44.Name = "switchButton44";
+            switchButton44.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton44.OffText = "";
+            switchButton44.OnBackColor = Color.FromArgb(250, 140, 22);
+            switchButton44.OnText = "";
+            switchButton44.Size = new Size(70, 30);
+            switchButton44.SliderColor = Color.White;
+            switchButton44.TabIndex = 59;
+            switchButton44.Text = "switchButton44";
+            // 
+            // label62
+            // 
+            label62.AutoSize = true;
+            label62.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label62.ForeColor = Color.FromArgb(98, 116, 142);
+            label62.Location = new Point(484, 267);
+            label62.Name = "label62";
+            label62.Size = new Size(49, 16);
+            label62.TabIndex = 58;
+            label62.Text = "快速 (8)";
+            // 
+            // switchButton43
+            // 
+            switchButton43.AnimationSpeed = 8F;
+            switchButton43.Checked = true;
+            switchButton43.CornerRadius = -1;
+            switchButton43.IsSquareSlider = false;
+            switchButton43.Location = new Point(471, 227);
+            switchButton43.Name = "switchButton43";
+            switchButton43.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton43.OffText = "";
+            switchButton43.OnBackColor = Color.FromArgb(114, 46, 209);
+            switchButton43.OnText = "";
+            switchButton43.Size = new Size(70, 30);
+            switchButton43.SliderColor = Color.White;
+            switchButton43.TabIndex = 57;
+            switchButton43.Text = "switchButton43";
+            // 
+            // label61
+            // 
+            label61.AutoSize = true;
+            label61.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label61.ForeColor = Color.FromArgb(98, 116, 142);
+            label61.Location = new Point(650, 184);
+            label61.Name = "label61";
+            label61.Size = new Size(49, 16);
+            label61.TabIndex = 56;
+            label61.Text = "默认 (4)";
+            // 
+            // switchButton42
+            // 
+            switchButton42.AnimationSpeed = 4F;
+            switchButton42.Checked = false;
+            switchButton42.CornerRadius = -1;
+            switchButton42.IsSquareSlider = false;
+            switchButton42.Location = new Point(637, 144);
+            switchButton42.Name = "switchButton42";
+            switchButton42.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton42.OffText = "";
+            switchButton42.OnBackColor = Color.FromArgb(19, 194, 194);
+            switchButton42.OnText = "";
+            switchButton42.Size = new Size(70, 30);
+            switchButton42.SliderColor = Color.White;
+            switchButton42.TabIndex = 55;
+            switchButton42.Text = "switchButton42";
+            // 
+            // label60
+            // 
+            label60.AutoSize = true;
+            label60.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label60.ForeColor = Color.FromArgb(98, 116, 142);
+            label60.Location = new Point(484, 184);
+            label60.Name = "label60";
+            label60.Size = new Size(49, 16);
+            label60.TabIndex = 54;
+            label60.Text = "慢速 (2)";
+            // 
+            // switchButton41
+            // 
+            switchButton41.AnimationSpeed = 2F;
+            switchButton41.Checked = true;
+            switchButton41.CornerRadius = -1;
+            switchButton41.IsSquareSlider = false;
+            switchButton41.Location = new Point(471, 144);
+            switchButton41.Name = "switchButton41";
+            switchButton41.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton41.OffText = "";
+            switchButton41.OnBackColor = Color.FromArgb(82, 196, 26);
+            switchButton41.OnText = "";
+            switchButton41.Size = new Size(70, 30);
+            switchButton41.SliderColor = Color.White;
+            switchButton41.TabIndex = 53;
+            switchButton41.Text = "switchButton41";
+            // 
+            // label59
+            // 
+            label59.AutoSize = true;
+            label59.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label59.ForeColor = Color.FromArgb(30, 41, 57);
+            label59.Location = new Point(468, 100);
+            label59.Name = "label59";
+            label59.Size = new Size(232, 26);
+            label59.TabIndex = 52;
+            label59.Text = "查看不同速度的动画效果";
+            // 
+            // label58
+            // 
+            label58.AutoSize = true;
+            label58.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label58.ForeColor = Color.FromArgb(98, 116, 142);
+            label58.Location = new Point(217, 267);
+            label58.Name = "label58";
+            label58.Size = new Size(61, 16);
+            label58.TabIndex = 51;
+            label58.Text = "禁用 - ON";
+            // 
+            // switchButton40
+            // 
+            switchButton40.AnimationSpeed = 4F;
+            switchButton40.Checked = true;
+            switchButton40.CornerRadius = -1;
+            switchButton40.Enabled = false;
+            switchButton40.IsSquareSlider = false;
+            switchButton40.Location = new Point(213, 227);
+            switchButton40.Name = "switchButton40";
+            switchButton40.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton40.OffText = "";
+            switchButton40.OnBackColor = Color.FromArgb(22, 119, 255);
+            switchButton40.OnText = "";
+            switchButton40.Size = new Size(70, 30);
+            switchButton40.SliderColor = Color.White;
+            switchButton40.TabIndex = 50;
+            switchButton40.Text = "switchButton40";
+            // 
+            // label57
+            // 
+            label57.AutoSize = true;
+            label57.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label57.ForeColor = Color.FromArgb(98, 116, 142);
+            label57.Location = new Point(42, 267);
+            label57.Name = "label57";
+            label57.Size = new Size(61, 16);
+            label57.TabIndex = 49;
+            label57.Text = "启用 - ON";
+            // 
+            // switchButton39
+            // 
+            switchButton39.AnimationSpeed = 4F;
+            switchButton39.Checked = true;
+            switchButton39.CornerRadius = -1;
+            switchButton39.IsSquareSlider = false;
+            switchButton39.Location = new Point(38, 227);
+            switchButton39.Name = "switchButton39";
+            switchButton39.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton39.OffText = "";
+            switchButton39.OnBackColor = Color.FromArgb(22, 119, 255);
+            switchButton39.OnText = "";
+            switchButton39.Size = new Size(70, 30);
+            switchButton39.SliderColor = Color.White;
+            switchButton39.TabIndex = 48;
+            switchButton39.Text = "switchButton39";
+            // 
+            // label56
+            // 
+            label56.AutoSize = true;
+            label56.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label56.ForeColor = Color.FromArgb(98, 116, 142);
+            label56.Location = new Point(217, 184);
+            label56.Name = "label56";
+            label56.Size = new Size(66, 16);
+            label56.TabIndex = 47;
+            label56.Text = "禁用 - OFF";
+            // 
+            // switchButton38
+            // 
+            switchButton38.AnimationSpeed = 4F;
+            switchButton38.Checked = false;
+            switchButton38.CornerRadius = -1;
+            switchButton38.Enabled = false;
+            switchButton38.IsSquareSlider = false;
+            switchButton38.Location = new Point(213, 144);
+            switchButton38.Name = "switchButton38";
+            switchButton38.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton38.OffText = "";
+            switchButton38.OnBackColor = Color.FromArgb(140, 140, 140);
+            switchButton38.OnText = "";
+            switchButton38.Size = new Size(70, 30);
+            switchButton38.SliderColor = Color.White;
+            switchButton38.TabIndex = 46;
+            switchButton38.Text = "switchButton38";
+            // 
+            // label55
+            // 
+            label55.AutoSize = true;
+            label55.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label55.ForeColor = Color.FromArgb(98, 116, 142);
+            label55.Location = new Point(42, 184);
+            label55.Name = "label55";
+            label55.Size = new Size(66, 16);
+            label55.TabIndex = 45;
+            label55.Text = "启用 - OFF";
+            // 
+            // switchButton37
+            // 
+            switchButton37.AnimationSpeed = 4F;
+            switchButton37.Checked = false;
+            switchButton37.CornerRadius = -1;
+            switchButton37.IsSquareSlider = false;
+            switchButton37.Location = new Point(38, 144);
+            switchButton37.Name = "switchButton37";
+            switchButton37.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton37.OffText = "";
+            switchButton37.OnBackColor = Color.FromArgb(140, 140, 140);
+            switchButton37.OnText = "";
+            switchButton37.Size = new Size(70, 30);
+            switchButton37.SliderColor = Color.White;
+            switchButton37.TabIndex = 44;
+            switchButton37.Text = "switchButton37";
+            // 
+            // label65
+            // 
+            label65.AutoSize = true;
+            label65.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label65.ForeColor = Color.FromArgb(30, 41, 57);
+            label65.Location = new Point(35, 100);
+            label65.Name = "label65";
+            label65.Size = new Size(272, 26);
+            label65.TabIndex = 5;
+            label65.Text = "禁用时控件会变淡且无法点击";
+            // 
+            // panel6
+            // 
+            panel6.BackColor = Color.FromArgb(243, 244, 246);
+            panel6.Controls.Add(label66);
+            panel6.Controls.Add(label67);
+            panel6.Location = new Point(1, 1);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(757, 79);
+            panel6.TabIndex = 0;
+            // 
+            // label66
+            // 
+            label66.BackColor = Color.FromArgb(209, 213, 220);
+            label66.Location = new Point(0, 78);
+            label66.Name = "label66";
+            label66.Size = new Size(1630, 2);
+            label66.TabIndex = 3;
+            label66.Text = "label66";
+            // 
+            // label67
+            // 
+            label67.AutoSize = true;
+            label67.Font = new Font("HarmonyOS Sans SC", 26F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label67.ForeColor = Color.FromArgb(30, 41, 57);
+            label67.Location = new Point(33, 22);
+            label67.Name = "label67";
+            label67.Size = new Size(249, 34);
+            label67.TabIndex = 2;
+            label67.Text = "禁用状态及动画速度";
+            // 
             // smoothScrollPanel6
             // 
             smoothScrollPanel6.AutoScroll = true;
-            smoothScrollPanel6.AutoScrollMinSize = new Size(0, 200);
+            smoothScrollPanel6.AutoScrollMinSize = new Size(0, 283);
             smoothScrollPanel6.BackColor = Color.White;
             smoothScrollPanel6.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel6.BorderRadius = 0;
             smoothScrollPanel6.BorderWidth = 2;
             smoothScrollPanel6.BottomPadding = 0;
+            smoothScrollPanel6.Controls.Add(label51);
+            smoothScrollPanel6.Controls.Add(switchButton36);
+            smoothScrollPanel6.Controls.Add(label50);
+            smoothScrollPanel6.Controls.Add(switchButton35);
+            smoothScrollPanel6.Controls.Add(label49);
+            smoothScrollPanel6.Controls.Add(switchButton34);
+            smoothScrollPanel6.Controls.Add(label48);
+            smoothScrollPanel6.Controls.Add(switchButton33);
+            smoothScrollPanel6.Controls.Add(label47);
+            smoothScrollPanel6.Controls.Add(switchButton32);
+            smoothScrollPanel6.Controls.Add(label46);
+            smoothScrollPanel6.Controls.Add(switchButton31);
             smoothScrollPanel6.Controls.Add(label42);
             smoothScrollPanel6.Controls.Add(switchButton27);
             smoothScrollPanel6.Controls.Add(label43);
@@ -178,19 +1089,187 @@
             smoothScrollPanel6.ScrollBarColor = Color.FromArgb(120, 0, 0, 0);
             smoothScrollPanel6.ScrollBarWidth = 6;
             smoothScrollPanel6.ShowCustomScrollbar = true;
-            smoothScrollPanel6.Size = new Size(1632, 336);
+            smoothScrollPanel6.Size = new Size(760, 306);
             smoothScrollPanel6.TabIndex = 5;
+            // 
+            // label51
+            // 
+            label51.AutoSize = true;
+            label51.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label51.ForeColor = Color.FromArgb(98, 116, 142);
+            label51.Location = new Point(645, 267);
+            label51.Name = "label51";
+            label51.Size = new Size(31, 16);
+            label51.TabIndex = 45;
+            label51.Text = "灰色";
+            // 
+            // switchButton36
+            // 
+            switchButton36.AnimationSpeed = 4F;
+            switchButton36.Checked = true;
+            switchButton36.CornerRadius = -1;
+            switchButton36.IsSquareSlider = false;
+            switchButton36.Location = new Point(626, 227);
+            switchButton36.Name = "switchButton36";
+            switchButton36.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton36.OffText = "";
+            switchButton36.OnBackColor = Color.FromArgb(140, 140, 140);
+            switchButton36.OnText = "";
+            switchButton36.Size = new Size(70, 30);
+            switchButton36.SliderColor = Color.White;
+            switchButton36.TabIndex = 44;
+            switchButton36.Text = "switchButton36";
+            // 
+            // label50
+            // 
+            label50.AutoSize = true;
+            label50.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label50.ForeColor = Color.FromArgb(98, 116, 142);
+            label50.Location = new Point(492, 267);
+            label50.Name = "label50";
+            label50.Size = new Size(31, 16);
+            label50.TabIndex = 43;
+            label50.Text = "深蓝";
+            // 
+            // switchButton35
+            // 
+            switchButton35.AnimationSpeed = 4F;
+            switchButton35.Checked = false;
+            switchButton35.CornerRadius = -1;
+            switchButton35.IsSquareSlider = false;
+            switchButton35.Location = new Point(473, 227);
+            switchButton35.Name = "switchButton35";
+            switchButton35.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton35.OffText = "";
+            switchButton35.OnBackColor = Color.FromArgb(47, 84, 235);
+            switchButton35.OnText = "";
+            switchButton35.Size = new Size(70, 30);
+            switchButton35.SliderColor = Color.White;
+            switchButton35.TabIndex = 42;
+            switchButton35.Text = "switchButton35";
+            // 
+            // label49
+            // 
+            label49.AutoSize = true;
+            label49.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label49.ForeColor = Color.FromArgb(98, 116, 142);
+            label49.Location = new Point(344, 267);
+            label49.Name = "label49";
+            label49.Size = new Size(31, 16);
+            label49.TabIndex = 41;
+            label49.Text = "橙色";
+            // 
+            // switchButton34
+            // 
+            switchButton34.AnimationSpeed = 4F;
+            switchButton34.Checked = true;
+            switchButton34.CornerRadius = -1;
+            switchButton34.IsSquareSlider = false;
+            switchButton34.Location = new Point(325, 227);
+            switchButton34.Name = "switchButton34";
+            switchButton34.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton34.OffText = "";
+            switchButton34.OnBackColor = Color.FromArgb(250, 140, 22);
+            switchButton34.OnText = "";
+            switchButton34.Size = new Size(70, 30);
+            switchButton34.SliderColor = Color.White;
+            switchButton34.TabIndex = 40;
+            switchButton34.Text = "switchButton34";
+            // 
+            // label48
+            // 
+            label48.AutoSize = true;
+            label48.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label48.ForeColor = Color.FromArgb(98, 116, 142);
+            label48.Location = new Point(196, 267);
+            label48.Name = "label48";
+            label48.Size = new Size(31, 16);
+            label48.TabIndex = 39;
+            label48.Text = "粉色";
+            // 
+            // switchButton33
+            // 
+            switchButton33.AnimationSpeed = 4F;
+            switchButton33.Checked = false;
+            switchButton33.CornerRadius = -1;
+            switchButton33.IsSquareSlider = false;
+            switchButton33.Location = new Point(177, 227);
+            switchButton33.Name = "switchButton33";
+            switchButton33.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton33.OffText = "";
+            switchButton33.OnBackColor = Color.FromArgb(235, 47, 150);
+            switchButton33.OnText = "";
+            switchButton33.Size = new Size(70, 30);
+            switchButton33.SliderColor = Color.White;
+            switchButton33.TabIndex = 38;
+            switchButton33.Text = "switchButton33";
+            // 
+            // label47
+            // 
+            label47.AutoSize = true;
+            label47.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label47.ForeColor = Color.FromArgb(98, 116, 142);
+            label47.Location = new Point(57, 267);
+            label47.Name = "label47";
+            label47.Size = new Size(31, 16);
+            label47.TabIndex = 37;
+            label47.Text = "青色";
+            // 
+            // switchButton32
+            // 
+            switchButton32.AnimationSpeed = 4F;
+            switchButton32.Checked = true;
+            switchButton32.CornerRadius = -1;
+            switchButton32.IsSquareSlider = false;
+            switchButton32.Location = new Point(38, 227);
+            switchButton32.Name = "switchButton32";
+            switchButton32.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton32.OffText = "";
+            switchButton32.OnBackColor = Color.FromArgb(19, 194, 194);
+            switchButton32.OnText = "";
+            switchButton32.Size = new Size(70, 30);
+            switchButton32.SliderColor = Color.White;
+            switchButton32.TabIndex = 36;
+            switchButton32.Text = "switchButton32";
+            // 
+            // label46
+            // 
+            label46.AutoSize = true;
+            label46.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label46.ForeColor = Color.FromArgb(98, 116, 142);
+            label46.Location = new Point(645, 184);
+            label46.Name = "label46";
+            label46.Size = new Size(31, 16);
+            label46.TabIndex = 35;
+            label46.Text = "紫色";
+            // 
+            // switchButton31
+            // 
+            switchButton31.AnimationSpeed = 4F;
+            switchButton31.Checked = true;
+            switchButton31.CornerRadius = -1;
+            switchButton31.IsSquareSlider = false;
+            switchButton31.Location = new Point(626, 144);
+            switchButton31.Name = "switchButton31";
+            switchButton31.OffBackColor = Color.FromArgb(191, 191, 191);
+            switchButton31.OffText = "";
+            switchButton31.OnBackColor = Color.FromArgb(114, 46, 209);
+            switchButton31.OnText = "";
+            switchButton31.Size = new Size(70, 30);
+            switchButton31.SliderColor = Color.White;
+            switchButton31.TabIndex = 34;
+            switchButton31.Text = "switchButton31";
             // 
             // label42
             // 
             label42.AutoSize = true;
             label42.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
             label42.ForeColor = Color.FromArgb(98, 116, 142);
-            label42.Location = new Point(440, 184);
+            label42.Location = new Point(477, 184);
             label42.Name = "label42";
-            label42.Size = new Size(31, 16);
+            label42.Size = new Size(66, 16);
             label42.TabIndex = 33;
-            label42.Text = "青色";
+            label42.Text = "黄色 (警告)";
             // 
             // switchButton27
             // 
@@ -198,11 +1277,11 @@
             switchButton27.Checked = true;
             switchButton27.CornerRadius = -1;
             switchButton27.IsSquareSlider = false;
-            switchButton27.Location = new Point(421, 144);
+            switchButton27.Location = new Point(473, 144);
             switchButton27.Name = "switchButton27";
             switchButton27.OffBackColor = Color.FromArgb(191, 191, 191);
             switchButton27.OffText = "";
-            switchButton27.OnBackColor = Color.FromArgb(19, 194, 194);
+            switchButton27.OnBackColor = Color.FromArgb(250, 173, 20);
             switchButton27.OnText = "";
             switchButton27.Size = new Size(70, 30);
             switchButton27.SliderColor = Color.White;
@@ -214,19 +1293,19 @@
             label43.AutoSize = true;
             label43.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
             label43.ForeColor = Color.FromArgb(98, 116, 142);
-            label43.Location = new Point(307, 184);
+            label43.Location = new Point(329, 184);
             label43.Name = "label43";
-            label43.Size = new Size(31, 16);
+            label43.Size = new Size(66, 16);
             label43.TabIndex = 31;
-            label43.Text = "蓝色";
+            label43.Text = "蓝色 (主色)";
             // 
             // switchButton28
             // 
             switchButton28.AnimationSpeed = 4F;
-            switchButton28.Checked = false;
+            switchButton28.Checked = true;
             switchButton28.CornerRadius = -1;
             switchButton28.IsSquareSlider = false;
-            switchButton28.Location = new Point(288, 144);
+            switchButton28.Location = new Point(325, 144);
             switchButton28.Name = "switchButton28";
             switchButton28.OffBackColor = Color.FromArgb(191, 191, 191);
             switchButton28.OffText = "";
@@ -242,11 +1321,11 @@
             label44.AutoSize = true;
             label44.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
             label44.ForeColor = Color.FromArgb(98, 116, 142);
-            label44.Location = new Point(177, 184);
+            label44.Location = new Point(181, 184);
             label44.Name = "label44";
-            label44.Size = new Size(31, 16);
+            label44.Size = new Size(66, 16);
             label44.TabIndex = 29;
-            label44.Text = "绿色";
+            label44.Text = "绿色 (成功)";
             // 
             // switchButton29
             // 
@@ -254,7 +1333,7 @@
             switchButton29.Checked = true;
             switchButton29.CornerRadius = -1;
             switchButton29.IsSquareSlider = false;
-            switchButton29.Location = new Point(158, 144);
+            switchButton29.Location = new Point(177, 144);
             switchButton29.Name = "switchButton29";
             switchButton29.OffBackColor = Color.FromArgb(191, 191, 191);
             switchButton29.OffText = "";
@@ -270,11 +1349,11 @@
             label45.AutoSize = true;
             label45.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
             label45.ForeColor = Color.FromArgb(98, 116, 142);
-            label45.Location = new Point(56, 184);
+            label45.Location = new Point(41, 184);
             label45.Name = "label45";
-            label45.Size = new Size(31, 16);
+            label45.Size = new Size(66, 16);
             label45.TabIndex = 27;
-            label45.Text = "红色";
+            label45.Text = "红色 (默认)";
             // 
             // switchButton30
             // 
@@ -311,7 +1390,7 @@
             panel5.Controls.Add(label54);
             panel5.Location = new Point(1, 1);
             panel5.Name = "panel5";
-            panel5.Size = new Size(1629, 79);
+            panel5.Size = new Size(757, 79);
             panel5.TabIndex = 0;
             // 
             // label53
@@ -1396,14 +2475,55 @@
             label11.TabIndex = 2;
             label11.Text = "基础样式(Basic Type)";
             // 
+            // watermarkProvider1
+            // 
+            watermarkProvider1.Content = "Save HMI";
+            watermarkProvider1.Description = "内部项目 侵权必究";
+            watermarkProvider1.DescriptionFont = new Font("Segoe UI", 9F);
+            watermarkProvider1.GapX = 120;
+            watermarkProvider1.GapY = 120;
+            watermarkProvider1.Icon = null;
+            watermarkProvider1.IconSize = 24F;
+            watermarkProvider1.IsDynamic = false;
+            watermarkProvider1.Rotate = -22;
+            watermarkProvider1.ShowTime = false;
+            watermarkProvider1.TargetControl = smoothScrollPanel2;
+            watermarkProvider1.WatermarkColor = Color.FromArgb(30, 0, 0, 0);
+            watermarkProvider1.WatermarkFont = new Font("Segoe UI", 12F, FontStyle.Bold);
+            // 
             // Switch_button
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(smoothScrollPanel1);
+            DoubleBuffered = true;
             Name = "Switch_button";
             Size = new Size(1700, 990);
             smoothScrollPanel1.ResumeLayout(false);
+            smoothScrollPanel8.ResumeLayout(false);
+            smoothScrollPanel8.PerformLayout();
+            smoothScrollPanel10.ResumeLayout(false);
+            smoothScrollPanel13.ResumeLayout(false);
+            smoothScrollPanel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            smoothScrollPanel12.ResumeLayout(false);
+            smoothScrollPanel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            smoothScrollPanel11.ResumeLayout(false);
+            smoothScrollPanel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            smoothScrollPanel9.ResumeLayout(false);
+            smoothScrollPanel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
+            smoothScrollPanel7.ResumeLayout(false);
+            smoothScrollPanel7.PerformLayout();
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
             smoothScrollPanel6.ResumeLayout(false);
             smoothScrollPanel6.PerformLayout();
             panel5.ResumeLayout(false);
@@ -1518,5 +2638,76 @@
         private Panel panel5;
         private Label label53;
         private Label label54;
+        private Label label46;
+        private LYHControls.SwitchButton switchButton31;
+        private Label label47;
+        private LYHControls.SwitchButton switchButton32;
+        private Label label51;
+        private LYHControls.SwitchButton switchButton36;
+        private Label label50;
+        private LYHControls.SwitchButton switchButton35;
+        private Label label49;
+        private LYHControls.SwitchButton switchButton34;
+        private Label label48;
+        private LYHControls.SwitchButton switchButton33;
+        private SmoothScrollPanel smoothScrollPanel7;
+        private Label label55;
+        private LYHControls.SwitchButton switchButton37;
+        private Label label65;
+        private Panel panel6;
+        private Label label66;
+        private Label label67;
+        private Label label56;
+        private LYHControls.SwitchButton switchButton38;
+        private Label label58;
+        private LYHControls.SwitchButton switchButton40;
+        private Label label57;
+        private LYHControls.SwitchButton switchButton39;
+        private Label label59;
+        private Label label63;
+        private LYHControls.SwitchButton switchButton44;
+        private Label label62;
+        private LYHControls.SwitchButton switchButton43;
+        private Label label61;
+        private LYHControls.SwitchButton switchButton42;
+        private Label label60;
+        private LYHControls.SwitchButton switchButton41;
+        private SmoothScrollPanel smoothScrollPanel8;
+        private Label label77;
+        private Panel panel7;
+        private Label label78;
+        private Label label79;
+        private LYHControls.SmoothScrollPanel smoothScrollPanel9;
+        private Label label64;
+        private Label label68;
+        private LYHControls.SwitchButton switchButton45;
+        private LYHControls.SwitchButton switchButton46;
+        private Label label69;
+        private Label label70;
+        private LYHControls.SwitchButton switchButton47;
+        private Label label71;
+        private Label label72;
+        private LYHControls.SwitchButton switchButton48;
+        private Label label73;
+        private Label label74;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox1;
+        private LYHControls.SmoothScrollPanel smoothScrollPanel10;
+        private LYHControls.SwitchButton switchButton52;
+        private Label label86;
+        private LYHControls.SmoothScrollPanel smoothScrollPanel13;
+        private LYHControls.SwitchButton switchButton50;
+        private LYHControls.SmoothScrollPanel smoothScrollPanel12;
+        private LYHControls.SwitchButton switchButton49;
+        private LYHControls.SmoothScrollPanel smoothScrollPanel11;
+        private Label label75;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox7;
+        private Label label80;
+        private PictureBox pictureBox6;
+        private Label label76;
+        private LYHControls.WatermarkProvider watermarkProvider1;
     }
 }

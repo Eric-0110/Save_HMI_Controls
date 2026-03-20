@@ -35,5 +35,10 @@ namespace Save_HMI_Controls
                 btn.Text = "处理完成";
             }
         }
+
+        private void label49_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

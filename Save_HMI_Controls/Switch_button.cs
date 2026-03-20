@@ -30,5 +30,10 @@ namespace Save_HMI_Controls
                 label3.Text = "OFF";
             }
         }
+
+        private void label75_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
