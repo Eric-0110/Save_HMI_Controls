@@ -130,8 +130,8 @@
   <data name="Icon (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Icon (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Text (28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\Text (28).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Text (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -141,6 +141,9 @@
   </data>
   <data name="Icon (44)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Icon (44).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Text (28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Text (28).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Text (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +175,14 @@
   <data name="Text (41)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (41).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icon (57)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (57).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Text (44)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (44).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon (45)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (45).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="savehmi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\savehmi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,6 +259,9 @@
   <data name="Text (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icon (54)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (54).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Icon (35)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Icon (35).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -280,6 +292,9 @@
   <data name="Text (42)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (42).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icon (59)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (59).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="gw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\gw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -288,6 +303,9 @@
   </data>
   <data name="bt_dx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\bt_dx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon (58)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (58).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Text (37)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (37).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -318,9 +336,6 @@
   </data>
   <data name="Text (40)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (40).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon (13)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon2\Icon (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Icon (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -358,6 +373,9 @@
   <data name="Icon (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Icon (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icon (60)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (60).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Text (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Text (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -388,6 +406,9 @@
   <data name="Container3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Container3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icon (56)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (56).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Icon (28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Icon (28).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -402,6 +423,9 @@
   </data>
   <data name="Icon (33)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Icon (33).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Icon (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Icon (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -472,14 +496,20 @@
   <data name="Icon (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Icon (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icon (62)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (62).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon (9)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Icon (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon (45)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon2\Icon (45).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon (63)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (63).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon (58)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (58).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Icon (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -493,6 +523,9 @@
   <data name="Icon (14)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Icon (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icon (55)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (55).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Text (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -501,6 +534,12 @@
   </data>
   <data name="Text (30)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (30).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="golden-shopping-cart-white-glitter-close-up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\golden-shopping-cart-white-glitter-close-up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon (61)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (61).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon (41)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Icon (41).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -514,17 +553,14 @@
   <data name="Icon (51)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon2\Icon (51).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon2\Icon (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="rx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\rx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Text (36)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (36).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\Icon (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon (13)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Icon (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -556,7 +592,7 @@
   <data name="Text (39)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Text (39).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon (54)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon2\Icon (54).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon (64)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon2\Icon (64).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
