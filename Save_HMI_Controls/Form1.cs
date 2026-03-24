@@ -5,6 +5,7 @@ namespace Save_HMI_Controls
         public Form1()
         {
             InitializeComponent();
+            this.AutoScaleMode = AutoScaleMode.None;
         }
     }
 }
