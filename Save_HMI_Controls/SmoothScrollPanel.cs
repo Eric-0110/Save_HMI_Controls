@@ -34,6 +34,28 @@ namespace Save_HMI_Controls
         [Category("LYH 外观")] public Color ScrollBarColor { get => _scrollBarColor; set { _scrollBarColor = value; Invalidate(); } }
         [Category("LYH 外观")] public int ScrollBarWidth { get => _scrollBarWidth; set { _scrollBarWidth = value; Invalidate(); } }
         [Category("LYH 外观")] public bool ShowCustomScrollbar { get => _showCustomScrollbar; set { _showCustomScrollbar = value; Invalidate(); } }
+        private Color _startBackColor = Color.White;
+        private Color _endBackColor = Color.FromArgb(240, 240, 240);
+        private LinearGradientMode _gradientMode = LinearGradientMode.Vertical;
+        private bool _useGradient = false;
+
+        [Category("LYH 外观")]
+        [Description("是否启用背景渐变")]
+        public bool UseGradient { get => _useGradient; set { _useGradient = value; Invalidate(); } }
+
+        [Category("LYH 外观")]
+        [Description("渐变起始颜色")]
+        public Color StartBackColor { get => _startBackColor; set { _startBackColor = value; Invalidate(); } }
+
+        [Category("LYH 外观")]
+        [Description("渐变结束颜色")]
+        public Color EndBackColor { get => _endBackColor; set { _endBackColor = value; Invalidate(); } }
+
+        [Category("LYH 外观")]
+        [Description("渐变方向")]
+        public LinearGradientMode GradientMode { get => _gradientMode; set { _gradientMode = value; Invalidate(); } }
+
+
 
         [Category("LYH 布局")]
         [Description("滚动到底部时额外的留白高度")]
@@ -219,8 +241,17 @@ namespace Save_HMI_Controls
                         using (TextureBrush tb = new TextureBrush(this.BackgroundImage))
                             g.FillPath(tb, path);
                 }
+                else if (_useGradient)
+                {
+                    // 绘制渐变背景
+                    using (LinearGradientBrush lgb = new LinearGradientBrush(rect, _startBackColor, _endBackColor, _gradientMode))
+                    {
+                        g.FillPath(lgb, path);
+                    }
+                }
                 else
                 {
+                    // 绘制纯色背景
                     using (SolidBrush sb = new SolidBrush(this.BackColor))
                         g.FillPath(sb, path);
                 }
