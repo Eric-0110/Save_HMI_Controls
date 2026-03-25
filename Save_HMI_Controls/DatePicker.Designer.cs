@@ -31,6 +31,10 @@
             components = new System.ComponentModel.Container();
             smoothScrollPanel1 = new SmoothScrollPanel();
             smoothScrollPanel2 = new SmoothScrollPanel();
+            normalDatePicker19 = new LYHControls.NormalDatePicker();
+            label26 = new Label();
+            normalDatePicker18 = new LYHControls.NormalDatePicker();
+            label25 = new Label();
             normalDatePicker17 = new LYHControls.NormalDatePicker();
             label24 = new Label();
             smoothScrollPanel3 = new LYHControls.SmoothScrollPanel();
@@ -77,10 +81,6 @@
             label14 = new Label();
             label11 = new Label();
             label2 = new Label();
-            normalDatePicker18 = new LYHControls.NormalDatePicker();
-            label25 = new Label();
-            normalDatePicker19 = new LYHControls.NormalDatePicker();
-            label26 = new Label();
             smoothScrollPanel1.SuspendLayout();
             smoothScrollPanel2.SuspendLayout();
             smoothScrollPanel3.SuspendLayout();
@@ -97,6 +97,8 @@
             smoothScrollPanel1.BorderWidth = 1;
             smoothScrollPanel1.BottomPadding = 50;
             smoothScrollPanel1.Controls.Add(smoothScrollPanel2);
+            smoothScrollPanel1.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel1.Location = new Point(0, 0);
             smoothScrollPanel1.Name = "smoothScrollPanel1";
             smoothScrollPanel1.Padding = new Padding(1);
@@ -104,7 +106,9 @@
             smoothScrollPanel1.ScrollBarWidth = 6;
             smoothScrollPanel1.ShowCustomScrollbar = true;
             smoothScrollPanel1.Size = new Size(1700, 990);
+            smoothScrollPanel1.StartBackColor = Color.White;
             smoothScrollPanel1.TabIndex = 9;
+            smoothScrollPanel1.UseGradient = false;
             // 
             // smoothScrollPanel2
             // 
@@ -157,6 +161,8 @@
             smoothScrollPanel2.Controls.Add(label13);
             smoothScrollPanel2.Controls.Add(label1);
             smoothScrollPanel2.Controls.Add(panel1);
+            smoothScrollPanel2.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel2.Location = new Point(34, 24);
             smoothScrollPanel2.Name = "smoothScrollPanel2";
             smoothScrollPanel2.Padding = new Padding(1);
@@ -164,7 +170,85 @@
             smoothScrollPanel2.ScrollBarWidth = 6;
             smoothScrollPanel2.ShowCustomScrollbar = true;
             smoothScrollPanel2.Size = new Size(1631, 1083);
+            smoothScrollPanel2.StartBackColor = Color.White;
             smoothScrollPanel2.TabIndex = 1;
+            smoothScrollPanel2.UseGradient = false;
+            // 
+            // normalDatePicker19
+            // 
+            normalDatePicker19.BackColor = Color.White;
+            normalDatePicker19.BorderColor = Color.FromArgb(217, 217, 217);
+            normalDatePicker19.FillColor = Color.FromArgb(6, 182, 212);
+            normalDatePicker19.FocusBorderColor = Color.FromArgb(6, 182, 212);
+            normalDatePicker19.Font = new Font("微软雅黑", 9F);
+            normalDatePicker19.ForeColor = Color.White;
+            normalDatePicker19.IconColor = Color.White;
+            normalDatePicker19.IconImage = null;
+            normalDatePicker19.IconOffset = new Point(0, 0);
+            normalDatePicker19.Location = new Point(1275, 632);
+            normalDatePicker19.Name = "normalDatePicker19";
+            normalDatePicker19.PopupBackColor = Color.White;
+            normalDatePicker19.PopupDayTextColor = Color.FromArgb(64, 64, 64);
+            normalDatePicker19.PopupHeaderTextColor = Color.FromArgb(64, 64, 64);
+            normalDatePicker19.PopupHoverBgColor = Color.FromArgb(245, 245, 245);
+            normalDatePicker19.PopupOutMonthDayColor = Color.FromArgb(210, 210, 210);
+            normalDatePicker19.PopupRippleColor = Color.FromArgb(100, 200, 200, 200);
+            normalDatePicker19.PopupSeparatorColor = Color.FromArgb(220, 220, 220);
+            normalDatePicker19.PopupWeekTitleColor = Color.FromArgb(140, 140, 140);
+            normalDatePicker19.Size = new Size(200, 32);
+            normalDatePicker19.TabIndex = 134;
+            normalDatePicker19.Text = "  ";
+            normalDatePicker19.Value = new DateTime(2026, 3, 23, 15, 25, 23, 788);
+            normalDatePicker19.Variant = LYHControls.CascaderVariant.Filled;
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label26.ForeColor = Color.FromArgb(98, 116, 142);
+            label26.Location = new Point(1272, 591);
+            label26.Name = "label26";
+            label26.Size = new Size(65, 19);
+            label26.TabIndex = 133;
+            label26.Text = "青色主题";
+            // 
+            // normalDatePicker18
+            // 
+            normalDatePicker18.BackColor = Color.White;
+            normalDatePicker18.BorderColor = Color.FromArgb(217, 217, 217);
+            normalDatePicker18.FillColor = Color.FromArgb(16, 185, 129);
+            normalDatePicker18.FocusBorderColor = Color.FromArgb(16, 185, 129);
+            normalDatePicker18.Font = new Font("微软雅黑", 9F);
+            normalDatePicker18.ForeColor = Color.White;
+            normalDatePicker18.IconColor = Color.White;
+            normalDatePicker18.IconImage = null;
+            normalDatePicker18.IconOffset = new Point(0, 0);
+            normalDatePicker18.Location = new Point(853, 632);
+            normalDatePicker18.Name = "normalDatePicker18";
+            normalDatePicker18.PopupBackColor = Color.White;
+            normalDatePicker18.PopupDayTextColor = Color.FromArgb(64, 64, 64);
+            normalDatePicker18.PopupHeaderTextColor = Color.FromArgb(64, 64, 64);
+            normalDatePicker18.PopupHoverBgColor = Color.FromArgb(245, 245, 245);
+            normalDatePicker18.PopupOutMonthDayColor = Color.FromArgb(210, 210, 210);
+            normalDatePicker18.PopupRippleColor = Color.FromArgb(100, 200, 200, 200);
+            normalDatePicker18.PopupSeparatorColor = Color.FromArgb(220, 220, 220);
+            normalDatePicker18.PopupWeekTitleColor = Color.FromArgb(140, 140, 140);
+            normalDatePicker18.Size = new Size(200, 32);
+            normalDatePicker18.TabIndex = 132;
+            normalDatePicker18.Text = "  ";
+            normalDatePicker18.Value = new DateTime(2026, 3, 23, 15, 25, 23, 788);
+            normalDatePicker18.Variant = LYHControls.CascaderVariant.Filled;
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label25.ForeColor = Color.FromArgb(98, 116, 142);
+            label25.Location = new Point(850, 591);
+            label25.Name = "label25";
+            label25.Size = new Size(65, 19);
+            label25.TabIndex = 131;
+            label25.Text = "绿色主题";
             // 
             // normalDatePicker17
             // 
@@ -207,15 +291,19 @@
             // smoothScrollPanel3
             // 
             smoothScrollPanel3.AutoScroll = true;
+            smoothScrollPanel3.AutoScrollMinSize = new Size(0, 268);
             smoothScrollPanel3.BackColor = Color.FromArgb(250, 245, 255);
             smoothScrollPanel3.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel3.BorderRadius = 10;
             smoothScrollPanel3.BorderWidth = 0;
+            smoothScrollPanel3.BottomPadding = 0;
             smoothScrollPanel3.Controls.Add(multi_funcButton1);
             smoothScrollPanel3.Controls.Add(normalDatePicker16);
             smoothScrollPanel3.Controls.Add(label23);
             smoothScrollPanel3.Controls.Add(normalDatePicker15);
             smoothScrollPanel3.Controls.Add(label27);
+            smoothScrollPanel3.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel3.Location = new Point(38, 755);
             smoothScrollPanel3.Name = "smoothScrollPanel3";
             smoothScrollPanel3.Padding = new Padding(1);
@@ -223,7 +311,9 @@
             smoothScrollPanel3.ScrollBarWidth = 6;
             smoothScrollPanel3.ShowCustomScrollbar = true;
             smoothScrollPanel3.Size = new Size(659, 284);
+            smoothScrollPanel3.StartBackColor = Color.White;
             smoothScrollPanel3.TabIndex = 128;
+            smoothScrollPanel3.UseGradient = false;
             // 
             // multi_funcButton1
             // 
@@ -946,82 +1036,6 @@
             label2.Size = new Size(1628, 2);
             label2.TabIndex = 3;
             label2.Text = "label2";
-            // 
-            // normalDatePicker18
-            // 
-            normalDatePicker18.BackColor = Color.White;
-            normalDatePicker18.BorderColor = Color.FromArgb(217, 217, 217);
-            normalDatePicker18.FillColor = Color.FromArgb(16, 185, 129);
-            normalDatePicker18.FocusBorderColor = Color.FromArgb(16, 185, 129);
-            normalDatePicker18.Font = new Font("微软雅黑", 9F);
-            normalDatePicker18.ForeColor = Color.White;
-            normalDatePicker18.IconColor = Color.White;
-            normalDatePicker18.IconImage = null;
-            normalDatePicker18.IconOffset = new Point(0, 0);
-            normalDatePicker18.Location = new Point(853, 632);
-            normalDatePicker18.Name = "normalDatePicker18";
-            normalDatePicker18.PopupBackColor = Color.White;
-            normalDatePicker18.PopupDayTextColor = Color.FromArgb(64, 64, 64);
-            normalDatePicker18.PopupHeaderTextColor = Color.FromArgb(64, 64, 64);
-            normalDatePicker18.PopupHoverBgColor = Color.FromArgb(245, 245, 245);
-            normalDatePicker18.PopupOutMonthDayColor = Color.FromArgb(210, 210, 210);
-            normalDatePicker18.PopupRippleColor = Color.FromArgb(100, 200, 200, 200);
-            normalDatePicker18.PopupSeparatorColor = Color.FromArgb(220, 220, 220);
-            normalDatePicker18.PopupWeekTitleColor = Color.FromArgb(140, 140, 140);
-            normalDatePicker18.Size = new Size(200, 32);
-            normalDatePicker18.TabIndex = 132;
-            normalDatePicker18.Text = "  ";
-            normalDatePicker18.Value = new DateTime(2026, 3, 23, 15, 25, 23, 788);
-            normalDatePicker18.Variant = LYHControls.CascaderVariant.Filled;
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label25.ForeColor = Color.FromArgb(98, 116, 142);
-            label25.Location = new Point(850, 591);
-            label25.Name = "label25";
-            label25.Size = new Size(65, 19);
-            label25.TabIndex = 131;
-            label25.Text = "绿色主题";
-            // 
-            // normalDatePicker19
-            // 
-            normalDatePicker19.BackColor = Color.White;
-            normalDatePicker19.BorderColor = Color.FromArgb(217, 217, 217);
-            normalDatePicker19.FillColor = Color.FromArgb(6, 182, 212);
-            normalDatePicker19.FocusBorderColor = Color.FromArgb(6, 182, 212);
-            normalDatePicker19.Font = new Font("微软雅黑", 9F);
-            normalDatePicker19.ForeColor = Color.White;
-            normalDatePicker19.IconColor = Color.White;
-            normalDatePicker19.IconImage = null;
-            normalDatePicker19.IconOffset = new Point(0, 0);
-            normalDatePicker19.Location = new Point(1275, 632);
-            normalDatePicker19.Name = "normalDatePicker19";
-            normalDatePicker19.PopupBackColor = Color.White;
-            normalDatePicker19.PopupDayTextColor = Color.FromArgb(64, 64, 64);
-            normalDatePicker19.PopupHeaderTextColor = Color.FromArgb(64, 64, 64);
-            normalDatePicker19.PopupHoverBgColor = Color.FromArgb(245, 245, 245);
-            normalDatePicker19.PopupOutMonthDayColor = Color.FromArgb(210, 210, 210);
-            normalDatePicker19.PopupRippleColor = Color.FromArgb(100, 200, 200, 200);
-            normalDatePicker19.PopupSeparatorColor = Color.FromArgb(220, 220, 220);
-            normalDatePicker19.PopupWeekTitleColor = Color.FromArgb(140, 140, 140);
-            normalDatePicker19.Size = new Size(200, 32);
-            normalDatePicker19.TabIndex = 134;
-            normalDatePicker19.Text = "  ";
-            normalDatePicker19.Value = new DateTime(2026, 3, 23, 15, 25, 23, 788);
-            normalDatePicker19.Variant = LYHControls.CascaderVariant.Filled;
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label26.ForeColor = Color.FromArgb(98, 116, 142);
-            label26.Location = new Point(1272, 591);
-            label26.Name = "label26";
-            label26.Size = new Size(65, 19);
-            label26.TabIndex = 133;
-            label26.Text = "青色主题";
             // 
             // DatePicker
             // 
