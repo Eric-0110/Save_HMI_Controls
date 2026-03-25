@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace Save_HMI_Controls
 {
     [ToolboxItem(true)]
-    [Description("LYH 终极滚动面板：支持底部留白、滚轮联动、抗锯齿圆角、自动隐藏滚动条")]
+    [Description("LYH终极滚动面板：支持底部留白、滚轮联动、抗锯齿圆角、自动隐藏滚动条")]
     public partial class SmoothScrollPanel : Panel
     {
         #region --- 字段与属性 ---
@@ -15,45 +15,49 @@ namespace Save_HMI_Controls
         private int _startScrollVal;
         private bool _isMouseDown = false;
 
-        private int _borderRadius = 10;
-        private int _borderWidth = 1;
-        private Color _borderColor = Color.FromArgb(200, 200, 200);
-        private Color _scrollBarColor = Color.FromArgb(120, 0, 0, 0);
-        private int _scrollBarWidth = 6;
+        private int _borderRadius =10;
+        private int _borderWidth =1;
+        private Color _borderColor = Color.FromArgb(200,200,200);
+        private Color _scrollBarColor = Color.FromArgb(120,0,0,0);
+        private int _scrollBarWidth =6;
         private bool _showCustomScrollbar = true;
 
-        private int _bottomPadding = 50; // 默认留白 50 像素
+        private int _bottomPadding =50; // 默认留白50 像素
 
         private System.Windows.Forms.Timer _fadeTimer;
-        private float _scrollBarOpacity = 0f;
+        private float _scrollBarOpacity =0f;
         private bool _isMouseIn = false;
 
-        [Category("LYH 外观")] public int BorderRadius { get => _borderRadius; set { _borderRadius = value; Invalidate(); } }
-        [Category("LYH 外观")] public Color BorderColor { get => _borderColor; set { _borderColor = value; Invalidate(); } }
-        [Category("LYH 外观")] public int BorderWidth { get => _borderWidth; set { _borderWidth = value; Invalidate(); } }
-        [Category("LYH 外观")] public Color ScrollBarColor { get => _scrollBarColor; set { _scrollBarColor = value; Invalidate(); } }
-        [Category("LYH 外观")] public int ScrollBarWidth { get => _scrollBarWidth; set { _scrollBarWidth = value; Invalidate(); } }
-        [Category("LYH 外观")] public bool ShowCustomScrollbar { get => _showCustomScrollbar; set { _showCustomScrollbar = value; Invalidate(); } }
+        // 新增：节流 Invalidate，避免高频重绘
+        private readonly int _invalidateThrottleMs =30; //约33ms -> ~30 FPS
+        private DateTime _lastInvalidate = DateTime.MinValue;
+
+        [Category("LYH 外观")] public int BorderRadius { get => _borderRadius; set { _borderRadius = value; ThrottledInvalidate(); } }
+        [Category("LYH 外观")] public Color BorderColor { get => _borderColor; set { _borderColor = value; ThrottledInvalidate(); } }
+        [Category("LYH 外观")] public int BorderWidth { get => _borderWidth; set { _borderWidth = value; ThrottledInvalidate(); } }
+        [Category("LYH 外观")] public Color ScrollBarColor { get => _scrollBarColor; set { _scrollBarColor = value; ThrottledInvalidate(); } }
+        [Category("LYH 外观")] public int ScrollBarWidth { get => _scrollBarWidth; set { _scrollBarWidth = value; ThrottledInvalidate(); } }
+        [Category("LYH 外观")] public bool ShowCustomScrollbar { get => _showCustomScrollbar; set { _showCustomScrollbar = value; ThrottledInvalidate(); } }
         private Color _startBackColor = Color.White;
-        private Color _endBackColor = Color.FromArgb(240, 240, 240);
+        private Color _endBackColor = Color.FromArgb(240,240,240);
         private LinearGradientMode _gradientMode = LinearGradientMode.Vertical;
         private bool _useGradient = false;
 
         [Category("LYH 外观")]
         [Description("是否启用背景渐变")]
-        public bool UseGradient { get => _useGradient; set { _useGradient = value; Invalidate(); } }
+        public bool UseGradient { get => _useGradient; set { _useGradient = value; ThrottledInvalidate(); } }
 
         [Category("LYH 外观")]
         [Description("渐变起始颜色")]
-        public Color StartBackColor { get => _startBackColor; set { _startBackColor = value; Invalidate(); } }
+        public Color StartBackColor { get => _startBackColor; set { _startBackColor = value; ThrottledInvalidate(); } }
 
         [Category("LYH 外观")]
         [Description("渐变结束颜色")]
-        public Color EndBackColor { get => _endBackColor; set { _endBackColor = value; Invalidate(); } }
+        public Color EndBackColor { get => _endBackColor; set { _endBackColor = value; ThrottledInvalidate(); } }
 
         [Category("LYH 外观")]
         [Description("渐变方向")]
-        public LinearGradientMode GradientMode { get => _gradientMode; set { _gradientMode = value; Invalidate(); } }
+        public LinearGradientMode GradientMode { get => _gradientMode; set { _gradientMode = value; ThrottledInvalidate(); } }
 
 
 
@@ -66,13 +70,13 @@ namespace Save_HMI_Controls
             {
                 _bottomPadding = value;
                 this.PerformLayout(); // 修改留白后强制重新布局
-                Invalidate();
+                ThrottledInvalidate();
             }
         }
 
-        public override Image BackgroundImage { get => base.BackgroundImage; set { base.BackgroundImage = value; Invalidate(); } }
+        public override Image BackgroundImage { get => base.BackgroundImage; set { base.BackgroundImage = value; ThrottledInvalidate(); } }
 
-        // 依然保留这个重写，作为基础布局参考
+        //依然保留这个重写，作为基础布局参考
         public override Rectangle DisplayRectangle
         {
             get
@@ -97,33 +101,43 @@ namespace Save_HMI_Controls
             this.BackColor = Color.White;
             this.Padding = new Padding(1);
 
-            _fadeTimer = new System.Windows.Forms.Timer { Interval = 20 };
-            _fadeTimer.Tick += (s, e) => {
-                float target = (_isMouseIn || _isMouseDown) ? 1.0f : 0.0f;
-                if (Math.Abs(_scrollBarOpacity - target) > 0.05f)
-                {
-                    _scrollBarOpacity += (target - _scrollBarOpacity) * 0.2f;
-                    Invalidate();
-                }
-                else if (_scrollBarOpacity != target)
-                {
-                    _scrollBarOpacity = target;
-                    if (_scrollBarOpacity == 0) _fadeTimer.Stop();
-                    Invalidate();
-                }
-            };
+            _fadeTimer = new System.Windows.Forms.Timer { Interval =20 };
+            _fadeTimer.Tick += FadeTimer_Tick;
+        }
+
+        private void FadeTimer_Tick(object? sender, EventArgs e)
+        {
+            // 如果控件不可见或所属顶层不可见则停止计时器
+            if (!this.Visible || (this.Parent != null && !this.Parent.Visible))
+            {
+                _fadeTimer.Stop();
+                return;
+            }
+
+            float target = (_isMouseIn || _isMouseDown) ?1.0f :0.0f;
+            if (Math.Abs(_scrollBarOpacity - target) >0.05f)
+            {
+                _scrollBarOpacity += (target - _scrollBarOpacity) *0.2f;
+                ThrottledInvalidate();
+            }
+            else if (_scrollBarOpacity != target)
+            {
+                _scrollBarOpacity = target;
+                if (_scrollBarOpacity ==0) _fadeTimer.Stop();
+                ThrottledInvalidate();
+            }
         }
 
         #region --- 强制留白逻辑 ---
         /// <summary>
-        /// 关键：在布局时，手动告诉 AutoScroll 滚动范围需要多大
+        ///关键：在布局时，手动告诉 AutoScroll 滚动范围需要多大
         /// </summary>
         protected override void OnLayout(LayoutEventArgs levent)
         {
             base.OnLayout(levent);
-            if (this.AutoScroll && this.Controls.Count > 0)
+            if (this.AutoScroll && this.Controls.Count >0)
             {
-                int maxY = 0;
+                int maxY =0;
                 foreach (Control ctrl in this.Controls)
                 {
                     if (ctrl.Visible)
@@ -143,14 +157,14 @@ namespace Save_HMI_Controls
             if (!_fadeTimer.Enabled) _fadeTimer.Start();
             if (this.AutoScroll)
             {
-                // 解决 Windows 默认滚动和自定义逻辑冲突：直接让基类先跑，或者自己控制
+                //解决 Windows 默认滚动和自定义逻辑冲突：直接让基类先跑，或者自己控制
                 int scrollStep = e.Delta;
                 int oldVal = this.VerticalScroll.Value;
-                int newVal = oldVal - (scrollStep / 1); // 调整灵敏度
+                int newVal = oldVal - (scrollStep /1); // 调整灵敏度
                 newVal = Math.Max(this.VerticalScroll.Minimum, Math.Min(this.VerticalScroll.Maximum, newVal));
                 this.VerticalScroll.Value = newVal;
 
-                this.Invalidate();
+                ThrottledInvalidate();
             }
             base.OnMouseWheel(e);
         }
@@ -176,7 +190,7 @@ namespace Save_HMI_Controls
                 int targetVal = _startScrollVal + deltaY;
                 targetVal = Math.Max(this.VerticalScroll.Minimum, Math.Min(this.VerticalScroll.Maximum, targetVal));
                 this.VerticalScroll.Value = targetVal;
-                Invalidate();
+                ThrottledInvalidate();
             }
             base.OnMouseMove(e);
         }
@@ -209,7 +223,7 @@ namespace Save_HMI_Controls
         {
             base.OnScroll(se);
             if (!_fadeTimer.Enabled) _fadeTimer.Start();
-            Invalidate();
+            ThrottledInvalidate();
         }
         #endregion
 
@@ -221,7 +235,7 @@ namespace Save_HMI_Controls
             g.InterpolationMode = InterpolationMode.HighQualityBicubic;
             g.PixelOffsetMode = PixelOffsetMode.HighQuality;
 
-            Rectangle rect = new Rectangle(0, 0, this.Width - 1, this.Height - 1);
+            Rectangle rect = new Rectangle(0,0, this.Width -1, this.Height -1);
 
             using (GraphicsPath path = GetRoundedRectPath(rect, _borderRadius))
             {
@@ -256,16 +270,16 @@ namespace Save_HMI_Controls
                         g.FillPath(sb, path);
                 }
 
-                if (_showCustomScrollbar && this.VerticalScroll.Visible && _scrollBarOpacity > 0)
+                if (_showCustomScrollbar && this.VerticalScroll.Visible && _scrollBarOpacity >0)
                 {
                     DrawCustomVerticalScrollbar(g);
                 }
 
                 g.ResetClip();
-                if (_borderWidth > 0)
+                if (_borderWidth >0)
                 {
-                    float offset = _borderWidth / 2f;
-                    RectangleF borderRect = new RectangleF(offset, offset, this.Width - _borderWidth - 1, this.Height - _borderWidth - 1);
+                    float offset = _borderWidth /2f;
+                    RectangleF borderRect = new RectangleF(offset, offset, this.Width - _borderWidth -1, this.Height - _borderWidth -1);
                     using (GraphicsPath borderPath = GetRoundedRectPath(borderRect, _borderRadius))
                     using (Pen pen = new Pen(_borderColor, _borderWidth))
                     {
@@ -278,7 +292,7 @@ namespace Save_HMI_Controls
         private void DrawCustomVerticalScrollbar(Graphics g)
         {
             float viewHeight = this.Height;
-            // 关键：使用 AutoScrollMinSize.Height 作为内容高度，确保留白被计算进去
+            //关键：使用 AutoScrollMinSize.Height作为内容高度，确保留白被计算进去
             float totalHeight = this.AutoScrollMinSize.Height;
             if (totalHeight <= viewHeight) return;
 
@@ -290,15 +304,15 @@ namespace Save_HMI_Controls
             Color animatedColor = Color.FromArgb(alpha, _scrollBarColor.R, _scrollBarColor.G, _scrollBarColor.B);
 
             RectangleF thumbRect = new RectangleF(
-                this.Width - _scrollBarWidth - 5,
-                thumbY + 5,
+                this.Width - _scrollBarWidth -5,
+                thumbY +5,
                 _scrollBarWidth,
-                thumbHeight - 10
+                thumbHeight -10
             );
 
             using (SolidBrush sb = new SolidBrush(animatedColor))
             {
-                SmoothScrollGraphicsExtensions.FillSmoothRoundedRect(g, sb, thumbRect, _scrollBarWidth / 2f);
+                SmoothScrollGraphicsExtensions.FillSmoothRoundedRect(g, sb, thumbRect, _scrollBarWidth /2f);
             }
         }
         #endregion
@@ -306,15 +320,67 @@ namespace Save_HMI_Controls
         private GraphicsPath GetRoundedRectPath(RectangleF rect, float radius)
         {
             GraphicsPath path = new GraphicsPath();
-            float diameter = Math.Max(1, radius * 2);
-            if (radius <= 0) { path.AddRectangle(rect); return path; }
+            float diameter = Math.Max(1, radius *2);
+            if (radius <=0) { path.AddRectangle(rect); return path; }
 
-            path.AddArc(rect.X, rect.Y, diameter, diameter, 180, 90);
-            path.AddArc(rect.Right - diameter, rect.Y, diameter, diameter, 270, 90);
-            path.AddArc(rect.Right - diameter, rect.Bottom - diameter, diameter, diameter, 0, 90);
-            path.AddArc(rect.X, rect.Bottom - diameter, diameter, diameter, 90, 90);
+            path.AddArc(rect.X, rect.Y, diameter, diameter,180,90);
+            path.AddArc(rect.Right - diameter, rect.Y, diameter, diameter,270,90);
+            path.AddArc(rect.Right - diameter, rect.Bottom - diameter, diameter, diameter,0,90);
+            path.AddArc(rect.X, rect.Bottom - diameter, diameter, diameter,90,90);
             path.CloseFigure();
             return path;
+        }
+
+        // 新增：节流 Invalidate 的方法
+        private void ThrottledInvalidate()
+        {
+            try
+            {
+                if (!this.Visible) return; // 不在可见时不触发重绘
+
+                var now = DateTime.UtcNow;
+                if ((now - _lastInvalidate).TotalMilliseconds >= _invalidateThrottleMs)
+                {
+                    _lastInvalidate = now;
+                    Invalidate();
+                }
+            }
+            catch
+            {
+                // 忽略可能的跨线程或已销毁异常
+            }
+        }
+
+        protected override void OnVisibleChanged(EventArgs e)
+        {
+            base.OnVisibleChanged(e);
+            // 当不可见时停止 fade timer
+            try
+            {
+                if (!this.Visible)
+                {
+                    if (_fadeTimer != null && _fadeTimer.Enabled) _fadeTimer.Stop();
+                }
+            }
+            catch { }
+        }
+
+        protected override void OnHandleDestroyed(EventArgs e)
+        {
+            // 清理 timer
+            try
+            {
+                if (_fadeTimer != null)
+                {
+                    _fadeTimer.Stop();
+                    _fadeTimer.Tick -= FadeTimer_Tick;
+                    _fadeTimer.Dispose();
+                    _fadeTimer = null;
+                }
+            }
+            catch { }
+
+            base.OnHandleDestroyed(e);
         }
     }
 
@@ -324,11 +390,11 @@ namespace Save_HMI_Controls
         {
             using (GraphicsPath path = new GraphicsPath())
             {
-                float d = Math.Max(1, radius * 2);
-                path.AddArc(rect.X, rect.Y, d, d, 180, 90);
-                path.AddArc(rect.Right - d, rect.Y, d, d, 270, 90);
-                path.AddArc(rect.Right - d, rect.Bottom - d, d, d, 0, 90);
-                path.AddArc(rect.X, rect.Bottom - d, d, d, 90, 90);
+                float d = Math.Max(1, radius *2);
+                path.AddArc(rect.X, rect.Y, d, d,180,90);
+                path.AddArc(rect.Right - d, rect.Y, d, d,270,90);
+                path.AddArc(rect.Right - d, rect.Bottom - d, d, d,0,90);
+                path.AddArc(rect.X, rect.Bottom - d, d, d,90,90);
                 path.CloseFigure();
                 g.FillPath(brush, path);
             }

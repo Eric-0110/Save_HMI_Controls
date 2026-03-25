@@ -206,8 +206,8 @@
             smoothScrollPanel17.AutoScroll = true;
             smoothScrollPanel17.AutoScrollMinSize = new Size(0, 120);
             smoothScrollPanel17.BackColor = Color.FromArgb(2, 47, 46);
-            smoothScrollPanel17.BorderColor = Color.FromArgb(200, 200, 200);
-            smoothScrollPanel17.BorderRadius = 10;
+            smoothScrollPanel17.BorderColor = Color.FromArgb(16, 24, 40);
+            smoothScrollPanel17.BorderRadius = 0;
             smoothScrollPanel17.BorderWidth = 1;
             smoothScrollPanel17.BottomPadding = 0;
             smoothScrollPanel17.Controls.Add(label22);

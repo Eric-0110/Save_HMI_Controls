@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LYHControls" Version="1.3.5" />
+    <PackageReference Include="LYHControls" Version="1.4.4" />
   </ItemGroup>
 
   <ItemGroup>

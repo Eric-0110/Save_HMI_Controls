@@ -13,58 +13,108 @@ namespace Save_HMI_Controls
 {
     public partial class CircularGauge : UserControl
     {
+        // 缓存：避免每次 Tick 都做 Controls.Find 和多次反射查询
+        private List<(Control Gauge, PropertyInfo ValueProp)> _gaugeCache = new List<(Control, PropertyInfo)>();
+        private Random _random = new Random();
+
         public CircularGauge()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
+
+            // 在组件初始化后缓存子控件和它们的 Value 属性信息
+            InitializeGaugeCache();
         }
 
-        private Random _random = new Random();
+        private void InitializeGaugeCache()
+        {
+            _gaugeCache.Clear();
+
+            // designer 中已有 circularGauge1..16 字段，直接使用反射获取 Value 属性并缓存
+            for (int i = 1; i <= 16; i++)
+            {
+                string name = "circularGauge" + i;
+
+                //通过字段或 Controls 集合查找控件（优先字段）
+                Control found = null;
+                try
+                {
+                    var field = this.GetType().GetField(name, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+                    if (field != null)
+                    {
+                        found = field.GetValue(this) as Control;
+                    }
+                }
+                catch
+                {
+                    // 忽略反射异常，后面尝试 Controls.Find
+                }
+
+                if (found == null)
+                {
+                    var arr = this.Controls.Find(name, true);
+                    if (arr != null && arr.Length > 0) found = arr[0];
+                }
+
+                if (found != null)
+                {
+                    var prop = found.GetType().GetProperty("Value", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                    if (prop != null)
+                    {
+                        _gaugeCache.Add((found, prop));
+                    }
+                }
+            }
+        }
+
+        private bool TryGetRandomForId(int id, out float value)
+        {
+            value = 0f;
+            switch (id)
+            {
+                case 1: value = _random.Next(85, 98); return true;   // 高位运行
+                case 3: value = _random.Next(5, 75); return true;    // 低位待机
+                case 4: value = (float)(_random.NextDouble() * 100); return true; // 全量程随机
+                case 5: value = _random.Next(45, 55); return true;   // 极小范围中心波动
+                case 6: value = _random.Next(60, 95); return true;   // 中高位
+                case 7: value = _random.Next(30, 70); return true;   // 中段波动
+                case 8: value = _random.Next(10, 50); return true;   // 低位波动
+                case 9: value = _random.Next(50, 100); return true;  // 中高位波动
+                case 12: value = _random.Next(10, 90); return true;   // 大范围随机
+                case 13: value = _random.Next(20, 80); return true;   // 中范围随机
+                case 14: value = _random.Next(0, 100); return true;    // 全范围随机
+                case 15: value = _random.Next(40, 60); return true;    // 中心小范围
+                case 16: value = _random.Next(70, 100); return true;   // 高位小范围
+                default: return false;
+            }
+        }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            // 遍历 1 到 9
-            for (int i = 1; i <= 16; i++)
+            // 遍历缓存，避免每次都通过 Controls.Find
+            foreach (var entry in _gaugeCache)
             {
-                // 1. 跳过 2 号仪表盘
-                if (i == 2) continue;
+                var gauge = entry.Gauge;
+                var prop = entry.ValueProp;
 
-                // 2. 根据 ID 分配不同的随机范围（实现“不要都是 15-100”）
-                float randomVal;
-                switch (i)
+                // 跳过已释放或不可见的控件，减少 UI线程开销
+                if (gauge == null || gauge.IsDisposed || gauge.Disposing) continue;
+                if (!gauge.Visible) continue;
+
+                // 从控件名解析 id，例如 "circularGauge3" ->3
+                int id = 0;
+                if (!int.TryParse(gauge.Name?.Replace("circularGauge", ""), out id)) continue;
+
+                if (!TryGetRandomForId(id, out float randomVal)) continue;
+
+                try
                 {
-                    case 1: randomVal = _random.Next(85, 98); break;   // 高位运行
-                    case 3: randomVal = _random.Next(5, 75); break;    // 低位待机
-                    case 4: randomVal = (float)(_random.NextDouble() * 100); break; // 全量程随机
-                    case 5: randomVal = _random.Next(45, 55); break;   // 极小范围中心波动
-                    case 6: randomVal = _random.Next(60, 95); break;   // 中高位
-                    case 7: randomVal = _random.Next(30, 70); break;   // 中段波动
-                    case 8: randomVal = _random.Next(10, 50); break;   // 低位波动
-                    case 9: randomVal = _random.Next(50, 100); break;  // 中高位波动
-                    case 12: randomVal = _random.Next(10, 90); break;   // 大范围随机
-                    case 13: randomVal = _random.Next(20, 80); break;   // 中范围随机
-                    case 14: randomVal = _random.Next(0, 100); break;    // 全范围随机
-                    case 15: randomVal = _random.Next(40, 60); break;    // 中心小范围
-                    case 16: randomVal = _random.Next(70, 100); break;   // 高位小范围
-                    default: continue; // 默认范围
+                    //仅在属性存在且控件仍然有效时设置值
+                    prop.SetValue(gauge, randomVal, null);
                 }
-
-                // 3. 动态寻找控件名 (例如 "circularGauge1")
-                Control[] found = this.Controls.Find("circularGauge" + i, true);
-
-                if (found.Length > 0)
+                catch
                 {
-                    var gauge = found[0];
-
-                    // 4. 【核心】使用反射强行写入 private 的 Value 属性
-                    // 这样你就不需要去改 CircularGauge.cs 里的代码了
-                    PropertyInfo prop = gauge.GetType().GetProperty("Value",
-                        BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-
-                    if (prop != null)
-                    {
-                        // 强行把随机值塞进去
-                        prop.SetValue(gauge, randomVal, null);
-                    }
+                    // 忽略设置过程中可能发生的异常（控件正在被销毁/反射失败等）
                 }
             }
         }
@@ -89,6 +139,55 @@ namespace Save_HMI_Controls
             {
                 circularGauge12.DescriptionText = "正常";
             }
+        }
+
+        protected override void OnVisibleChanged(EventArgs e)
+        {
+            base.OnVisibleChanged(e);
+
+            // 页面切换时停止或启动 timer，防止在不可见时继续触发导致切换卡顿或访问已销毁控件
+            try
+            {
+                if (timer1 != null)
+                {
+                    if (this.Visible)
+                    {
+                        timer1.Enabled = true;
+                        timer1.Start();
+                    }
+                    else
+                    {
+                        timer1.Stop();
+                        timer1.Enabled = false;
+                    }
+                }
+            }
+            catch
+            {
+                // 忽略异常
+            }
+        }
+
+        protected override void OnHandleDestroyed(EventArgs e)
+        {
+            //先停止 timer，避免在控件销毁过程中被 Tick访问
+            try
+            {
+                if (timer1 != null)
+                {
+                    timer1.Stop();
+                    timer1.Enabled = false;
+                }
+            }
+            catch
+            {
+                // 忽略
+            }
+
+            // 清理缓存，释放对子控件的引用，避免野指针
+            _gaugeCache.Clear();
+
+            base.OnHandleDestroyed(e);
         }
     }
 }
