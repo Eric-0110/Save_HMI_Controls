@@ -35,18 +35,30 @@ namespace Save_HMI_Controls
             smoothProgressBar2.Value = 1000;
         }
 
+        private static readonly Random _timer1Rng = new Random();
+
         private void timer1_Tick(object sender, EventArgs e)
         {
-            smoothProgressBar3.SetRandomValue();
-            smoothProgressBar4.SetRandomValue();
-            smoothProgressBar5.SetRandomValue();
-            smoothProgressBar6.SetRandomValue();
-            smoothProgressBar7.SetRandomValue();
-            smoothProgressBar8.SetRandomValue();
-            smoothProgressBar9.SetRandomValue();
-            smoothProgressBar10.SetRandomValue();
-            smoothProgressBar11.SetRandomValue();
-            smoothProgressBar12.SetRandomValue();
+            // 同样定义一个随机更新函数：p 为触发概率 (0.0 到 1.0)
+            void ShuffleUpdate(LYHControls.SmoothProgressBar bar, double p)
+            {
+                if (_timer1Rng.NextDouble() < p) bar.SetRandomValue();
+            }
+
+            // --- 顺序完全错位，模拟不同轴的负载波动 ---
+
+            ShuffleUpdate(smoothProgressBar7, 0.75);  // 高频波动
+            ShuffleUpdate(smoothProgressBar3, 0.40);  // 中低频
+            ShuffleUpdate(smoothProgressBar11, 0.65);
+
+            ShuffleUpdate(smoothProgressBar5, 0.20);  // 极低频（模拟慢速变化的参数）
+            ShuffleUpdate(smoothProgressBar9, 0.85);  // 极高频（模拟主切削力）
+            ShuffleUpdate(smoothProgressBar4, 0.55);
+
+            ShuffleUpdate(smoothProgressBar12, 0.35);
+            ShuffleUpdate(smoothProgressBar6, 0.70);
+            ShuffleUpdate(smoothProgressBar10, 0.45);
+            ShuffleUpdate(smoothProgressBar8, 0.60);
         }
     }
 }

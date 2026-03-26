@@ -19,29 +19,41 @@ namespace Save_HMI_Controls
 
         }
 
+        private static readonly Random _gaugeRng = new Random();
+
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //this.SuspendLayout();
-            gauge_ProgressBar5.SetRandomValue();
-            gauge_ProgressBar6.SetRandomValue();
-            gauge_ProgressBar7.SetRandomValue();
-            gauge_ProgressBar8.SetRandomValue();
-            gauge_ProgressBar9.SetRandomValue();
-            gauge_ProgressBar10.SetRandomValue();
-            gauge_ProgressBar11.SetRandomValue();
-            gauge_ProgressBar12.SetRandomValue();
-            gauge_ProgressBar13.SetRandomValue();
-            gauge_ProgressBar14.SetRandomValue();
-            gauge_ProgressBar15.SetRandomValue();
-            gauge_ProgressBar16.SetRandomValue();
-            gauge_ProgressBar17.SetRandomValue();
-            gauge_ProgressBar18.SetRandomValue();
-            gauge_ProgressBar19.SetRandomValue();
-            gauge_ProgressBar20.SetRandomValue();
-            gauge_ProgressBar21.SetRandomValue();
-            gauge_ProgressBar22.SetRandomValue();
-            gauge_ProgressBar23.SetRandomValue();
-            //this.ResumeLayout(false);
+            // 定义局部随机触发函数：p 为触发概率 (0.0 到 1.0)
+            void ShuffleGauge(LYHControls.Gauge_ProgressBar bar, double p)
+            {
+                if (_gaugeRng.NextDouble() < p) bar.SetRandomValue();
+            }
+
+            // --- 完全混编顺序，模拟多路传感器数据的不规则变动 ---
+
+            ShuffleGauge(gauge_ProgressBar15, 0.75);
+            ShuffleGauge(gauge_ProgressBar5, 0.30);
+            ShuffleGauge(gauge_ProgressBar22, 0.60);
+            ShuffleGauge(gauge_ProgressBar9, 0.45);
+
+            ShuffleGauge(gauge_ProgressBar18, 0.80); // 高频更新
+            ShuffleGauge(gauge_ProgressBar12, 0.25); // 低频更新
+            ShuffleGauge(gauge_ProgressBar6, 0.55);
+            ShuffleGauge(gauge_ProgressBar20, 0.40);
+
+            ShuffleGauge(gauge_ProgressBar10, 0.65);
+            ShuffleGauge(gauge_ProgressBar23, 0.35);
+            ShuffleGauge(gauge_ProgressBar7, 0.50);
+            ShuffleGauge(gauge_ProgressBar14, 0.70);
+
+            ShuffleGauge(gauge_ProgressBar19, 0.45);
+            ShuffleGauge(gauge_ProgressBar11, 0.55);
+            ShuffleGauge(gauge_ProgressBar16, 0.85); // 极高频
+            ShuffleGauge(gauge_ProgressBar8, 0.20);  // 极低频
+
+            ShuffleGauge(gauge_ProgressBar21, 0.50);
+            ShuffleGauge(gauge_ProgressBar13, 0.60);
+            ShuffleGauge(gauge_ProgressBar17, 0.40);
         }
 
         protected override void OnHandleDestroyed(EventArgs e)
