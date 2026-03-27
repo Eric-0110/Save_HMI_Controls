@@ -202,9 +202,9 @@
             smoothScrollPanel7.AutoScroll = true;
             smoothScrollPanel7.AutoScrollMinSize = new Size(0, 334);
             smoothScrollPanel7.BackColor = Color.White;
-            smoothScrollPanel7.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel7.BorderColor = Color.FromArgb(243, 232, 255);
             smoothScrollPanel7.BorderRadius = 10;
-            smoothScrollPanel7.BorderWidth = 0;
+            smoothScrollPanel7.BorderWidth = 2;
             smoothScrollPanel7.BottomPadding = 0;
             smoothScrollPanel7.Controls.Add(circularGauge16);
             smoothScrollPanel7.Controls.Add(label23);
@@ -287,9 +287,9 @@
             smoothScrollPanel6.AutoScroll = true;
             smoothScrollPanel6.AutoScrollMinSize = new Size(0, 334);
             smoothScrollPanel6.BackColor = Color.White;
-            smoothScrollPanel6.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel6.BorderColor = Color.FromArgb(243, 232, 255);
             smoothScrollPanel6.BorderRadius = 10;
-            smoothScrollPanel6.BorderWidth = 0;
+            smoothScrollPanel6.BorderWidth = 2;
             smoothScrollPanel6.BottomPadding = 0;
             smoothScrollPanel6.Controls.Add(circularGauge15);
             smoothScrollPanel6.Controls.Add(label21);
@@ -372,9 +372,9 @@
             smoothScrollPanel5.AutoScroll = true;
             smoothScrollPanel5.AutoScrollMinSize = new Size(0, 334);
             smoothScrollPanel5.BackColor = Color.White;
-            smoothScrollPanel5.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel5.BorderColor = Color.FromArgb(243, 232, 255);
             smoothScrollPanel5.BorderRadius = 10;
-            smoothScrollPanel5.BorderWidth = 0;
+            smoothScrollPanel5.BorderWidth = 2;
             smoothScrollPanel5.BottomPadding = 0;
             smoothScrollPanel5.Controls.Add(circularGauge13);
             smoothScrollPanel5.Controls.Add(label16);
@@ -457,9 +457,9 @@
             smoothScrollPanel4.AutoScroll = true;
             smoothScrollPanel4.AutoScrollMinSize = new Size(0, 334);
             smoothScrollPanel4.BackColor = Color.White;
-            smoothScrollPanel4.BorderColor = Color.FromArgb(200, 200, 200);
+            smoothScrollPanel4.BorderColor = Color.FromArgb(243, 232, 255);
             smoothScrollPanel4.BorderRadius = 10;
-            smoothScrollPanel4.BorderWidth = 0;
+            smoothScrollPanel4.BorderWidth = 2;
             smoothScrollPanel4.BottomPadding = 0;
             smoothScrollPanel4.Controls.Add(circularGauge14);
             smoothScrollPanel4.Controls.Add(label19);
@@ -1005,11 +1005,13 @@
             // 
             // multi_funcButton2
             // 
+            multi_funcButton2.ActiveBackColor = Color.Empty;
             multi_funcButton2.ActiveBackgroundImage = null;
             multi_funcButton2.ActiveTextColor = Color.Empty;
             multi_funcButton2.AutoCheckOnClick = true;
             multi_funcButton2.BackColor = Color.Transparent;
             multi_funcButton2.Checked = false;
+            multi_funcButton2.CheckedText = null;
             multi_funcButton2.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
             multi_funcButton2.CornerRadius = 6;
             multi_funcButton2.FillType = LYHControls.Multi_funcButton.ButtonFillType.Solid;
@@ -1033,11 +1035,13 @@
             // 
             // multi_funcButton1
             // 
+            multi_funcButton1.ActiveBackColor = Color.Empty;
             multi_funcButton1.ActiveBackgroundImage = null;
             multi_funcButton1.ActiveTextColor = Color.Empty;
             multi_funcButton1.AutoCheckOnClick = true;
             multi_funcButton1.BackColor = Color.Transparent;
             multi_funcButton1.Checked = false;
+            multi_funcButton1.CheckedText = null;
             multi_funcButton1.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
             multi_funcButton1.CornerRadius = 6;
             multi_funcButton1.FillType = LYHControls.Multi_funcButton.ButtonFillType.Solid;

@@ -21,5 +21,10 @@ namespace Save_HMI_Controls
                 return cp;
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

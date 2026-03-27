@@ -28,16 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            LYHControls.InputOption inputOption113 = new LYHControls.InputOption();
-            LYHControls.InputOption inputOption114 = new LYHControls.InputOption();
-            LYHControls.InputOption inputOption115 = new LYHControls.InputOption();
-            LYHControls.InputOption inputOption116 = new LYHControls.InputOption();
-            LYHControls.InputOption inputOption117 = new LYHControls.InputOption();
-            LYHControls.InputOption inputOption118 = new LYHControls.InputOption();
-            LYHControls.InputOption inputOption119 = new LYHControls.InputOption();
+            LYHControls.InputOption inputOption1 = new LYHControls.InputOption();
+            LYHControls.InputOption inputOption2 = new LYHControls.InputOption();
+            LYHControls.InputOption inputOption3 = new LYHControls.InputOption();
+            LYHControls.InputOption inputOption4 = new LYHControls.InputOption();
+            LYHControls.InputOption inputOption5 = new LYHControls.InputOption();
+            LYHControls.InputOption inputOption6 = new LYHControls.InputOption();
+            LYHControls.InputOption inputOption7 = new LYHControls.InputOption();
             smoothScrollPanel1 = new SmoothScrollPanel();
             smoothScrollPanel2 = new SmoothScrollPanel();
             smoothScrollPanel3 = new LYHControls.SmoothScrollPanel();
+            inputText19 = new LYHControls.InputText();
+            label17 = new Label();
+            inputText18 = new LYHControls.InputText();
+            label16 = new Label();
+            inputText17 = new LYHControls.InputText();
+            label12 = new Label();
             label9 = new Label();
             inputText16 = new LYHControls.InputText();
             label8 = new Label();
@@ -69,12 +75,6 @@
             label14 = new Label();
             label11 = new Label();
             label2 = new Label();
-            label12 = new Label();
-            inputText17 = new LYHControls.InputText();
-            inputText18 = new LYHControls.InputText();
-            label16 = new Label();
-            inputText19 = new LYHControls.InputText();
-            label17 = new Label();
             smoothScrollPanel1.SuspendLayout();
             smoothScrollPanel2.SuspendLayout();
             smoothScrollPanel3.SuspendLayout();
@@ -84,13 +84,15 @@
             // smoothScrollPanel1
             // 
             smoothScrollPanel1.AutoScroll = true;
-            smoothScrollPanel1.AutoScrollMinSize = new Size(0, 1040);
+            smoothScrollPanel1.AutoScrollMinSize = new Size(0, 1089);
             smoothScrollPanel1.BackColor = Color.White;
             smoothScrollPanel1.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel1.BorderRadius = 0;
             smoothScrollPanel1.BorderWidth = 1;
             smoothScrollPanel1.BottomPadding = 50;
             smoothScrollPanel1.Controls.Add(smoothScrollPanel2);
+            smoothScrollPanel1.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel1.Location = new Point(0, 0);
             smoothScrollPanel1.Name = "smoothScrollPanel1";
             smoothScrollPanel1.Padding = new Padding(1);
@@ -98,7 +100,9 @@
             smoothScrollPanel1.ScrollBarWidth = 6;
             smoothScrollPanel1.ShowCustomScrollbar = true;
             smoothScrollPanel1.Size = new Size(1700, 990);
+            smoothScrollPanel1.StartBackColor = Color.White;
             smoothScrollPanel1.TabIndex = 6;
+            smoothScrollPanel1.UseGradient = false;
             // 
             // smoothScrollPanel2
             // 
@@ -138,6 +142,8 @@
             smoothScrollPanel2.Controls.Add(inputText1);
             smoothScrollPanel2.Controls.Add(label1);
             smoothScrollPanel2.Controls.Add(panel1);
+            smoothScrollPanel2.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel2.Location = new Point(34, 24);
             smoothScrollPanel2.Name = "smoothScrollPanel2";
             smoothScrollPanel2.Padding = new Padding(1);
@@ -145,21 +151,27 @@
             smoothScrollPanel2.ScrollBarWidth = 6;
             smoothScrollPanel2.ShowCustomScrollbar = true;
             smoothScrollPanel2.Size = new Size(1631, 1015);
+            smoothScrollPanel2.StartBackColor = Color.White;
             smoothScrollPanel2.TabIndex = 1;
+            smoothScrollPanel2.UseGradient = false;
             // 
             // smoothScrollPanel3
             // 
             smoothScrollPanel3.AutoScroll = true;
-            smoothScrollPanel3.BackColor = Color.FromArgb(250, 250, 250);
+            smoothScrollPanel3.AutoScrollMinSize = new Size(0, 297);
+            smoothScrollPanel3.BackColor = Color.FromArgb(238, 242, 255);
             smoothScrollPanel3.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel3.BorderRadius = 10;
             smoothScrollPanel3.BorderWidth = 0;
+            smoothScrollPanel3.BottomPadding = 50;
             smoothScrollPanel3.Controls.Add(inputText19);
             smoothScrollPanel3.Controls.Add(label17);
             smoothScrollPanel3.Controls.Add(inputText18);
             smoothScrollPanel3.Controls.Add(label16);
             smoothScrollPanel3.Controls.Add(inputText17);
             smoothScrollPanel3.Controls.Add(label12);
+            smoothScrollPanel3.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel3.Location = new Point(41, 720);
             smoothScrollPanel3.Name = "smoothScrollPanel3";
             smoothScrollPanel3.Padding = new Padding(1);
@@ -167,7 +179,135 @@
             smoothScrollPanel3.ScrollBarWidth = 6;
             smoothScrollPanel3.ShowCustomScrollbar = true;
             smoothScrollPanel3.Size = new Size(448, 269);
+            smoothScrollPanel3.StartBackColor = Color.White;
             smoothScrollPanel3.TabIndex = 86;
+            smoothScrollPanel3.UseGradient = false;
+            // 
+            // inputText19
+            // 
+            inputText19.ActiveColor = Color.FromArgb(24, 144, 255);
+            inputText19.AutoComplete = false;
+            inputText19.BackColor = Color.WhiteSmoke;
+            inputText19.BorderRadius = 4;
+            inputText19.BorderWidth = 1F;
+            inputText19.ClearIcon = null;
+            inputText19.ClearIconColor = Color.FromArgb(140, 140, 140);
+            inputText19.ClearIconHoverColor = Color.FromArgb(64, 169, 255);
+            inputText19.ClearIconSize = 14;
+            inputText19.DefaultBorderColor = Color.FromArgb(217, 217, 217);
+            inputText19.DropDownBackColor = Color.FromArgb(242, 242, 242);
+            inputText19.DropDownHoverItemColor = Color.FromArgb(35, 24, 144, 255);
+            inputText19.DropDownSelectedItemBackColor = Color.FromArgb(24, 144, 255);
+            inputText19.DropDownSelectedItemTextColor = Color.White;
+            inputText19.DropDownTextColor = Color.FromArgb(38, 38, 38);
+            inputText19.FilledVariantBackColor = Color.FromArgb(245, 245, 245);
+            inputText19.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            inputText19.InputBackgroundImage = null;
+            inputText19.Location = new Point(22, 215);
+            inputText19.Name = "inputText19";
+            inputText19.PlaceholderColor = Color.FromArgb(191, 191, 191);
+            inputText19.PlaceholderText = "请输入邮箱地址";
+            inputText19.PrefixIcon = Properties.Resources.Icon__57_;
+            inputText19.PrefixIconColor = Color.FromArgb(140, 140, 140);
+            inputText19.PrefixIconSize = new Size(16, 16);
+            inputText19.Size = new Size(200, 32);
+            inputText19.TabIndex = 91;
+            inputText19.Variant = LYHControls.InputVariant.Underlined;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label17.ForeColor = Color.FromArgb(30, 41, 57);
+            label17.Location = new Point(22, 187);
+            label17.Name = "label17";
+            label17.Size = new Size(37, 19);
+            label17.TabIndex = 90;
+            label17.Text = "邮箱";
+            // 
+            // inputText18
+            // 
+            inputText18.ActiveColor = Color.FromArgb(24, 144, 255);
+            inputText18.AutoComplete = false;
+            inputText18.BackColor = Color.WhiteSmoke;
+            inputText18.BorderRadius = 4;
+            inputText18.BorderWidth = 1F;
+            inputText18.ClearIcon = null;
+            inputText18.ClearIconColor = Color.FromArgb(140, 140, 140);
+            inputText18.ClearIconHoverColor = Color.FromArgb(64, 169, 255);
+            inputText18.ClearIconSize = 14;
+            inputText18.DefaultBorderColor = Color.FromArgb(217, 217, 217);
+            inputText18.DropDownBackColor = Color.FromArgb(242, 242, 242);
+            inputText18.DropDownHoverItemColor = Color.FromArgb(35, 24, 144, 255);
+            inputText18.DropDownSelectedItemBackColor = Color.FromArgb(24, 144, 255);
+            inputText18.DropDownSelectedItemTextColor = Color.White;
+            inputText18.DropDownTextColor = Color.FromArgb(38, 38, 38);
+            inputText18.FilledVariantBackColor = Color.FromArgb(245, 245, 245);
+            inputText18.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            inputText18.InputBackgroundImage = null;
+            inputText18.Location = new Point(22, 134);
+            inputText18.Name = "inputText18";
+            inputText18.PlaceholderColor = Color.FromArgb(191, 191, 191);
+            inputText18.PlaceholderText = "请输入密码";
+            inputText18.PrefixIcon = Properties.Resources.Icon__56_;
+            inputText18.PrefixIconColor = Color.FromArgb(140, 140, 140);
+            inputText18.PrefixIconSize = new Size(16, 16);
+            inputText18.Size = new Size(200, 32);
+            inputText18.TabIndex = 89;
+            inputText18.Variant = LYHControls.InputVariant.Underlined;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label16.ForeColor = Color.FromArgb(30, 41, 57);
+            label16.Location = new Point(22, 106);
+            label16.Name = "label16";
+            label16.Size = new Size(37, 19);
+            label16.TabIndex = 88;
+            label16.Text = "密码";
+            // 
+            // inputText17
+            // 
+            inputText17.ActiveColor = Color.FromArgb(24, 144, 255);
+            inputText17.AutoComplete = false;
+            inputText17.BackColor = Color.WhiteSmoke;
+            inputText17.BorderRadius = 4;
+            inputText17.BorderWidth = 1F;
+            inputText17.ClearIcon = null;
+            inputText17.ClearIconColor = Color.FromArgb(140, 140, 140);
+            inputText17.ClearIconHoverColor = Color.FromArgb(64, 169, 255);
+            inputText17.ClearIconSize = 14;
+            inputText17.DefaultBorderColor = Color.FromArgb(217, 217, 217);
+            inputText17.DropDownBackColor = Color.FromArgb(242, 242, 242);
+            inputText17.DropDownHoverItemColor = Color.FromArgb(35, 24, 144, 255);
+            inputText17.DropDownSelectedItemBackColor = Color.FromArgb(24, 144, 255);
+            inputText17.DropDownSelectedItemTextColor = Color.White;
+            inputText17.DropDownTextColor = Color.FromArgb(38, 38, 38);
+            inputText17.FilledVariantBackColor = Color.FromArgb(245, 245, 245);
+            inputText17.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            inputText17.InputBackgroundImage = null;
+            inputText17.Location = new Point(22, 51);
+            inputText17.Name = "inputText17";
+            inputText17.PlaceholderColor = Color.FromArgb(191, 191, 191);
+            inputText17.PlaceholderText = "请输入用户名";
+            inputText17.PrefixIcon = Properties.Resources.Icon__55_;
+            inputText17.PrefixIconColor = Color.FromArgb(140, 140, 140);
+            inputText17.PrefixIconSize = new Size(16, 16);
+            inputText17.Size = new Size(200, 32);
+            inputText17.TabIndex = 87;
+            inputText17.Variant = LYHControls.InputVariant.Underlined;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label12.ForeColor = Color.FromArgb(30, 41, 57);
+            label12.Location = new Point(22, 23);
+            label12.Name = "label12";
+            label12.Size = new Size(51, 19);
+            label12.TabIndex = 86;
+            label12.Text = "用户名";
             // 
             // label9
             // 
@@ -306,15 +446,15 @@
             inputText13.InputBackgroundImage = null;
             inputText13.Location = new Point(436, 498);
             inputText13.Name = "inputText13";
-            inputOption113.Label = "教师";
-            inputOption113.Value = "";
-            inputOption114.Label = "学生";
-            inputOption114.Value = "";
-            inputOption115.Label = "职工";
-            inputOption115.Value = "";
-            inputText13.Options.Add(inputOption113);
-            inputText13.Options.Add(inputOption114);
-            inputText13.Options.Add(inputOption115);
+            inputOption1.Label = "教师";
+            inputOption1.Value = "";
+            inputOption2.Label = "学生";
+            inputOption2.Value = "";
+            inputOption3.Label = "职工";
+            inputOption3.Value = "";
+            inputText13.Options.Add(inputOption1);
+            inputText13.Options.Add(inputOption2);
+            inputText13.Options.Add(inputOption3);
             inputText13.PlaceholderColor = Color.FromArgb(191, 191, 191);
             inputText13.PlaceholderText = "请输入身份";
             inputText13.PrefixIcon = null;
@@ -357,18 +497,18 @@
             inputText9.InputBackgroundImage = null;
             inputText9.Location = new Point(41, 498);
             inputText9.Name = "inputText9";
-            inputOption116.Label = "北京";
-            inputOption116.Value = "1";
-            inputOption117.Label = "上海";
-            inputOption117.Value = "2";
-            inputOption118.Label = "北海";
-            inputOption118.Value = "3";
-            inputOption119.Label = "上饶";
-            inputOption119.Value = "4";
-            inputText9.Options.Add(inputOption116);
-            inputText9.Options.Add(inputOption117);
-            inputText9.Options.Add(inputOption118);
-            inputText9.Options.Add(inputOption119);
+            inputOption4.Label = "北京";
+            inputOption4.Value = "1";
+            inputOption5.Label = "上海";
+            inputOption5.Value = "2";
+            inputOption6.Label = "北海";
+            inputOption6.Value = "3";
+            inputOption7.Label = "上饶";
+            inputOption7.Value = "4";
+            inputText9.Options.Add(inputOption4);
+            inputText9.Options.Add(inputOption5);
+            inputText9.Options.Add(inputOption6);
+            inputText9.Options.Add(inputOption7);
             inputText9.PlaceholderColor = Color.FromArgb(191, 191, 191);
             inputText9.PlaceholderText = "输入城市名称（如：北京、上海）";
             inputText9.PrefixIcon = null;
@@ -846,132 +986,6 @@
             label2.Size = new Size(1628, 2);
             label2.TabIndex = 3;
             label2.Text = "label2";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
-            label12.ForeColor = Color.FromArgb(30, 41, 57);
-            label12.Location = new Point(22, 23);
-            label12.Name = "label12";
-            label12.Size = new Size(51, 19);
-            label12.TabIndex = 86;
-            label12.Text = "用户名";
-            // 
-            // inputText17
-            // 
-            inputText17.ActiveColor = Color.FromArgb(24, 144, 255);
-            inputText17.AutoComplete = false;
-            inputText17.BackColor = Color.WhiteSmoke;
-            inputText17.BorderRadius = 4;
-            inputText17.BorderWidth = 1F;
-            inputText17.ClearIcon = null;
-            inputText17.ClearIconColor = Color.FromArgb(140, 140, 140);
-            inputText17.ClearIconHoverColor = Color.FromArgb(64, 169, 255);
-            inputText17.ClearIconSize = 14;
-            inputText17.DefaultBorderColor = Color.FromArgb(217, 217, 217);
-            inputText17.DropDownBackColor = Color.FromArgb(242, 242, 242);
-            inputText17.DropDownHoverItemColor = Color.FromArgb(35, 24, 144, 255);
-            inputText17.DropDownSelectedItemBackColor = Color.FromArgb(24, 144, 255);
-            inputText17.DropDownSelectedItemTextColor = Color.White;
-            inputText17.DropDownTextColor = Color.FromArgb(38, 38, 38);
-            inputText17.FilledVariantBackColor = Color.FromArgb(245, 245, 245);
-            inputText17.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            inputText17.InputBackgroundImage = null;
-            inputText17.Location = new Point(22, 51);
-            inputText17.Name = "inputText17";
-            inputText17.PlaceholderColor = Color.FromArgb(191, 191, 191);
-            inputText17.PlaceholderText = "请输入用户名";
-            inputText17.PrefixIcon = Properties.Resources.Icon__55_;
-            inputText17.PrefixIconColor = Color.FromArgb(140, 140, 140);
-            inputText17.PrefixIconSize = new Size(16, 16);
-            inputText17.Size = new Size(200, 32);
-            inputText17.TabIndex = 87;
-            inputText17.Variant = LYHControls.InputVariant.Underlined;
-            // 
-            // inputText18
-            // 
-            inputText18.ActiveColor = Color.FromArgb(24, 144, 255);
-            inputText18.AutoComplete = false;
-            inputText18.BackColor = Color.WhiteSmoke;
-            inputText18.BorderRadius = 4;
-            inputText18.BorderWidth = 1F;
-            inputText18.ClearIcon = null;
-            inputText18.ClearIconColor = Color.FromArgb(140, 140, 140);
-            inputText18.ClearIconHoverColor = Color.FromArgb(64, 169, 255);
-            inputText18.ClearIconSize = 14;
-            inputText18.DefaultBorderColor = Color.FromArgb(217, 217, 217);
-            inputText18.DropDownBackColor = Color.FromArgb(242, 242, 242);
-            inputText18.DropDownHoverItemColor = Color.FromArgb(35, 24, 144, 255);
-            inputText18.DropDownSelectedItemBackColor = Color.FromArgb(24, 144, 255);
-            inputText18.DropDownSelectedItemTextColor = Color.White;
-            inputText18.DropDownTextColor = Color.FromArgb(38, 38, 38);
-            inputText18.FilledVariantBackColor = Color.FromArgb(245, 245, 245);
-            inputText18.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            inputText18.InputBackgroundImage = null;
-            inputText18.Location = new Point(22, 134);
-            inputText18.Name = "inputText18";
-            inputText18.PlaceholderColor = Color.FromArgb(191, 191, 191);
-            inputText18.PlaceholderText = "请输入密码";
-            inputText18.PrefixIcon = Properties.Resources.Icon__56_;
-            inputText18.PrefixIconColor = Color.FromArgb(140, 140, 140);
-            inputText18.PrefixIconSize = new Size(16, 16);
-            inputText18.Size = new Size(200, 32);
-            inputText18.TabIndex = 89;
-            inputText18.Variant = LYHControls.InputVariant.Underlined;
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
-            label16.ForeColor = Color.FromArgb(30, 41, 57);
-            label16.Location = new Point(22, 106);
-            label16.Name = "label16";
-            label16.Size = new Size(37, 19);
-            label16.TabIndex = 88;
-            label16.Text = "密码";
-            // 
-            // inputText19
-            // 
-            inputText19.ActiveColor = Color.FromArgb(24, 144, 255);
-            inputText19.AutoComplete = false;
-            inputText19.BackColor = Color.WhiteSmoke;
-            inputText19.BorderRadius = 4;
-            inputText19.BorderWidth = 1F;
-            inputText19.ClearIcon = null;
-            inputText19.ClearIconColor = Color.FromArgb(140, 140, 140);
-            inputText19.ClearIconHoverColor = Color.FromArgb(64, 169, 255);
-            inputText19.ClearIconSize = 14;
-            inputText19.DefaultBorderColor = Color.FromArgb(217, 217, 217);
-            inputText19.DropDownBackColor = Color.FromArgb(242, 242, 242);
-            inputText19.DropDownHoverItemColor = Color.FromArgb(35, 24, 144, 255);
-            inputText19.DropDownSelectedItemBackColor = Color.FromArgb(24, 144, 255);
-            inputText19.DropDownSelectedItemTextColor = Color.White;
-            inputText19.DropDownTextColor = Color.FromArgb(38, 38, 38);
-            inputText19.FilledVariantBackColor = Color.FromArgb(245, 245, 245);
-            inputText19.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            inputText19.InputBackgroundImage = null;
-            inputText19.Location = new Point(22, 215);
-            inputText19.Name = "inputText19";
-            inputText19.PlaceholderColor = Color.FromArgb(191, 191, 191);
-            inputText19.PlaceholderText = "请输入邮箱地址";
-            inputText19.PrefixIcon = Properties.Resources.Icon__57_;
-            inputText19.PrefixIconColor = Color.FromArgb(140, 140, 140);
-            inputText19.PrefixIconSize = new Size(16, 16);
-            inputText19.Size = new Size(200, 32);
-            inputText19.TabIndex = 91;
-            inputText19.Variant = LYHControls.InputVariant.Underlined;
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
-            label17.ForeColor = Color.FromArgb(30, 41, 57);
-            label17.Location = new Point(22, 187);
-            label17.Name = "label17";
-            label17.Size = new Size(37, 19);
-            label17.TabIndex = 90;
-            label17.Text = "邮箱";
             // 
             // InputText
             // 

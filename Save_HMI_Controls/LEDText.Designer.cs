@@ -208,7 +208,7 @@
             smoothScrollPanel17.BackColor = Color.FromArgb(2, 47, 46);
             smoothScrollPanel17.BorderColor = Color.FromArgb(16, 24, 40);
             smoothScrollPanel17.BorderRadius = 0;
-            smoothScrollPanel17.BorderWidth = 1;
+            smoothScrollPanel17.BorderWidth = 0;
             smoothScrollPanel17.BottomPadding = 0;
             smoothScrollPanel17.Controls.Add(label22);
             smoothScrollPanel17.Controls.Add(ledText14);
@@ -263,9 +263,9 @@
             smoothScrollPanel18.AutoScroll = true;
             smoothScrollPanel18.AutoScrollMinSize = new Size(0, 120);
             smoothScrollPanel18.BackColor = Color.FromArgb(60, 3, 102);
-            smoothScrollPanel18.BorderColor = Color.FromArgb(200, 200, 200);
-            smoothScrollPanel18.BorderRadius = 10;
-            smoothScrollPanel18.BorderWidth = 1;
+            smoothScrollPanel18.BorderColor = Color.FromArgb(16, 24, 40);
+            smoothScrollPanel18.BorderRadius = 0;
+            smoothScrollPanel18.BorderWidth = 0;
             smoothScrollPanel18.BottomPadding = 0;
             smoothScrollPanel18.Controls.Add(label23);
             smoothScrollPanel18.Controls.Add(ledText15);
@@ -320,9 +320,9 @@
             smoothScrollPanel19.AutoScroll = true;
             smoothScrollPanel19.AutoScrollMinSize = new Size(0, 120);
             smoothScrollPanel19.BackColor = Color.FromArgb(70, 25, 1);
-            smoothScrollPanel19.BorderColor = Color.FromArgb(200, 200, 200);
-            smoothScrollPanel19.BorderRadius = 10;
-            smoothScrollPanel19.BorderWidth = 1;
+            smoothScrollPanel19.BorderColor = Color.FromArgb(16, 24, 40);
+            smoothScrollPanel19.BorderRadius = 0;
+            smoothScrollPanel19.BorderWidth = 0;
             smoothScrollPanel19.BottomPadding = 0;
             smoothScrollPanel19.Controls.Add(label24);
             smoothScrollPanel19.Controls.Add(ledText16);
@@ -377,9 +377,9 @@
             smoothScrollPanel16.AutoScroll = true;
             smoothScrollPanel16.AutoScrollMinSize = new Size(0, 120);
             smoothScrollPanel16.BackColor = Color.FromArgb(70, 8, 9);
-            smoothScrollPanel16.BorderColor = Color.FromArgb(200, 200, 200);
-            smoothScrollPanel16.BorderRadius = 10;
-            smoothScrollPanel16.BorderWidth = 1;
+            smoothScrollPanel16.BorderColor = Color.FromArgb(16, 24, 40);
+            smoothScrollPanel16.BorderRadius = 0;
+            smoothScrollPanel16.BorderWidth = 0;
             smoothScrollPanel16.BottomPadding = 0;
             smoothScrollPanel16.Controls.Add(label21);
             smoothScrollPanel16.Controls.Add(ledText13);
@@ -434,9 +434,9 @@
             smoothScrollPanel15.AutoScroll = true;
             smoothScrollPanel15.AutoScrollMinSize = new Size(0, 120);
             smoothScrollPanel15.BackColor = Color.FromArgb(16, 24, 40);
-            smoothScrollPanel15.BorderColor = Color.FromArgb(200, 200, 200);
-            smoothScrollPanel15.BorderRadius = 10;
-            smoothScrollPanel15.BorderWidth = 1;
+            smoothScrollPanel15.BorderColor = Color.FromArgb(16, 24, 40);
+            smoothScrollPanel15.BorderRadius = 0;
+            smoothScrollPanel15.BorderWidth = 0;
             smoothScrollPanel15.BottomPadding = 0;
             smoothScrollPanel15.Controls.Add(label20);
             smoothScrollPanel15.Controls.Add(ledText12);
@@ -491,9 +491,9 @@
             smoothScrollPanel14.AutoScroll = true;
             smoothScrollPanel14.AutoScrollMinSize = new Size(0, 120);
             smoothScrollPanel14.BackColor = Color.Black;
-            smoothScrollPanel14.BorderColor = Color.FromArgb(200, 200, 200);
-            smoothScrollPanel14.BorderRadius = 10;
-            smoothScrollPanel14.BorderWidth = 1;
+            smoothScrollPanel14.BorderColor = Color.FromArgb(16, 24, 40);
+            smoothScrollPanel14.BorderRadius = 0;
+            smoothScrollPanel14.BorderWidth = 0;
             smoothScrollPanel14.BottomPadding = 0;
             smoothScrollPanel14.Controls.Add(label18);
             smoothScrollPanel14.Controls.Add(ledText11);
@@ -562,7 +562,7 @@
             smoothScrollPanel10.BackColor = Color.Black;
             smoothScrollPanel10.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel10.BorderRadius = 10;
-            smoothScrollPanel10.BorderWidth = 1;
+            smoothScrollPanel10.BorderWidth = 0;
             smoothScrollPanel10.BottomPadding = 0;
             smoothScrollPanel10.Controls.Add(label12);
             smoothScrollPanel10.Controls.Add(ledText8);
@@ -619,7 +619,7 @@
             smoothScrollPanel11.BackColor = Color.Black;
             smoothScrollPanel11.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel11.BorderRadius = 10;
-            smoothScrollPanel11.BorderWidth = 1;
+            smoothScrollPanel11.BorderWidth = 0;
             smoothScrollPanel11.BottomPadding = 0;
             smoothScrollPanel11.Controls.Add(label15);
             smoothScrollPanel11.Controls.Add(ledText9);
@@ -676,7 +676,7 @@
             smoothScrollPanel12.BackColor = Color.Black;
             smoothScrollPanel12.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel12.BorderRadius = 10;
-            smoothScrollPanel12.BorderWidth = 1;
+            smoothScrollPanel12.BorderWidth = 0;
             smoothScrollPanel12.BottomPadding = 0;
             smoothScrollPanel12.Controls.Add(label16);
             smoothScrollPanel12.Controls.Add(ledText10);
@@ -744,7 +744,7 @@
             smoothScrollPanel7.BackColor = Color.FromArgb(5, 51, 69);
             smoothScrollPanel7.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel7.BorderRadius = 10;
-            smoothScrollPanel7.BorderWidth = 1;
+            smoothScrollPanel7.BorderWidth = 0;
             smoothScrollPanel7.BottomPadding = 0;
             smoothScrollPanel7.Controls.Add(label8);
             smoothScrollPanel7.Controls.Add(ledText5);
@@ -801,7 +801,7 @@
             smoothScrollPanel8.BackColor = Color.FromArgb(60, 3, 102);
             smoothScrollPanel8.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel8.BorderRadius = 10;
-            smoothScrollPanel8.BorderWidth = 1;
+            smoothScrollPanel8.BorderWidth = 0;
             smoothScrollPanel8.BottomPadding = 0;
             smoothScrollPanel8.Controls.Add(label9);
             smoothScrollPanel8.Controls.Add(ledText6);
@@ -858,7 +858,7 @@
             smoothScrollPanel9.BackColor = Color.FromArgb(68, 19, 6);
             smoothScrollPanel9.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel9.BorderRadius = 10;
-            smoothScrollPanel9.BorderWidth = 1;
+            smoothScrollPanel9.BorderWidth = 0;
             smoothScrollPanel9.BottomPadding = 0;
             smoothScrollPanel9.Controls.Add(label10);
             smoothScrollPanel9.Controls.Add(ledText7);
@@ -915,7 +915,7 @@
             smoothScrollPanel6.BackColor = Color.FromArgb(22, 36, 86);
             smoothScrollPanel6.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel6.BorderRadius = 10;
-            smoothScrollPanel6.BorderWidth = 1;
+            smoothScrollPanel6.BorderWidth = 0;
             smoothScrollPanel6.BottomPadding = 0;
             smoothScrollPanel6.Controls.Add(label7);
             smoothScrollPanel6.Controls.Add(ledText4);
@@ -972,7 +972,7 @@
             smoothScrollPanel5.BackColor = Color.FromArgb(16, 24, 40);
             smoothScrollPanel5.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel5.BorderRadius = 10;
-            smoothScrollPanel5.BorderWidth = 1;
+            smoothScrollPanel5.BorderWidth = 0;
             smoothScrollPanel5.BottomPadding = 0;
             smoothScrollPanel5.Controls.Add(label6);
             smoothScrollPanel5.Controls.Add(ledText3);
@@ -1029,7 +1029,7 @@
             smoothScrollPanel4.BackColor = Color.Black;
             smoothScrollPanel4.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel4.BorderRadius = 10;
-            smoothScrollPanel4.BorderWidth = 1;
+            smoothScrollPanel4.BorderWidth = 0;
             smoothScrollPanel4.BottomPadding = 0;
             smoothScrollPanel4.Controls.Add(label5);
             smoothScrollPanel4.Controls.Add(ledText2);

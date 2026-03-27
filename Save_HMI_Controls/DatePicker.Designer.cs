@@ -294,7 +294,7 @@
             smoothScrollPanel3.AutoScrollMinSize = new Size(0, 268);
             smoothScrollPanel3.BackColor = Color.FromArgb(250, 245, 255);
             smoothScrollPanel3.BorderColor = Color.FromArgb(200, 200, 200);
-            smoothScrollPanel3.BorderRadius = 10;
+            smoothScrollPanel3.BorderRadius = 0;
             smoothScrollPanel3.BorderWidth = 0;
             smoothScrollPanel3.BottomPadding = 0;
             smoothScrollPanel3.Controls.Add(multi_funcButton1);
@@ -317,11 +317,13 @@
             // 
             // multi_funcButton1
             // 
+            multi_funcButton1.ActiveBackColor = Color.Empty;
             multi_funcButton1.ActiveBackgroundImage = null;
             multi_funcButton1.ActiveTextColor = Color.Empty;
             multi_funcButton1.AutoCheckOnClick = true;
             multi_funcButton1.BackColor = Color.Transparent;
             multi_funcButton1.Checked = false;
+            multi_funcButton1.CheckedText = null;
             multi_funcButton1.ClickMode = LYHControls.Multi_funcButton.ButtonClickMode.Momentary;
             multi_funcButton1.CornerRadius = 6;
             multi_funcButton1.FillType = LYHControls.Multi_funcButton.ButtonFillType.Solid;
