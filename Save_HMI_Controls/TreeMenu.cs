@@ -16,5 +16,15 @@ namespace Save_HMI_Controls
         {
             InitializeComponent();
         }
+
+        private void treeMenu2_MenuItemSelected(object sender, LYHControls.MenuItemSelectedEventArgs e)
+        {
+            var clickedItem = e.Item;
+
+            if (clickedItem != null)
+            {
+               label8.Text = clickedItem.Text;
+            }
+        }
     }
 }

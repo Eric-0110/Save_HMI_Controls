@@ -21,6 +21,7 @@ namespace Save_HMI_Controls
         public ModernRealtimeChart()
         {
             InitializeComponent();
+            multi_funcButton1_Click(multi_funcButton1, EventArgs.Empty);
         }
 
         // ---------------------------------------------------------

@@ -117,23 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label9.Text" xml:space="preserve">
-    <value>
-自动页面联动（核心亮点）
-这是该代码最实用的部分。它内置了懒加载页面切换逻辑：
-
-自动查找与实例化：只要你在菜单项的 TargetPageName 属性中填入 UserCon
-trol 的类名，点击菜单时，控件会自动在所有程序集中寻找该页面。
-
-缓存机制：它使用 _pageCache 字典存储已打开的页面。第一次点击时创建页面，
-再次点击时直接从缓存读取，避免了重复初始化带来的闪烁和资源浪费。
-
-容器适配：支持将页面自动加载到 TabControl 或普通的 Panel 容器中。
-
-该软件左侧所展示导航栏即为该控件实现功能，无需手动写出页面跳转代码，
-只需一键绑定页面类名即可实现相应跳转
-
-
-</value>
-  </data>
 </root>

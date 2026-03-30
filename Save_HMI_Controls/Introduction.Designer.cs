@@ -89,6 +89,8 @@
             smoothScrollPanel1.BottomPadding = 50;
             smoothScrollPanel1.Controls.Add(smoothScrollPanel7);
             smoothScrollPanel1.Controls.Add(smoothScrollPanel2);
+            smoothScrollPanel1.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel1.Location = new Point(0, 0);
             smoothScrollPanel1.Margin = new Padding(0, 0, 0, 20);
             smoothScrollPanel1.Name = "smoothScrollPanel1";
@@ -97,7 +99,9 @@
             smoothScrollPanel1.ScrollBarWidth = 6;
             smoothScrollPanel1.ShowCustomScrollbar = true;
             smoothScrollPanel1.Size = new Size(1700, 990);
+            smoothScrollPanel1.StartBackColor = Color.White;
             smoothScrollPanel1.TabIndex = 0;
+            smoothScrollPanel1.UseGradient = false;
             // 
             // smoothScrollPanel7
             // 
@@ -124,6 +128,8 @@
             smoothScrollPanel7.Controls.Add(label13);
             smoothScrollPanel7.Controls.Add(label12);
             smoothScrollPanel7.Controls.Add(label11);
+            smoothScrollPanel7.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel7.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel7.Location = new Point(34, 453);
             smoothScrollPanel7.Name = "smoothScrollPanel7";
             smoothScrollPanel7.Padding = new Padding(1);
@@ -131,7 +137,9 @@
             smoothScrollPanel7.ScrollBarWidth = 6;
             smoothScrollPanel7.ShowCustomScrollbar = true;
             smoothScrollPanel7.Size = new Size(1632, 555);
+            smoothScrollPanel7.StartBackColor = Color.White;
             smoothScrollPanel7.TabIndex = 1;
+            smoothScrollPanel7.UseGradient = false;
             // 
             // label24
             // 
@@ -149,7 +157,7 @@
             label25.ForeColor = Color.FromArgb(30, 41, 57);
             label25.Location = new Point(44, 454);
             label25.Name = "label25";
-            label25.Size = new Size(147, 32);
+            label25.Size = new Size(239, 32);
             label25.TabIndex = 15;
             label25.Text = "提示反馈与布局";
             // 
@@ -304,6 +312,8 @@
             smoothScrollPanel2.Controls.Add(smoothScrollPanel3);
             smoothScrollPanel2.Controls.Add(label2);
             smoothScrollPanel2.Controls.Add(label1);
+            smoothScrollPanel2.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel2.Location = new Point(34, 24);
             smoothScrollPanel2.Name = "smoothScrollPanel2";
             smoothScrollPanel2.Padding = new Padding(1);
@@ -311,7 +321,9 @@
             smoothScrollPanel2.ScrollBarWidth = 6;
             smoothScrollPanel2.ShowCustomScrollbar = true;
             smoothScrollPanel2.Size = new Size(1632, 393);
+            smoothScrollPanel2.StartBackColor = Color.White;
             smoothScrollPanel2.TabIndex = 0;
+            smoothScrollPanel2.UseGradient = false;
             // 
             // smoothScrollPanel6
             // 
@@ -325,6 +337,8 @@
             smoothScrollPanel6.Controls.Add(label10);
             smoothScrollPanel6.Controls.Add(label6);
             smoothScrollPanel6.Controls.Add(pictureBox4);
+            smoothScrollPanel6.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel6.Location = new Point(841, 264);
             smoothScrollPanel6.Name = "smoothScrollPanel6";
             smoothScrollPanel6.Padding = new Padding(1);
@@ -332,7 +346,9 @@
             smoothScrollPanel6.ScrollBarWidth = 6;
             smoothScrollPanel6.ShowCustomScrollbar = true;
             smoothScrollPanel6.Size = new Size(733, 105);
+            smoothScrollPanel6.StartBackColor = Color.White;
             smoothScrollPanel6.TabIndex = 5;
+            smoothScrollPanel6.UseGradient = false;
             // 
             // label10
             // 
@@ -376,6 +392,8 @@
             smoothScrollPanel5.Controls.Add(label8);
             smoothScrollPanel5.Controls.Add(label5);
             smoothScrollPanel5.Controls.Add(pictureBox3);
+            smoothScrollPanel5.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel5.Location = new Point(23, 264);
             smoothScrollPanel5.Name = "smoothScrollPanel5";
             smoothScrollPanel5.Padding = new Padding(1);
@@ -383,7 +401,9 @@
             smoothScrollPanel5.ScrollBarWidth = 6;
             smoothScrollPanel5.ShowCustomScrollbar = true;
             smoothScrollPanel5.Size = new Size(733, 105);
+            smoothScrollPanel5.StartBackColor = Color.White;
             smoothScrollPanel5.TabIndex = 4;
+            smoothScrollPanel5.UseGradient = false;
             // 
             // label8
             // 
@@ -427,6 +447,8 @@
             smoothScrollPanel4.Controls.Add(label9);
             smoothScrollPanel4.Controls.Add(label4);
             smoothScrollPanel4.Controls.Add(pictureBox2);
+            smoothScrollPanel4.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel4.Location = new Point(841, 141);
             smoothScrollPanel4.Name = "smoothScrollPanel4";
             smoothScrollPanel4.Padding = new Padding(1);
@@ -434,7 +456,9 @@
             smoothScrollPanel4.ScrollBarWidth = 6;
             smoothScrollPanel4.ShowCustomScrollbar = true;
             smoothScrollPanel4.Size = new Size(733, 105);
+            smoothScrollPanel4.StartBackColor = Color.White;
             smoothScrollPanel4.TabIndex = 3;
+            smoothScrollPanel4.UseGradient = false;
             // 
             // label9
             // 
@@ -478,6 +502,8 @@
             smoothScrollPanel3.Controls.Add(label7);
             smoothScrollPanel3.Controls.Add(label3);
             smoothScrollPanel3.Controls.Add(pictureBox1);
+            smoothScrollPanel3.EndBackColor = Color.FromArgb(240, 240, 240);
+            smoothScrollPanel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             smoothScrollPanel3.Location = new Point(23, 141);
             smoothScrollPanel3.Name = "smoothScrollPanel3";
             smoothScrollPanel3.Padding = new Padding(1);
@@ -485,7 +511,9 @@
             smoothScrollPanel3.ScrollBarWidth = 6;
             smoothScrollPanel3.ShowCustomScrollbar = true;
             smoothScrollPanel3.Size = new Size(733, 105);
+            smoothScrollPanel3.StartBackColor = Color.White;
             smoothScrollPanel3.TabIndex = 2;
+            smoothScrollPanel3.UseGradient = false;
             // 
             // label7
             // 

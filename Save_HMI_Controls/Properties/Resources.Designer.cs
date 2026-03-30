@@ -133,6 +133,16 @@ namespace Save_HMI_Controls.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap Container__13_ {
+            get {
+                object obj = ResourceManager.GetObject("Container (13)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap Container__2_ {
             get {
                 object obj = ResourceManager.GetObject("Container (2)", resourceCulture);
@@ -536,6 +546,16 @@ namespace Save_HMI_Controls.Properties {
         internal static System.Drawing.Bitmap Icon__20_1 {
             get {
                 object obj = ResourceManager.GetObject("Icon (20)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon__20_2 {
+            get {
+                object obj = ResourceManager.GetObject("Icon (20)2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1103,6 +1123,26 @@ namespace Save_HMI_Controls.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap Icon__68_ {
+            get {
+                object obj = ResourceManager.GetObject("Icon (68)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon__69_ {
+            get {
+                object obj = ResourceManager.GetObject("Icon (69)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap Icon__7_ {
             get {
                 object obj = ResourceManager.GetObject("Icon (7)", resourceCulture);
@@ -1116,6 +1156,56 @@ namespace Save_HMI_Controls.Properties {
         internal static System.Drawing.Bitmap Icon__7_1 {
             get {
                 object obj = ResourceManager.GetObject("Icon (7)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon__70_ {
+            get {
+                object obj = ResourceManager.GetObject("Icon (70)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon__71_ {
+            get {
+                object obj = ResourceManager.GetObject("Icon (71)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon__72_ {
+            get {
+                object obj = ResourceManager.GetObject("Icon (72)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon__73_ {
+            get {
+                object obj = ResourceManager.GetObject("Icon (73)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon__74_ {
+            get {
+                object obj = ResourceManager.GetObject("Icon (74)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1216,6 +1306,16 @@ namespace Save_HMI_Controls.Properties {
         internal static System.Drawing.Bitmap Icon29 {
             get {
                 object obj = ResourceManager.GetObject("Icon29", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap nr {
+            get {
+                object obj = ResourceManager.GetObject("nr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
