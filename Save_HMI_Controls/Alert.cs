@@ -68,7 +68,7 @@ namespace Save_HMI_Controls
             // 模拟点击“查看”
             MessageBox.Show("正在跳转至文件管理器，查看已上传的文件详情...", "系统提示",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
+        } 
 
         // alert14 -> 对应图片2：您有3条新消息 (信息/图片23)
         private void alert14_ActionClick(object sender, EventArgs e)
