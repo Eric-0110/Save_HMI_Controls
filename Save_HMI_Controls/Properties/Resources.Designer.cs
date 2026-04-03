@@ -613,6 +613,86 @@ namespace Save_HMI_Controls.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap Frame {
+            get {
+                object obj = ResourceManager.GetObject("Frame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Frame__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Frame (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Frame__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Frame (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Frame__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Frame (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Frame__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("Frame (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Frame__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Frame (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Frame__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("Frame (3)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Frame1 {
+            get {
+                object obj = ResourceManager.GetObject("Frame1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap golden_shopping_cart_white_glitter_close_up {
             get {
                 object obj = ResourceManager.GetObject("golden-shopping-cart-white-glitter-close-up", resourceCulture);
@@ -1556,6 +1636,26 @@ namespace Save_HMI_Controls.Properties {
         internal static System.Drawing.Bitmap Icon__74_ {
             get {
                 object obj = ResourceManager.GetObject("Icon (74)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon__75_ {
+            get {
+                object obj = ResourceManager.GetObject("Icon (75)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon__75_1 {
+            get {
+                object obj = ResourceManager.GetObject("Icon (75)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
