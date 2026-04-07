@@ -30,6 +30,23 @@
         {
             smoothScrollPanel1 = new SmoothScrollPanel();
             smoothScrollPanel2 = new SmoothScrollPanel();
+            qrCode19 = new LYHControls.QRCode();
+            qrCode18 = new LYHControls.QRCode();
+            qrCode17 = new LYHControls.QRCode();
+            label24 = new Label();
+            label23 = new Label();
+            qrCode16 = new LYHControls.QRCode();
+            label22 = new Label();
+            qrCode15 = new LYHControls.QRCode();
+            label21 = new Label();
+            qrCode14 = new LYHControls.QRCode();
+            label20 = new Label();
+            qrCode13 = new LYHControls.QRCode();
+            label19 = new Label();
+            qrCode12 = new LYHControls.QRCode();
+            label18 = new Label();
+            qrCode11 = new LYHControls.QRCode();
+            label17 = new Label();
             label16 = new Label();
             qrCode10 = new LYHControls.QRCode();
             label15 = new Label();
@@ -57,23 +74,6 @@
             label14 = new Label();
             label11 = new Label();
             label2 = new Label();
-            qrCode11 = new LYHControls.QRCode();
-            label17 = new Label();
-            qrCode12 = new LYHControls.QRCode();
-            label18 = new Label();
-            qrCode13 = new LYHControls.QRCode();
-            label19 = new Label();
-            qrCode14 = new LYHControls.QRCode();
-            label20 = new Label();
-            qrCode15 = new LYHControls.QRCode();
-            label21 = new Label();
-            qrCode16 = new LYHControls.QRCode();
-            label22 = new Label();
-            label23 = new Label();
-            label24 = new Label();
-            qrCode17 = new LYHControls.QRCode();
-            qrCode18 = new LYHControls.QRCode();
-            qrCode19 = new LYHControls.QRCode();
             qrCode20 = new LYHControls.QRCode();
             smoothScrollPanel1.SuspendLayout();
             smoothScrollPanel2.SuspendLayout();
@@ -83,7 +83,7 @@
             // smoothScrollPanel1
             // 
             smoothScrollPanel1.AutoScroll = true;
-            smoothScrollPanel1.AutoScrollMinSize = new Size(0, 1040);
+            smoothScrollPanel1.AutoScrollMinSize = new Size(0, 1252);
             smoothScrollPanel1.BackColor = Color.White;
             smoothScrollPanel1.BorderColor = Color.FromArgb(200, 200, 200);
             smoothScrollPanel1.BorderRadius = 0;
@@ -166,6 +166,256 @@
             smoothScrollPanel2.StartBackColor = Color.White;
             smoothScrollPanel2.TabIndex = 1;
             smoothScrollPanel2.UseGradient = false;
+            // 
+            // qrCode19
+            // 
+            qrCode19.BackColor = Color.Transparent;
+            qrCode19.BgColor = Color.Transparent;
+            qrCode19.ErrorLevel = LYHControls.QrErrorLevel.H;
+            qrCode19.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            qrCode19.Location = new Point(555, 989);
+            qrCode19.Logo = Properties.Resources._29;
+            qrCode19.LogoSize = 30;
+            qrCode19.Name = "qrCode19";
+            qrCode19.QrColor = Color.FromArgb(60, 140, 231);
+            qrCode19.QrColorEnd = Color.FromArgb(0, 102, 204);
+            qrCode19.QuietZone = 2;
+            qrCode19.Size = new Size(160, 160);
+            qrCode19.TabIndex = 97;
+            qrCode19.Text = "qrCode19";
+            qrCode19.Value = "https://savehmi.com/";
+            // 
+            // qrCode18
+            // 
+            qrCode18.BackColor = Color.Transparent;
+            qrCode18.BgColor = Color.Transparent;
+            qrCode18.ErrorLevel = LYHControls.QrErrorLevel.H;
+            qrCode18.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            qrCode18.Location = new Point(295, 989);
+            qrCode18.Logo = Properties.Resources._28;
+            qrCode18.LogoSize = 30;
+            qrCode18.Name = "qrCode18";
+            qrCode18.QrColor = Color.FromArgb(60, 140, 231);
+            qrCode18.QrColorEnd = Color.FromArgb(0, 102, 204);
+            qrCode18.QuietZone = 2;
+            qrCode18.Size = new Size(160, 160);
+            qrCode18.TabIndex = 96;
+            qrCode18.Text = "qrCode18";
+            qrCode18.Value = "https://savehmi.com/";
+            // 
+            // qrCode17
+            // 
+            qrCode17.BackColor = Color.Transparent;
+            qrCode17.BgColor = Color.Transparent;
+            qrCode17.ErrorLevel = LYHControls.QrErrorLevel.H;
+            qrCode17.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            qrCode17.Location = new Point(40, 989);
+            qrCode17.Logo = Properties.Resources._27;
+            qrCode17.LogoSize = 30;
+            qrCode17.Name = "qrCode17";
+            qrCode17.QrColor = Color.FromArgb(60, 140, 231);
+            qrCode17.QrColorEnd = Color.FromArgb(0, 102, 204);
+            qrCode17.QuietZone = 2;
+            qrCode17.Size = new Size(160, 160);
+            qrCode17.TabIndex = 95;
+            qrCode17.Text = "qrCode17";
+            qrCode17.Value = "https://savehmi.com/";
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
+            label24.ForeColor = Color.FromArgb(30, 41, 57);
+            label24.Location = new Point(35, 937);
+            label24.Name = "label24";
+            label24.Size = new Size(180, 26);
+            label24.TabIndex = 94;
+            label24.Text = "中心图标（Logo）";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label23.ForeColor = Color.FromArgb(98, 116, 142);
+            label23.Location = new Point(1359, 147);
+            label23.Name = "label23";
+            label23.Size = new Size(65, 19);
+            label23.TabIndex = 93;
+            label23.Text = "青蓝渐变";
+            // 
+            // qrCode16
+            // 
+            qrCode16.BackColor = Color.Transparent;
+            qrCode16.BgColor = Color.FromArgb(255, 247, 230);
+            qrCode16.ErrorLevel = LYHControls.QrErrorLevel.H;
+            qrCode16.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            qrCode16.Location = new Point(1358, 743);
+            qrCode16.Logo = null;
+            qrCode16.LogoSize = 20;
+            qrCode16.Name = "qrCode16";
+            qrCode16.QrColor = Color.FromArgb(171, 77, 0);
+            qrCode16.QrColorEnd = Color.FromArgb(99, 38, 0);
+            qrCode16.QuietZone = 2;
+            qrCode16.Size = new Size(160, 160);
+            qrCode16.TabIndex = 92;
+            qrCode16.Text = "qrCode16";
+            qrCode16.Value = " ";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label22.ForeColor = Color.FromArgb(98, 116, 142);
+            label22.Location = new Point(1359, 707);
+            label22.Name = "label22";
+            label22.Size = new Size(65, 19);
+            label22.TabIndex = 91;
+            label22.Text = "彩色背景";
+            // 
+            // qrCode15
+            // 
+            qrCode15.BackColor = Color.Transparent;
+            qrCode15.BgColor = Color.FromArgb(20, 20, 20);
+            qrCode15.ErrorLevel = LYHControls.QrErrorLevel.H;
+            qrCode15.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            qrCode15.Location = new Point(1087, 743);
+            qrCode15.Logo = null;
+            qrCode15.LogoSize = 20;
+            qrCode15.Name = "qrCode15";
+            qrCode15.QrColor = Color.FromArgb(253, 253, 253);
+            qrCode15.QrColorEnd = Color.FromArgb(163, 163, 163);
+            qrCode15.QuietZone = 2;
+            qrCode15.Size = new Size(160, 160);
+            qrCode15.TabIndex = 90;
+            qrCode15.Text = "qrCode15";
+            qrCode15.Value = "https://savehmi.com/";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label21.ForeColor = Color.FromArgb(98, 116, 142);
+            label21.Location = new Point(1088, 707);
+            label21.Name = "label21";
+            label21.Size = new Size(121, 19);
+            label21.TabIndex = 89;
+            label21.Text = "深色背景（反色）";
+            // 
+            // qrCode14
+            // 
+            qrCode14.BackColor = Color.Transparent;
+            qrCode14.BgColor = Color.FromArgb(246, 255, 237);
+            qrCode14.ErrorLevel = LYHControls.QrErrorLevel.H;
+            qrCode14.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            qrCode14.Location = new Point(820, 743);
+            qrCode14.Logo = null;
+            qrCode14.LogoSize = 20;
+            qrCode14.Name = "qrCode14";
+            qrCode14.QrColor = Color.FromArgb(34, 118, 4);
+            qrCode14.QrColorEnd = Color.FromArgb(25, 59, 15);
+            qrCode14.QuietZone = 2;
+            qrCode14.Size = new Size(160, 160);
+            qrCode14.TabIndex = 88;
+            qrCode14.Text = "qrCode14";
+            qrCode14.Value = "https://savehmi.com/";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label20.ForeColor = Color.FromArgb(98, 116, 142);
+            label20.Location = new Point(821, 707);
+            label20.Name = "label20";
+            label20.Size = new Size(65, 19);
+            label20.TabIndex = 87;
+            label20.Text = "浅绿背景";
+            // 
+            // qrCode13
+            // 
+            qrCode13.BackColor = Color.Transparent;
+            qrCode13.BgColor = Color.FromArgb(230, 244, 255);
+            qrCode13.ErrorLevel = LYHControls.QrErrorLevel.H;
+            qrCode13.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            qrCode13.Location = new Point(555, 743);
+            qrCode13.Logo = null;
+            qrCode13.LogoSize = 20;
+            qrCode13.Name = "qrCode13";
+            qrCode13.QrColor = Color.FromArgb(0, 61, 176);
+            qrCode13.QrColorEnd = Color.FromArgb(8, 38, 117);
+            qrCode13.QuietZone = 2;
+            qrCode13.Size = new Size(160, 160);
+            qrCode13.TabIndex = 86;
+            qrCode13.Text = "qrCode13";
+            qrCode13.Value = "https://savehmi.com/";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label19.ForeColor = Color.FromArgb(98, 116, 142);
+            label19.Location = new Point(556, 707);
+            label19.Name = "label19";
+            label19.Size = new Size(65, 19);
+            label19.TabIndex = 85;
+            label19.Text = "浅蓝背景";
+            // 
+            // qrCode12
+            // 
+            qrCode12.BackColor = Color.Transparent;
+            qrCode12.BgColor = Color.WhiteSmoke;
+            qrCode12.ErrorLevel = LYHControls.QrErrorLevel.H;
+            qrCode12.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            qrCode12.Location = new Point(295, 743);
+            qrCode12.Logo = null;
+            qrCode12.LogoSize = 20;
+            qrCode12.Name = "qrCode12";
+            qrCode12.QrColor = Color.FromArgb(113, 46, 208);
+            qrCode12.QrColorEnd = Color.FromArgb(58, 16, 134);
+            qrCode12.QuietZone = 2;
+            qrCode12.Size = new Size(160, 160);
+            qrCode12.TabIndex = 84;
+            qrCode12.Text = "qrCode12";
+            qrCode12.Value = "https://savehmi.com/";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label18.ForeColor = Color.FromArgb(98, 116, 142);
+            label18.Location = new Point(296, 707);
+            label18.Name = "label18";
+            label18.Size = new Size(65, 19);
+            label18.TabIndex = 83;
+            label18.Text = "浅灰背景";
+            // 
+            // qrCode11
+            // 
+            qrCode11.BackColor = Color.Transparent;
+            qrCode11.BgColor = Color.Transparent;
+            qrCode11.ErrorLevel = LYHControls.QrErrorLevel.H;
+            qrCode11.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            qrCode11.Location = new Point(39, 743);
+            qrCode11.Logo = null;
+            qrCode11.LogoSize = 20;
+            qrCode11.Name = "qrCode11";
+            qrCode11.QrColor = Color.FromArgb(60, 140, 231);
+            qrCode11.QrColorEnd = Color.FromArgb(0, 102, 204);
+            qrCode11.QuietZone = 2;
+            qrCode11.Size = new Size(160, 160);
+            qrCode11.TabIndex = 82;
+            qrCode11.Text = "qrCode11";
+            qrCode11.Value = "https://savehmi.com/";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label17.ForeColor = Color.FromArgb(98, 116, 142);
+            label17.Location = new Point(40, 707);
+            label17.Name = "label17";
+            label17.Size = new Size(121, 19);
+            label17.TabIndex = 81;
+            label17.Text = "白色背景（默认）";
             // 
             // label16
             // 
@@ -530,256 +780,6 @@
             label2.Size = new Size(1628, 2);
             label2.TabIndex = 3;
             label2.Text = "label2";
-            // 
-            // qrCode11
-            // 
-            qrCode11.BackColor = Color.Transparent;
-            qrCode11.BgColor = Color.Transparent;
-            qrCode11.ErrorLevel = LYHControls.QrErrorLevel.H;
-            qrCode11.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            qrCode11.Location = new Point(39, 743);
-            qrCode11.Logo = null;
-            qrCode11.LogoSize = 20;
-            qrCode11.Name = "qrCode11";
-            qrCode11.QrColor = Color.FromArgb(60, 140, 231);
-            qrCode11.QrColorEnd = Color.FromArgb(0, 102, 204);
-            qrCode11.QuietZone = 2;
-            qrCode11.Size = new Size(160, 160);
-            qrCode11.TabIndex = 82;
-            qrCode11.Text = "qrCode11";
-            qrCode11.Value = "https://savehmi.com/";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label17.ForeColor = Color.FromArgb(98, 116, 142);
-            label17.Location = new Point(40, 707);
-            label17.Name = "label17";
-            label17.Size = new Size(121, 19);
-            label17.TabIndex = 81;
-            label17.Text = "白色背景（默认）";
-            // 
-            // qrCode12
-            // 
-            qrCode12.BackColor = Color.Transparent;
-            qrCode12.BgColor = Color.WhiteSmoke;
-            qrCode12.ErrorLevel = LYHControls.QrErrorLevel.H;
-            qrCode12.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            qrCode12.Location = new Point(295, 743);
-            qrCode12.Logo = null;
-            qrCode12.LogoSize = 20;
-            qrCode12.Name = "qrCode12";
-            qrCode12.QrColor = Color.FromArgb(113, 46, 208);
-            qrCode12.QrColorEnd = Color.FromArgb(58, 16, 134);
-            qrCode12.QuietZone = 2;
-            qrCode12.Size = new Size(160, 160);
-            qrCode12.TabIndex = 84;
-            qrCode12.Text = "qrCode12";
-            qrCode12.Value = "https://savehmi.com/";
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label18.ForeColor = Color.FromArgb(98, 116, 142);
-            label18.Location = new Point(296, 707);
-            label18.Name = "label18";
-            label18.Size = new Size(65, 19);
-            label18.TabIndex = 83;
-            label18.Text = "浅灰背景";
-            // 
-            // qrCode13
-            // 
-            qrCode13.BackColor = Color.Transparent;
-            qrCode13.BgColor = Color.FromArgb(230, 244, 255);
-            qrCode13.ErrorLevel = LYHControls.QrErrorLevel.H;
-            qrCode13.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            qrCode13.Location = new Point(555, 743);
-            qrCode13.Logo = null;
-            qrCode13.LogoSize = 20;
-            qrCode13.Name = "qrCode13";
-            qrCode13.QrColor = Color.FromArgb(0, 61, 176);
-            qrCode13.QrColorEnd = Color.FromArgb(8, 38, 117);
-            qrCode13.QuietZone = 2;
-            qrCode13.Size = new Size(160, 160);
-            qrCode13.TabIndex = 86;
-            qrCode13.Text = "qrCode13";
-            qrCode13.Value = "https://savehmi.com/";
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label19.ForeColor = Color.FromArgb(98, 116, 142);
-            label19.Location = new Point(556, 707);
-            label19.Name = "label19";
-            label19.Size = new Size(65, 19);
-            label19.TabIndex = 85;
-            label19.Text = "浅蓝背景";
-            // 
-            // qrCode14
-            // 
-            qrCode14.BackColor = Color.Transparent;
-            qrCode14.BgColor = Color.FromArgb(246, 255, 237);
-            qrCode14.ErrorLevel = LYHControls.QrErrorLevel.H;
-            qrCode14.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            qrCode14.Location = new Point(820, 743);
-            qrCode14.Logo = null;
-            qrCode14.LogoSize = 20;
-            qrCode14.Name = "qrCode14";
-            qrCode14.QrColor = Color.FromArgb(34, 118, 4);
-            qrCode14.QrColorEnd = Color.FromArgb(25, 59, 15);
-            qrCode14.QuietZone = 2;
-            qrCode14.Size = new Size(160, 160);
-            qrCode14.TabIndex = 88;
-            qrCode14.Text = "qrCode14";
-            qrCode14.Value = "https://savehmi.com/";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label20.ForeColor = Color.FromArgb(98, 116, 142);
-            label20.Location = new Point(821, 707);
-            label20.Name = "label20";
-            label20.Size = new Size(65, 19);
-            label20.TabIndex = 87;
-            label20.Text = "浅绿背景";
-            // 
-            // qrCode15
-            // 
-            qrCode15.BackColor = Color.Transparent;
-            qrCode15.BgColor = Color.FromArgb(20, 20, 20);
-            qrCode15.ErrorLevel = LYHControls.QrErrorLevel.H;
-            qrCode15.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            qrCode15.Location = new Point(1087, 743);
-            qrCode15.Logo = null;
-            qrCode15.LogoSize = 20;
-            qrCode15.Name = "qrCode15";
-            qrCode15.QrColor = Color.FromArgb(253, 253, 253);
-            qrCode15.QrColorEnd = Color.FromArgb(163, 163, 163);
-            qrCode15.QuietZone = 2;
-            qrCode15.Size = new Size(160, 160);
-            qrCode15.TabIndex = 90;
-            qrCode15.Text = "qrCode15";
-            qrCode15.Value = "https://savehmi.com/";
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label21.ForeColor = Color.FromArgb(98, 116, 142);
-            label21.Location = new Point(1088, 707);
-            label21.Name = "label21";
-            label21.Size = new Size(121, 19);
-            label21.TabIndex = 89;
-            label21.Text = "深色背景（反色）";
-            // 
-            // qrCode16
-            // 
-            qrCode16.BackColor = Color.Transparent;
-            qrCode16.BgColor = Color.FromArgb(255, 247, 230);
-            qrCode16.ErrorLevel = LYHControls.QrErrorLevel.H;
-            qrCode16.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            qrCode16.Location = new Point(1358, 743);
-            qrCode16.Logo = null;
-            qrCode16.LogoSize = 20;
-            qrCode16.Name = "qrCode16";
-            qrCode16.QrColor = Color.FromArgb(171, 77, 0);
-            qrCode16.QrColorEnd = Color.FromArgb(99, 38, 0);
-            qrCode16.QuietZone = 2;
-            qrCode16.Size = new Size(160, 160);
-            qrCode16.TabIndex = 92;
-            qrCode16.Text = "qrCode16";
-            qrCode16.Value = " ";
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label22.ForeColor = Color.FromArgb(98, 116, 142);
-            label22.Location = new Point(1359, 707);
-            label22.Name = "label22";
-            label22.Size = new Size(65, 19);
-            label22.TabIndex = 91;
-            label22.Text = "彩色背景";
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Font = new Font("HarmonyOS Sans SC", 10F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label23.ForeColor = Color.FromArgb(98, 116, 142);
-            label23.Location = new Point(1359, 147);
-            label23.Name = "label23";
-            label23.Size = new Size(65, 19);
-            label23.TabIndex = 93;
-            label23.Text = "青蓝渐变";
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Font = new Font("HarmonyOS Sans SC", 20F, FontStyle.Bold, GraphicsUnit.Pixel, 134);
-            label24.ForeColor = Color.FromArgb(30, 41, 57);
-            label24.Location = new Point(35, 937);
-            label24.Name = "label24";
-            label24.Size = new Size(180, 26);
-            label24.TabIndex = 94;
-            label24.Text = "中心图标（Logo）";
-            // 
-            // qrCode17
-            // 
-            qrCode17.BackColor = Color.Transparent;
-            qrCode17.BgColor = Color.Transparent;
-            qrCode17.ErrorLevel = LYHControls.QrErrorLevel.H;
-            qrCode17.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            qrCode17.Location = new Point(40, 989);
-            qrCode17.Logo = Properties.Resources._27;
-            qrCode17.LogoSize = 30;
-            qrCode17.Name = "qrCode17";
-            qrCode17.QrColor = Color.FromArgb(60, 140, 231);
-            qrCode17.QrColorEnd = Color.FromArgb(0, 102, 204);
-            qrCode17.QuietZone = 2;
-            qrCode17.Size = new Size(160, 160);
-            qrCode17.TabIndex = 95;
-            qrCode17.Text = "qrCode17";
-            qrCode17.Value = "https://savehmi.com/";
-            // 
-            // qrCode18
-            // 
-            qrCode18.BackColor = Color.Transparent;
-            qrCode18.BgColor = Color.Transparent;
-            qrCode18.ErrorLevel = LYHControls.QrErrorLevel.H;
-            qrCode18.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            qrCode18.Location = new Point(295, 989);
-            qrCode18.Logo = Properties.Resources._28;
-            qrCode18.LogoSize = 30;
-            qrCode18.Name = "qrCode18";
-            qrCode18.QrColor = Color.FromArgb(60, 140, 231);
-            qrCode18.QrColorEnd = Color.FromArgb(0, 102, 204);
-            qrCode18.QuietZone = 2;
-            qrCode18.Size = new Size(160, 160);
-            qrCode18.TabIndex = 96;
-            qrCode18.Text = "qrCode18";
-            qrCode18.Value = "https://savehmi.com/";
-            // 
-            // qrCode19
-            // 
-            qrCode19.BackColor = Color.Transparent;
-            qrCode19.BgColor = Color.Transparent;
-            qrCode19.ErrorLevel = LYHControls.QrErrorLevel.H;
-            qrCode19.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            qrCode19.Location = new Point(555, 989);
-            qrCode19.Logo = Properties.Resources._29;
-            qrCode19.LogoSize = 30;
-            qrCode19.Name = "qrCode19";
-            qrCode19.QrColor = Color.FromArgb(60, 140, 231);
-            qrCode19.QrColorEnd = Color.FromArgb(0, 102, 204);
-            qrCode19.QuietZone = 2;
-            qrCode19.Size = new Size(160, 160);
-            qrCode19.TabIndex = 97;
-            qrCode19.Text = "qrCode19";
-            qrCode19.Value = "https://savehmi.com/";
             // 
             // qrCode20
             // 
